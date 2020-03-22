@@ -12,6 +12,7 @@ class NavBar extends Component {
                         <img className="" src = {Logo}  alt = "Logo" onClick={onClick.bind(this, "landing")} />
                         <div className="" onClick={onClick.bind(this, "suggestions")}>Tool Suggestions</div>
                         <div className="" onClick={onClick.bind(this, "features")}>All AR Features &amp; Tools</div>
+                        <div className="" onClick={onClick.bind(this, "documentation")}>Dcoumentation</div>
                 </div>
             </div>
         );
