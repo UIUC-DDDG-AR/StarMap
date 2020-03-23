@@ -22,12 +22,12 @@ const LandingPage = () => {
 };
 
 const RenderPage = (props) => {
-    const page = props.page
-    if(page === "suggestions"){
+    const pageType = props.pageType
+    if(pageType === "interactive"){
         return <SuggestionPage />
-    } else if (page === "features"){
+    } else if (pageType === "features"){
         return <FeaturePage />
-    } else if (page === "documentation") {
+    } else if (pageType === "tools") {
         return <GridView toolType={"Hardware"}/>
     } else {
         return <LandingPage />
@@ -39,7 +39,7 @@ class Page extends Component {
     render() {
         return (
             <div className="page">
-                <RenderPage page={this.props.page} />
+                <RenderPage pageType={this.props.pageType} />
             </div>
         );
     }

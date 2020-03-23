@@ -1,12 +1,10 @@
-import React, {Component} from 'react';
-import NavBar from "../navbar/navbar";
+import React from "react";
+import "./header.css";
 
-class Header extends Component {
-
+class Header extends React.Component {
     render() {
         return (
-            <div>
-                <NavBar onClick = {this.props.onClick} />
+            <div className="header">
                 <h1>Find the right tools for your augmented reality project.</h1>
             </div>
         );
@@ -14,4 +12,3 @@ class Header extends Component {
 }
 
 export default Header;
-
