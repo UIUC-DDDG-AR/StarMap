@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './page.css'
-import GridPage from '../gridPage/gridPage'
+import GridView from '../gridView/gridView'
 
 const SuggestionPage = () => {
     return (
@@ -28,7 +28,7 @@ const RenderPage = (props) => {
     } else if (page === "features"){
         return <FeaturePage />
     } else if (page === "documentation") {
-        return <GridPage toolType={"Hardware"}/>
+        return <GridView toolType={"Hardware"}/>
     } else {
         return <LandingPage />
     }

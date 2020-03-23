@@ -1,5 +1,5 @@
 import React from 'react'
-import './gridPage.css'
+import './gridView.css'
 
 // Temporary function for generating mock data.
 Array.prototype.sample = function () {
@@ -12,8 +12,8 @@ const gridData = [
     {
         category: "Head-mounted Displays",
         data: [
-            { title: "title1", about: "detail1", type: buttonData.sample() }, 
-            { title: "title2", about: "detail2", type: buttonData.sample() }, 
+            { title: "title1", about: "detail1", type: buttonData.sample() },
+            { title: "title2", about: "detail2", type: buttonData.sample() },
             { title: "title3", about: "detail3", type: buttonData.sample() },
             { title: "title4", about: "detail4", type: buttonData.sample() },
             { title: "title5", about: "detail5", type: buttonData.sample() }]
@@ -21,8 +21,8 @@ const gridData = [
     {
         category: "Smart Glasses",
         data: [
-            { title: "title1", about: "detail1", type: buttonData.sample() }, 
-            { title: "title2", about: "detail2", type: buttonData.sample() }, 
+            { title: "title1", about: "detail1", type: buttonData.sample() },
+            { title: "title2", about: "detail2", type: buttonData.sample() },
             { title: "title3", about: "detail3", type: buttonData.sample() },
             { title: "title4", about: "detail4", type: buttonData.sample() },
             { title: "title5", about: "detail5", type: buttonData.sample() }]
@@ -41,7 +41,7 @@ const Grid = (props) => {
         <div className="cell">
             <h1>{d.title}</h1>
             <p>{d.about}</p>
-            <button>Learn more</button>
+            <a href="/">Learn more</a>
         </div>
     )
 
@@ -50,7 +50,7 @@ const Grid = (props) => {
     )
 }
 
-class GridPage extends React.Component {
+class GridView extends React.Component {
     constructor(props) {
         super(props)
 
@@ -72,25 +72,26 @@ class GridPage extends React.Component {
     }
 
     render() {
-        console.log(this.state.filter)
         return (
             <React.Fragment>
                 <h1>{this.props.toolType} Tools</h1>
 
-                <div className="buttonGroup">
-                    {buttonData.map(d => <button onClick={this.updateFilter.bind(this, d)}>{d}</button>)}
-                </div>
+                {buttonData.map(d => {
+                    if (this.state.filter.has(d)) {
+                        return <button className="active" onClick={this.updateFilter.bind(this, d)}>{d}</button>
+                    } else {
+                        return <button onClick={this.updateFilter.bind(this, d)}>{d}</button>
+                    }
+                })}
 
-                <div className="GridGroup">
-                    {gridData.map(cellData => 
-                        <React.Fragment>
-                            <h2>{cellData.category}</h2>
-                            <Grid data={cellData.data.filter(d => this.state.filter.has(d.type))} />
-                        </React.Fragment>
-                    )}
-                </div>
+                {gridData.map(cellData =>
+                    <React.Fragment>
+                        <h2>{cellData.category}</h2>
+                        <Grid data={cellData.data.filter(d => this.state.filter.has(d.type))} />
+                    </React.Fragment>
+                )}
             </React.Fragment>
         )
     }
 }
-export default GridPage
+export default GridView
