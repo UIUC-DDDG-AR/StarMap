@@ -3,20 +3,19 @@
     position: fixed;
     background: navy;
     width: 100vw;
-    top: 0;
     z-index: 1;
 }
 
 .nav img {
     position: relative;
-    left: 10em;
+    left: 10vw;
     width: 3em;
     height: 3em;
 }
 
 .navbar {
     position: absolute;
-    right: 10em;
+    right: 10vw;
     margin: 1em;
 }
 
