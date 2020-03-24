@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 import NavBar from "./components/navbar/navbar";
 import Header from "./components/header/header";
 import Page from "./components/page/page";
 
-import './App.css';
+import "./App.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -12,11 +12,10 @@ class App extends React.Component {
 
     this.state = {
       pageType: "landing",
-      viewType: "",
-    }
-  };
+    };
+  }
 
-  updatePageType = (pageType) => {
+  updatePageType = pageType => {
     this.setState({ pageType });
   };
 
@@ -24,12 +23,11 @@ class App extends React.Component {
     return (
       <React.Fragment>
         <NavBar updatePageType={this.updatePageType} />
-        <Header />
+        <Header pageType={this.state.pageType} updatePageType={this.updatePageType}/>
         <Page pageType={this.state.pageType} />
       </React.Fragment>
     );
   }
-
 }
 
 export default App;

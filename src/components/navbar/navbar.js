@@ -11,7 +11,7 @@ class NavBar extends React.Component {
                 <img src={Logo}  alt = "Logo" onClick={updatePageType.bind(this, "landing")} />
 
                 <span className="navbar">
-                    <span className="" onClick={updatePageType.bind(this, "features")}>AR Capabilities</span>
+                    <span className="" onClick={updatePageType.bind(this, "capability")}>AR Capabilities</span>
                     <span className="" onClick={updatePageType.bind(this, "tools")}>Tools for AR</span>
                     <span className="" onClick={updatePageType.bind(this, "interactive")}>[Interactive Thing]</span>
                 </span>
@@ -19,7 +19,6 @@ class NavBar extends React.Component {
         );
     }
 }
-
 export default NavBar;
 
 
