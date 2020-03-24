@@ -22,7 +22,7 @@ const LandingPage = () => {
 };
 
 const RenderPage = (props) => {
-    const pageType = props.pageType
+    const pageType = props.pageType;
     if(pageType === "interactive"){
         return <SuggestionPage />
     } else if (pageType === "features"){
@@ -32,8 +32,7 @@ const RenderPage = (props) => {
     } else {
         return <LandingPage />
     }
-
-}
+};
 
 class Page extends Component {
     render() {
