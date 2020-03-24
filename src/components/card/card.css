@@ -1,0 +1,46 @@
+.card {
+    display: block;
+    margin: 1em;
+}
+
+.card h1 {
+    grid-area: h1;
+}
+
+.card img {
+    grid-area: img;
+    align-self: center;
+    width: 100%;
+    height: auto;
+}
+
+.card span {
+    grid-area: p;
+    margin: 0;
+}
+
+.horizontal {
+    display: grid;
+    grid-template-areas:
+        "img h1"
+        "img p";
+}
+
+.vertical {
+    display: grid;
+    grid-template-areas:
+        "h1"
+        "img"
+        "p";
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.mirror {
+    grid-template-areas:
+        "h1 img"
+        "p img";
+}

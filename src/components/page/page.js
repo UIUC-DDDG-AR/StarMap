@@ -2,31 +2,18 @@ import React, {Component} from 'react';
 import './page.css'
 
 import GridView from '../gridView/gridView'
-import LandingView from '../landingView/landingView'
-
-const SuggestionPage = () => {
-    return (
-        <h1> Suggestions Page</h1>
-    );
-};
-
-const FeaturePage = () => {
-    return (
-        <h1> Features Page </h1>
-    );
-
-};
+import LandingPage from '../landingPage/landingPage'
 
 const RenderPage = (props) => {
     const pageType = props.pageType;
     if(pageType === "interactive"){
-        return <SuggestionPage />
+        return null
     } else if (pageType === "capability"){
-        return <FeaturePage />
+        return <LandingPage />
     } else if (pageType === "tools") {
         return <GridView toolType={"Hardware"}/>
     } else {
-        return <LandingView />
+        return <LandingPage />
     }
 };
 

@@ -1,13 +1,12 @@
 import React, { Fragment } from "react";
-import "./landingView.css";
 
-import CardView from "../cardView/cardView";
+import Card from "../card/card";
 import Logo from "../../logo.svg";
 
-const LandingView = () => {
+const LandingPage = () => {
     return (
         <Fragment>
-            <CardView title="What is StarMap?" src={Logo}>
+            <Card orient="horizontal" title="What is StarMap?" img={Logo}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -17,8 +16,8 @@ const LandingView = () => {
                     ac placerat vestibulum lectus. Sagittis aliquam malesuada
                     bibendum arcu.
                 </p>
-            </CardView>
-            <CardView title="What is StarMap?" src={Logo}>
+            </Card>
+            <Card orient="horizontal" extra="mirror" title="What is StarMap?" img={Logo}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -28,8 +27,8 @@ const LandingView = () => {
                     ac placerat vestibulum lectus. Sagittis aliquam malesuada
                     bibendum arcu.
                 </p>
-            </CardView>
-            <CardView title="What is StarMap?" src={Logo}>
+            </Card>
+            <Card orient="horizontal" title="What is StarMap?" img={Logo}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
@@ -39,8 +38,8 @@ const LandingView = () => {
                     ac placerat vestibulum lectus. Sagittis aliquam malesuada
                     bibendum arcu.
                 </p>
-            </CardView>
+            </Card>
         </Fragment>
     );
-}
-export default LandingView;
+};
+export default LandingPage;
