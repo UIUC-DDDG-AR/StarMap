@@ -24,3 +24,8 @@
     margin: 0 1em;
     color: white;
 }
+
+.navbar span:hover {
+   background-color: rgba(0,0,0,0.2);
+   cursor: pointer;
+}
