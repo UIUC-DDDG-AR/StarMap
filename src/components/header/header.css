@@ -1,0 +1,8 @@
+.header {
+    padding: 3em 10em;
+    background: navy;
+}
+
+.header h1 {
+    color: white;
+}

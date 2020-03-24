@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import './page.css'
+import GridView from '../gridView/gridView'
 
 const SuggestionPage = () => {
     return (
@@ -19,23 +21,25 @@ const LandingPage = () => {
     );
 };
 
+const RenderPage = (props) => {
+    const pageType = props.pageType
+    if(pageType === "interactive"){
+        return <SuggestionPage />
+    } else if (pageType === "features"){
+        return <FeaturePage />
+    } else if (pageType === "tools") {
+        return <GridView toolType={"Hardware"}/>
+    } else {
+        return <LandingPage />
+    }
+
+}
+
 class Page extends Component {
-
     render() {
-        const {page} = this.props;
-
-        let renderPage;
-        if(page === "suggestions"){
-            renderPage = <SuggestionPage />
-        } else if (page === "features"){
-            renderPage = <FeaturePage />
-        } else {
-            renderPage = <LandingPage />
-        }
-
         return (
-            <div>
-                {renderPage}
+            <div className="page">
+                <RenderPage pageType={this.props.pageType} />
             </div>
         );
     }

@@ -1,27 +1,32 @@
-import React, { Component, Fragment} from 'react';
+import React from 'react';
+
+import NavBar from "./components/navbar/navbar";
 import Header from "./components/header/header";
 import Page from "./components/page/page";
 
 import './App.css';
 
-class App extends Component{
-  constructor(props){
+class App extends React.Component {
+  constructor(props) {
     super(props);
+
     this.state = {
-      page:"landing"
+      pageType: "landing",
+      viewType: "",
     }
   };
-  onClick = (page) =>{
-    this.setState({page});
+
+  updatePageType = (pageType) => {
+    this.setState({ pageType });
   };
 
-  render(){
-    console.log(this.state.page);
-    return(
-      <Fragment>
-        <Header onClick = {this.onClick}/>
-        <Page page = {this.state.page} />
-      </Fragment>
+  render() {
+    return (
+      <React.Fragment>
+        <NavBar updatePageType={this.updatePageType} />
+        <Header />
+        <Page pageType={this.state.pageType} />
+      </React.Fragment>
     );
   }
 
