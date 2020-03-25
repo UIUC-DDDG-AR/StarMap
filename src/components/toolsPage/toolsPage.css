@@ -14,15 +14,13 @@ button.active {
     background: orange;
 }
 
-.cell a {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
+.learnmore a {
+    display: inline-block;
     color: black;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 1em;
+    margin-top: 1em;
     padding: 1em;
     border-style: solid;
     border-width: 1px;

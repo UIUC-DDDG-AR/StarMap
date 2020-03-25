@@ -1,9 +1,0 @@
-.cardView {
-    display: grid;
-    grid-template-rows: 50px auto;
-}
-
-.cardContent {
-    display: grid;
-    grid-template-columns: 30% auto;
-}
