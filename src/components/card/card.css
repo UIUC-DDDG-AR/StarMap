@@ -1,10 +1,11 @@
 .card {
     display: grid;
     margin: 1em;
+    padding: 1em;
 }
 
-.card h1 {
-    grid-area: h1;
+.card h2 {
+    grid-area: title;
 }
 
 .card img {
@@ -14,27 +15,27 @@
 }
 
 .card span {
-    grid-area: p;
+    grid-area: span;
     margin: 0;
 }
 
 .horizontal {
     grid-template-areas:
-        "img h1"
-        "img p";
+        "img title"
+        "img span";
 }
 
 .vertical {
     grid-template-areas:
-        "h1"
+        "title"
         "img"
-        "p";
+        "span";
 }
 
 .mirror {
     grid-template-areas:
-        "h1 img"
-        "p img";
+        "title img"
+        "span img";
 }
 
 .border {

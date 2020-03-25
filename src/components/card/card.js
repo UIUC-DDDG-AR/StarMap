@@ -4,8 +4,8 @@ import "./card.css";
 const Card = props => {
     return (
         <div className={["card", props.orient, props.extra].join(" ")}>
-            <img src={props.img}></img>
-            <h1>{props.title}</h1>
+            <img src={props.img} alt=""></img>
+            <h2>{props.title}</h2>
             <span>{props.children}</span>
         </div>
     );

@@ -1,32 +1,27 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './page.css'
 
-import GridView from '../gridView/gridView'
 import LandingPage from '../landingPage/landingPage'
 import CapabilityPage from '../capabilityPage/capabilityPage'
+import ToolsPage from '../toolsPage/toolsPage'
 
-const RenderPage = (props) => {
+const Page = (props) => {
     const pageType = props.pageType;
+    let renderPage;
     if(pageType === "interactive"){
-        return null
+
     } else if (pageType === "capability"){
-        return <CapabilityPage />
+        renderPage = <CapabilityPage />
     } else if (pageType === "tools") {
-        return <GridView toolType={"Hardware"}/>
+        renderPage = <ToolsPage toolType={"Hardware"}/>
     } else {
-        return <LandingPage />
+        renderPage = <LandingPage />
     }
-};
 
-class Page extends Component {
-    render() {
-        return (
-            <div className="page">
-                <RenderPage pageType={this.props.pageType} />
-            </div>
-        );
-    }
+    return (
+        <div className="page">
+            {renderPage}
+        </div>
+    )
 }
-
-
 export default Page;
