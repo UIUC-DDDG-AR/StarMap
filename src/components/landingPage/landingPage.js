@@ -17,7 +17,7 @@ const LandingPage = () => {
                     bibendum arcu.
                 </p>
             </Card>
-            <Card orient="horizontal" extra="mirror" title="What is StarMap?" img={Logo}>
+            <Card orient="mirror" title="What is StarMap?" img={Logo}>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
