@@ -154,14 +154,14 @@ const pageData = [
             {
                 title: "Project North Star",
                 img: ImgThirdEyeGenX2,
-                text: gridText,
+                text: "To explore the boundaries of interactive design in AR, we created and open sourced Project North Star, which drove us to push beyond the limitations of existing systems.",
                 type: buttonData.sample() //https://developer.leapmotion.com/northstar
             },
             {
                 title: "Rokid Project Aurora",
                 img: ImgThirdEyeGenX2,
-                text: gridText,
-                type: buttonData.sample()
+                text: "Rokid Glass is an independent AR glasses that integrates AI and AR technology. By responding to complex instructions and even predicting demand, Rokid Glass can better help enterprises improve their work efficiency.",
+                type: buttonData.sample() //https://www.rokid.com/products/ar-glass/rokid-glass/
             },
             {
                 title: "Tesseract holoboard Premium Edition",
