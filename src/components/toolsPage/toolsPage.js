@@ -4,11 +4,7 @@ import "./toolsPage.css";
 import Card from "../card/card";
 import Logo from "../../logo.svg";
 
-import ImgHololens from "../images/headsets/hololens2.png";
-import ImgMagicLeap from "../images/headsets/magicLeap.png";
-import ImgNrealLight from "../images/headsets/nreal-light.jpg";
-import ImgMoverioBT300 from "../images/headsets/moverioBT300.jpg";
-import ImgThirdEyeGenX2 from "../images/headsets/moverioBT300.jpg";
+const ImgThirdEyeGenX2 = "/images/headsets/moverioBT300.jpg";
 
 const Grid = props => {
     const cells = props.data.map((data, idx) => (
@@ -99,25 +95,25 @@ const pageData = [
         data: [
             {
                 title: "Microsoft Hololens 2",
-                img: ImgHololens,
+                img: "/images/headsets/hololens2.png",
                 text: "Mixed reality on HoloLens 2 combines an untethered device with apps and solutions that help people across your business learn, communicate, and collaborate more effectively. It's the culmination of breakthroughs in hardware design, AI, and mixed reality development from Microsoft, designed to help you lead your industry into the future—starting today.",
                 type: buttonData.sample() //https://www.microsoft.com/en-us/hololens
             },
             {
                 title: "Magic Leap",
-                img: ImgMagicLeap,
+                img: "/images/headsets/magicLeap.png",
                 text: "Magic Leap 1 is a lightweight, wearable computer that brings the physical and digital worlds together as one.",
                 type: buttonData.sample() //https://www.magicleap.com/en-us
             },
             {
                 title: "Nreal Light",
-                img: ImgNrealLight,
+                img: "/images/headsets/nreal-light.jpg",
                 text: "The first ready-to-wear mixed reality glasses that are both lightweight and comfortable",
                 type: buttonData.sample() //https://www.nreal.ai/
             },
             {
                 title: "Epson Moverio BT-300",
-                img: ImgMoverioBT300,
+                img: "/images/headsets/moverioBT300.jpg",
                 text: "Experience a new way of seeing the world with the revolutionary Moverio BT-300 smart glasses from Epson®. These highly transparent glasses redefine augmented reality (AR) with a groundbreaking Si-OLED display. Superior transparency, plus a high-resolution camera, ensures seamless integration of digital content with the outside world. Ultra light and comfortable to wear, even over prescription glasses, the BT-300 features a binocular display, making it ideal for side-by-side 3D content. With wireless and Bluetooth® Smart (BLE) connectivity, it supports a wide range of accessories. Powered by an Intel® Atom chipset, running Moverio OS, the BT-300 is the ideal platform for developing AR apps.",
                 type: buttonData.sample() //https://epson.com/For-Work/Wearables/Smart-Glasses/Moverio-BT-300-Smart-Glasses-%28AR-Developer-Edition%29-/p/V11H756020
             },
