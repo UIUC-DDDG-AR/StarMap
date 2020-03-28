@@ -1,0 +1,31 @@
+.nav {
+    display: block;
+    position: fixed;
+    background: navy;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+
+.nav img {
+    position: relative;
+    left: 10vw;
+    width: 3em;
+    height: 3em;
+}
+
+.navbar {
+    position: absolute;
+    right: 10vw;
+    margin: 1em;
+}
+
+.navbar span {
+    margin: 0 1em;
+    color: white;
+}
+
+.navbar span:hover {
+   background-color: rgba(0,0,0,0.2);
+   cursor: pointer;
+}
