@@ -8,5 +8,7 @@
 }
 
 .body {
+    display: grid;
     margin: 0 10vw;
+    grid-template-columns: auto auto;
 }

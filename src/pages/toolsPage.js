@@ -8,7 +8,7 @@ const ImgThirdEyeGenX2 = "/images/headsets/moverioBT300.jpg";
 
 const Grid = props => {
     const cells = props.data.map((data, idx) => (
-        <Card
+        <Card 
             orient="vertical"
             extra="border"
             title={data.title}
