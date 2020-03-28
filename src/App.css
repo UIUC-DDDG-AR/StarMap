@@ -1,0 +1,12 @@
+.header {
+    padding: 3em 10vw;
+    background: navy;
+}
+
+.header h1 {
+    color: white;
+}
+
+.body {
+    margin: 0 10vw;
+}
