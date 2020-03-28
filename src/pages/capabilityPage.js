@@ -9,6 +9,7 @@ const CapabilityPage = () => {
         <Fragment>
             <div className="header">
                 <h1>AR Capability</h1>
+                <p>sample text</p>
             </div>
             <div className="body">
                 {CapabilityData.map(data => (
