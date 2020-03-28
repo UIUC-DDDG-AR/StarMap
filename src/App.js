@@ -1,34 +1,34 @@
 import React, { Component, Fragment } from "react";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
-import NavBar from "./components/navbar/navbar";
-import Header from "./components/header/header";
-import Page from "./components/page/page";
+import NavBar from "./components/navbar";
+
+import LandingPage from './pages/landingPage'
+import CapabilityPage from './pages/capabilityPage'
+import ToolsPage from './pages/toolsPage'
 
 import "./App.css";
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            pageType: "landing"
-        };
-    }
-
-    updatePageType = pageType => {
-        this.setState({ pageType });
-    };
-
     render() {
         return (
             <Fragment>
-                <NavBar updatePageType={this.updatePageType} />
-                <Header
-                    pageType={this.state.pageType}
-                    updatePageType={this.updatePageType}
-                />
-                <Page pageType={this.state.pageType} />
+                <BrowserRouter>
+                    <NavBar />
+                    <Switch>
+                        <Route path="/tools">
+                            <ToolsPage/>
+                        </Route>
+                        <Route path="/capability">
+                            <CapabilityPage />
+                        </Route>
+                        <Route path="/">
+                            <LandingPage />
+                        </Route>
+                    </Switch>
+                </BrowserRouter>
             </Fragment>
+
         );
     }
 }
