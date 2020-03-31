@@ -37,29 +37,14 @@ class InteractivePage extends Component {
                     <div className="search-categories">
                         <button class="accordion" >Tracking & Recognition</button>
                         <div class="panel">
-                            <ul>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                            </ul>
-                            
-                        </div>
-                        <button class="accordion">Display of Information</button>
-                        <div class="panel">
-                            <ul>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                            </ul>
-                        </div>
-                        <button class="accordion">Augmentation and Interaction</button>
-                        <div class="panel">
-                            <ul>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                                <li><input type="checkbox"/> checkbox 1</li>
-                            </ul>
-                        </div>
+                        <ul>
+                        {CapabilityData.map(data => (
+                            <li><input type="checkbox"/> {data.title}</li>
+                        
+                        
+                    ))}
+                    </ul>
+                    </div>
                     </div>
                     <div className="cards">
                     {CapabilityData.map(data => (
