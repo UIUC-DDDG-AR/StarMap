@@ -22,9 +22,14 @@
     padding: 3em 10vw;
 }
 
+
 .header img{
     position: absolute;
-    opacity: 90%;
-    float: left;
-    
+    opacity: 80%;
+}
+
+.header img:first-of-type{
+    margin-left: 12vw;
+    margin-top: -5vw;
+    opacity: 80%;
 }
