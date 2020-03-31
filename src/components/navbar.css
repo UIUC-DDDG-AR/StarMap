@@ -1,7 +1,7 @@
 .nav {
     display: block;
     position: fixed;
-    background: navy;
+    background: #011140;
     width: 100vw;
     top: 0;
     z-index: 1;
@@ -21,11 +21,15 @@
 }
 
 .navbar span {
+    display: inline;
     margin: 0 1em;
     color: white;
 }
 
 .navbar span:hover {
-   background-color: rgba(0,0,0,0.2);
-   cursor: pointer;
+   color: #2C7BBF;
+}
+
+.navbar span:active{
+    color: #2C7BBF;
 }

@@ -1,6 +1,8 @@
 .header {
     padding: 3em 10vw;
-    background: navy;
+    background: #011140;
+    position: fixed;
+    width: 100%;
 }
 
 .header h1 {
@@ -9,4 +11,20 @@
 
 .body {
     margin: 0 10vw;
+}
+
+.landinghead{
+    background: #011140;
+    width: 50vw;
+    margin-left: 5vw;
+    margin-right: 15vw;
+    font-size: 24px;
+    padding: 3em 10vw;
+}
+
+.header img{
+    position: absolute;
+    opacity: 90%;
+    float: left;
+    
 }
