@@ -7,12 +7,24 @@ button {
     border-width: 1px;
     border-color: black;
     background: white;
+    font-weight: 500;
 }
 
 button.active {
-    border-color: orange;
+    border-color: white;
     background: orange;
 }
+
+button:hover {
+    color: #2C7BBF;
+    border-color: #2C7BBF;
+ }
+
+ button.active:hover{
+    color: black;
+    border-color: orange;
+    background: orange;
+ }
 
 .learnmore a {
     display: inline-block;
@@ -24,6 +36,11 @@ button.active {
     padding: 1em;
     border-style: solid;
     border-width: 1px;
+}
+
+.learnmore a:hover{
+    color: #2C7BBF;
+    border-color: #2C7BBF;
 }
 
 .cell {

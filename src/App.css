@@ -1,7 +1,7 @@
 .header {
     padding: 3em 10vw;
     background: #011140;
-    position: fixed;
+    position: relative;
     width: 100%;
 }
 
@@ -10,14 +10,16 @@
 }
 
 .body {
+    position: relative;
+    display: inline-block;
     margin: 0 10vw;
 }
 
 .landinghead{
     background: #011140;
-    width: 50vw;
-    margin-left: 5vw;
-    margin-right: 15vw;
+    width: 32vw;
+    margin-left: 3vw;
+    margin-right: 25vw;
     font-size: 24px;
     padding: 3em 10vw;
 }
@@ -30,6 +32,7 @@
 
 .header img:first-of-type{
     margin-left: 12vw;
+    position: absolute;
     margin-top: -5vw;
     opacity: 80%;
 }
