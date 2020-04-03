@@ -13,10 +13,10 @@ class NavBar extends React.Component {
 
                 <span className="navbar">
                     <Link to="/capability">
-                        <span>AR Capabilities</span>
+                        <span>AR CAPABILITIES</span>
                     </Link>
                     <Link to="/tools">
-                        <span>Tools for AR</span>
+                        <span>TOOLS FOR AR</span>
                     </Link>
                     <Link to="/interactive">
                         <span>[Interactive Thing]</span>

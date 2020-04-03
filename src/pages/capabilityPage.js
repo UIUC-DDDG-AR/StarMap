@@ -8,7 +8,7 @@ const CapabilityPage = () => {
     return (
         <Fragment>
             <div className="header">
-                <h1>AR Capability</h1>
+                <h1>Augmented Reality Capabilities</h1>
             </div>
             <div className="body">
                 {CapabilityData.map(data => (

@@ -10,6 +10,11 @@
     border-width: 1px;
 }
 
+.learnmore a:hover{
+    color: #2C7BBF;
+    border-color: #2C7BBF;
+}
+
 .cell {
     position: relative;
     display: block;

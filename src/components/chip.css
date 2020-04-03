@@ -12,12 +12,18 @@
 }
 
 .orange-chip.active {
-    border-color: orange;
+    border-color: white;
     background: orange;
+}
+
+.orange-chip.active:hover {
+    border-color: orange;
 }
 
 .orange-chip.inactive:hover {
     background: lightgray;
+    color: #2C7BBF;
+    border-color: #2C7BBF;
 }
 
 .orange-chip-svg:hover {
