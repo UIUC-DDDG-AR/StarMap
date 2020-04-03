@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import "./toolsPage.css";
 
 import Card from "../components/card";
+import Chip from "../components/chip";
 import Logo from "../logo.svg";
 
 const ImgThirdEyeGenX2 = "/images/headsets/moverioBT300.jpg";
@@ -30,14 +31,19 @@ class ToolsPage extends Component {
         super(props);
 
         this.state = {
-            filter: new Map(buttonData.map(data => [data, true])),
+            chips: [],
             toolType: "Hardware"
         };
     }
 
-    updateFilter = d => {
-        this.state.filter.set(d, !this.state.filter.get(d));
-        this.setState({ filter: this.state.filter });
+    handleClick = data => {
+        const newChips = [...this.state.chips, data];
+        this.setState({ chips: newChips });
+    };
+
+    handleDelete = data => {
+        const newChips = this.state.chips.filter(chip => chip !== data);
+        this.setState({ chips: newChips });
     };
 
     render() {
@@ -49,30 +55,51 @@ class ToolsPage extends Component {
                 <div className="body">
                     <h1>{this.state.toolType} Tools</h1>
 
-                    {buttonData.map(data => {
-                        const button_state = this.state.filter.get(data)
-                            ? "active"
-                            : "";
-                        return (
-                            <button
-                                className={button_state}
-                                onClick={this.updateFilter.bind(this, data)}
-                            >
-                                {data}
-                            </button>
-                        );
-                    })}
+                    <div className="toolspage-chips">
+                        {buttonData.map(data => {
+                            return (
+                                <Chip
+                                    state={
+                                        this.state.chips.includes(data)
+                                            ? "active"
+                                            : "inactive"
+                                    }
+                                    onClick={this.handleClick.bind(this, data)}
+                                    onDelete={this.handleDelete.bind(
+                                        this,
+                                        data
+                                    )}
+                                >
+                                    {data}
+                                </Chip>
+                            );
+                        })}
+                    </div>
 
-                    {pageData.map(categoryData => (
-                        <div>
-                            <h2>{categoryData.category}</h2>
-                            <Grid
-                                data={categoryData.data.filter(d =>
-                                    this.state.filter.get(d.type)
-                                )}
-                            />
-                        </div>
-                    ))}
+                    {tools.map(toolByCategory => {
+                        if (
+                            this.state.chips.length === 0 ||
+                            this.state.chips.includes(toolByCategory.category)
+                        ) {
+                            return (
+                                <div>
+                                    <h2>{toolByCategory.category}</h2>
+                                    <Grid
+                                        data={
+                                            this.state.chips.length === 0
+                                                ? toolByCategory.data
+                                                : toolByCategory.data.filter(
+                                                      tool =>
+                                                          this.state.chips.includes(
+                                                              tool.type
+                                                          )
+                                                  )
+                                        }
+                                    />
+                                </div>
+                            );
+                        }
+                    })}
                 </div>
             </Fragment>
         );
@@ -97,7 +124,7 @@ const buttonData = [
 
 const gridText =
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis orci a scelerisque purus semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ";
-const pageData = [
+const tools = [
     {
         category: "Head-mounted Displays",
         data: [
