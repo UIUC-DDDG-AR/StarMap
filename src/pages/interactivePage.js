@@ -4,58 +4,86 @@ import Card from "../components/card";
 import Logo from "../logo.svg";
 import "./interactivePage.css";
 
-import CapabilityData from "../data/capability"
+import Capability from "../data/capability";
 
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
-            } else {
+        } else {
             panel.style.maxHeight = panel.scrollHeight + "px";
-            } 
-        });
-    }
-
-
+        }
+    });
+}
 
 class InteractivePage extends Component {
-  
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            checkboxes: [],
+            chips: []
+        };
+    }
+
+    handleClick(data) {
+        if (this.state.checkboxes.includes(data)) {
+            this.setState({
+                checkboxes: this.state.checkboxes.filter(
+                    checkbox => checkbox != data
+                )
+            });
+        } else {
+            this.setState({ checkboxes: [...this.state.checkboxes, data] });
+        }
+    }
+
     render() {
         return (
             <Fragment>
                 <div className="header">
                     <h1>Interactive Thing</h1>
                 </div>
-                
+
                 <div className="body1">
                     <div className="search-categories">
-                        <button class="accordion" >Tracking & Recognition</button>
+                        <button class="accordion">
+                            Tracking & Recognition
+                        </button>
                         <div class="panel">
-                        <ul>
-                        {CapabilityData.map(data => (
-                            <li><input type="checkbox"/> {data.title}</li>
-                        
-                        
-                    ))}
-                    </ul>
-                    </div>
+                            <ul>
+                                {Capability.map(data => (
+                                    <li>
+                                        <input
+                                            type="checkbox"
+                                            onClick={this.handleClick.bind(
+                                                this,
+                                                data.title
+                                            )}
+                                        />{" "}
+                                        {data.title}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                     <div className="cards">
-                    {CapabilityData.map(data => (
-                    <Card orient="horizontal" title={data.title} img={Logo}>
-                        {data.text}
-                    </Card>
-                ))}
+                        {Capability.map(data => (
+                            <Card
+                                orient="horizontal"
+                                title={data.title}
+                                img={Logo}
+                            >
+                                {data.text}
+                            </Card>
+                        ))}
                     </div>
                 </div>
-
-                
             </Fragment>
         );
     }
