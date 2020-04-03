@@ -1,0 +1,31 @@
+.orange-chip {
+    display: inline-flex;
+    flex: 1 1 auto;
+    align-items: center;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 8px 22px 8px 24px;
+    margin: 8px 8px;
+    width: fit-content;
+}
+
+.orange-chip.active {
+    border-color: white;
+    background: orange;
+}
+
+.orange-chip.active:hover {
+    border-color: orange;
+}
+
+.orange-chip.inactive:hover {
+    background: lightgray;
+    color: #2C7BBF;
+    border-color: #2C7BBF;
+}
+
+.orange-chip-svg:hover {
+    fill: gray;
+}
