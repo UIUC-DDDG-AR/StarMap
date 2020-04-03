@@ -23,10 +23,10 @@ const Chip = props => {
                         textAnchor="middle"
                         fill="white"
                         strokeWidth="1"
-                        dy=".3em"
-                        fontSize="11px"
+                        dy=".27em"
+                        fontSize="20px"
                     >
-                        ✕
+                        &times;
                     </text>
                 </g>
             </svg> : null}
