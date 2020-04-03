@@ -1,10 +1,13 @@
 import React, { Component, Fragment } from "react";
 
-import Card from "../components/card";
-import Logo from "../logo.svg";
 import "./interactivePage.css";
 
+import Card from "../components/card";
+import Logo from "../logo.svg";
+
 import Capability from "../data/capability";
+
+
 
 class InteractivePage extends Component {
     constructor(props) {
@@ -20,7 +23,7 @@ class InteractivePage extends Component {
         if (this.state.checkboxes.includes(label)) {
             this.setState({
                 checkboxes: this.state.checkboxes.filter(
-                    checkbox => checkbox != label
+                    checkbox => checkbox !== label
                 )
             });
         } else {
@@ -34,8 +37,10 @@ class InteractivePage extends Component {
             panel.classList.toggle("panel-active");
         }
     }
+    
 
     render() {
+        var arr = [];
         return (
             <Fragment>
                 <div className="header">
@@ -56,54 +61,59 @@ class InteractivePage extends Component {
                     </select>
                 </div>
 
+                
+
+                
+                <div>
+                    {Object.keys(Capability).forEach(function(element) {
+                            console.log(element)
+                            console.log(Capability[element])
+                            arr.push(element)
+                    })}
+                </div>    
+
                 <div className="interactive-body">
                     <div className="search-categories">
-                        <div
-                            className="accordion"
-                            onClick={this.handleAccordion.bind(
-                                this,
-                                "Tracking & Recognition"
-                            )}
-                        >
-                            <span>Tracking &amp; Recognition</span>
-                        </div>
-                        <div id="Tracking &amp; Recognition" className="panel">
-                            <ul>
-                                {Capability.map(data => (
-                                    <li>
-                                        <input
-                                            type="checkbox"
-                                            onClick={this.handleCheckbox.bind(
-                                                this,
-                                                data.title
-                                            )}
-                                        />{" "}
-                                        {data.title}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div
-                            className="accordion"
-                            onClick={this.handleAccordion.bind(
-                                this,
-                                "Something else"
-                            )}
-                        >
-                            <span>Something else</span>
-                        </div>
+                        {arr.map(element => (
+                            <>
+                                <div
+                                    className="accordion"
+                                    onClick={this.handleAccordion.bind(
+                                        this,
+                                        element
+                                    )}
+                                >
+                                    <span>{element}</span>
+                                </div>
+                                <div id={element} className="panel">
+                                    <ul>
+                                        {Capability[element].map(data => (
+                                            
+                                            <li key ={data.title}>
+                                                <input
+                                                    type="checkbox"
+                                                    onClick={this.handleCheckbox.bind(
+                                                        this,
+                                                        data.title
+                                                    )}
+                                                />{" "}
+                                                {data.title}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            </>
+                        ))}
                     </div>
+                    {arr.map(element => (
                     <div className="cards-container">
-                        {Capability.map(data => (
-                            <Card
-                                orient="horizontal"
-                                title={data.title}
-                                img={Logo}
-                            >
+                        {Capability[element].map(data => (
+                            <Card key ={data.title + "1"} orient="horizontal" title={data.title} img={Logo}>
                                 {data.text}
                             </Card>
                         ))}
                     </div>
+                    ))}
                 </div>
             </Fragment>
         );
