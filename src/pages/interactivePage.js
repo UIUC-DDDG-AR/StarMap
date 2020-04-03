@@ -6,21 +6,6 @@ import "./interactivePage.css";
 
 import Capability from "../data/capability";
 
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-    });
-}
-
 class InteractivePage extends Component {
     constructor(props) {
         super(props);
@@ -31,15 +16,22 @@ class InteractivePage extends Component {
         };
     }
 
-    handleClick(data) {
-        if (this.state.checkboxes.includes(data)) {
+    handleCheckbox(label) {
+        if (this.state.checkboxes.includes(label)) {
             this.setState({
                 checkboxes: this.state.checkboxes.filter(
-                    checkbox => checkbox != data
+                    checkbox => checkbox != label
                 )
             });
         } else {
-            this.setState({ checkboxes: [...this.state.checkboxes, data] });
+            this.setState({ checkboxes: [...this.state.checkboxes, label] });
+        }
+    }
+
+    handleAccordion(id) {
+        let panel = document.getElementById(id);
+        if (panel) {
+            panel.classList.toggle("panel-active");
         }
     }
 
@@ -50,18 +42,38 @@ class InteractivePage extends Component {
                     <h1>Interactive Thing</h1>
                 </div>
 
-                <div className="body1">
+                <div className="toggle-container">
+                    <span className="toggle-option">Hardware Tools</span>
+                    <span className="toggle-option">Software Tools</span>
+                </div>
+
+                <div className="select-container">
+                    <select className="select-option" id="filter">
+                        <option value="Hide Filters">Hide Filters</option>
+                    </select>
+                    <select className="select-option" id="filter">
+                        <option value="Sort By">Sort By</option>
+                    </select>
+                </div>
+
+                <div className="interactive-body">
                     <div className="search-categories">
-                        <button class="accordion">
-                            Tracking & Recognition
-                        </button>
-                        <div class="panel">
+                        <div
+                            className="accordion"
+                            onClick={this.handleAccordion.bind(
+                                this,
+                                "Tracking & Recognition"
+                            )}
+                        >
+                            <span>Tracking &amp; Recognition</span>
+                        </div>
+                        <div id="Tracking &amp; Recognition" className="panel">
                             <ul>
                                 {Capability.map(data => (
                                     <li>
                                         <input
                                             type="checkbox"
-                                            onClick={this.handleClick.bind(
+                                            onClick={this.handleCheckbox.bind(
                                                 this,
                                                 data.title
                                             )}
@@ -70,6 +82,15 @@ class InteractivePage extends Component {
                                     </li>
                                 ))}
                             </ul>
+                        </div>
+                        <div
+                            className="accordion"
+                            onClick={this.handleAccordion.bind(
+                                this,
+                                "Something else"
+                            )}
+                        >
+                            <span>Something else</span>
                         </div>
                     </div>
                     <div className="cards">
