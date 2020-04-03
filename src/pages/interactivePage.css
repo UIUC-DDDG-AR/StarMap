@@ -1,19 +1,10 @@
-.panel li {
-    margin: 0;
-    list-style: none;
-}
-
-.panel ul {
-    padding: 0;
-}
-
 .interactive-body {
     display: grid;
     grid-template-columns: 300px auto;
     margin: 0 10%;
 }
 
-.cards {
+.cards-container {
     flex: 80%;
 }
 
@@ -52,6 +43,15 @@
 
 .panel-active {
     max-height: 100%;
+}
+
+.panel li {
+    margin: 0;
+    list-style: none;
+}
+
+.panel ul {
+    padding: 0;
 }
 
 .toggle-container {

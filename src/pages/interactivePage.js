@@ -93,7 +93,7 @@ class InteractivePage extends Component {
                             <span>Something else</span>
                         </div>
                     </div>
-                    <div className="cards">
+                    <div className="cards-container">
                         {Capability.map(data => (
                             <Card
                                 orient="horizontal"
