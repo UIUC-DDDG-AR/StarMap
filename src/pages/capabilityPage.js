@@ -20,15 +20,15 @@ const CapabilityPage = () => {
                 <h1>Augmented Reality Capabilities</h1>
             </div>
             <div className="body">
-                {arr.map(element => (
-                        <>
-                        {element.map(data => (
-                            <Card key ={data.title} orient="horizontal" title={data.title} img={Logo}>
+                {arr.map((element, index, arrayobj) => {
+                    return(
+                        element.map((data, index, arrayobj) => (
+                            <Card key ={index} orient="horizontal" title={data.title} img={Logo}>
                                 {data.text}
                             </Card>
-                        ))}
-                        </>
-                ))}
+                        ))
+                    )
+                })}
             </div>
         </Fragment>
     );

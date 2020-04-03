@@ -105,15 +105,19 @@ class InteractivePage extends Component {
                             </>
                         ))}
                     </div>
-                    {arr.map(element => (
+                    
                     <div className="cards-container">
-                        {Capability[element].map(data => (
-                            <Card key ={data.title + "1"} orient="horizontal" title={data.title} img={Logo}>
-                                {data.text}
-                            </Card>
-                        ))}
+                        {arr.map(element => {
+                            return(
+                                Capability[element].map((data, index, arrayobj) => (
+                                    <Card key ={index} orient="horizontal" title={data.title} img={Logo}>
+                                        {data.text}
+                                    </Card>
+                                ))
+                            )
+                        })}
                     </div>
-                    ))}
+                    
                 </div>
             </Fragment>
         );
