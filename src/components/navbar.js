@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
     font: {
         margin: 0,
         padding: 0,
+        textTransform: "capitalize"
     },
 }));
 
