@@ -26,6 +26,13 @@ const useStyles = makeStyles({
         fontWeight: 900,
         fontSize: 24,
         textTransform: "capitalize",
+    },
+    resultsHeader: {
+        fontSize: "20px",
+        fontWeight: 700,
+        borderBottom: "1px black solid",
+        padding: "18px 8px 8px 8px",
+        marginBottom: "1em"
     }
 });
 
@@ -87,7 +94,7 @@ const InteractivePage = () => {
                     onChange={handleChange}
                 >
                     <Tab className={classes.tab} label="Hardware Tools" />
-                    <Tab className={classes.tab}  label="Software Tools" />
+                    <Tab className={classes.tab} label="Software Tools" />
                 </Tabs>
             </Container>
 
@@ -132,6 +139,11 @@ const InteractivePage = () => {
 
                     <Grid item xs={9}>
                         <Container>
+                            <div className={classes.resultsHeader}
+                            >
+                                <span>Results</span>
+                            </div>
+
                             {categories.map((data) => {
                                 return (
                                     <Chip
@@ -147,8 +159,8 @@ const InteractivePage = () => {
                                     </Chip>
                                 );
                             })}
-                            <Result tab={tab}/>
                         </Container>
+                        <Result tab={tab} />
                     </Grid>
                 </Grid>
             </Container>

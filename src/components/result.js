@@ -37,6 +37,9 @@ const useStyles = makeStyles({
         fontSize: 14,
         padding: "1em",
     },
+    button: {
+        fontWeight: 700,
+    }
 });
 
 const ToolsPage = (props) => {
@@ -64,6 +67,7 @@ const ToolsPage = (props) => {
                                 </CardContent>
                                 <CardActions>
                                     <Button
+                                        className={classes.button}
                                         variant="outlined"
                                         size="medium"
                                         color="default"
