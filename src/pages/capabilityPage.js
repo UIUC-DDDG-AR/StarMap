@@ -11,7 +11,7 @@ import capability_information from "../data/capability_information";
 
 const useStyles = makeStyles({
     header: {
-        padding: "3em 10vw",
+        padding: "5em 10vw 1em 10vw",
         background: "#011140",
         position: "relative",
         color: "white",
