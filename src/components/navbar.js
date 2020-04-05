@@ -46,9 +46,6 @@ const NavBar = () => {
                     <Button color="inherit" component={Link} to="/capability">
                         AR CAPABILITIES
                     </Button>
-                    <Button color="inherit" component={Link} to="/tools">
-                        TOOLS FOR AR
-                    </Button>
                     <Button color="inherit" component={Link} to="/interactive">
                         [Interactive Thing]
                     </Button>

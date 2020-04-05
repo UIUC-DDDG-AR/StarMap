@@ -6,7 +6,6 @@ import NavBar from "./components/navbar";
 import LandingPage from "./pages/landingPage";
 import CapabilityPage from "./pages/capabilityPage";
 import InteractivePage from "./pages/interactivePage";
-import ToolsPage from "./pages/toolsPage";
 
 import "./App.css";
 
@@ -17,9 +16,6 @@ class App extends Component {
                 <HashRouter>
                     <NavBar />
                     <Switch>
-                        <Route path="/tools">
-                            <ToolsPage />
-                        </Route>
                         <Route path="/capability">
                             <CapabilityPage />
                         </Route>
