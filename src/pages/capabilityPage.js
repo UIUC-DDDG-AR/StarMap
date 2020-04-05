@@ -11,9 +11,8 @@ import capability_information from "../data/capability_information";
 
 const useStyles = makeStyles({
     header: {
-        padding: "5em 10vw 1em 10vw",
+        paddingTop: "4em",
         background: "#011140",
-        position: "relative",
         color: "white",
     },
     container: {
@@ -43,7 +42,9 @@ const CapabilityPage = () => {
     return (
         <React.Fragment>
             <div className={classes.header}>
-                <h1>Augmented Reality Capabilities</h1>
+                <Container className={classes.container}>
+                    <h1>Augmented Reality Capabilities</h1>
+                </Container>
             </div>
 
             <Container className={classes.container}>
