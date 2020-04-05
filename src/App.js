@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import NavBar from "./components/navbar";
 
@@ -14,7 +14,7 @@ class App extends Component {
     render() {
         return (
             <Fragment>
-                <BrowserRouter>
+                <HashRouter>
                     <NavBar />
                     <Switch>
                         <Route path="/tools">
@@ -30,7 +30,7 @@ class App extends Component {
                             <LandingPage />
                         </Route>
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
             </Fragment>
         );
     }
