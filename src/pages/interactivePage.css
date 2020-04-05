@@ -1,18 +1,7 @@
-.interactive-body {
-    display: grid;
-    grid-template-columns: 300px auto;
-    margin: 0 10%;
-}
-
-.cards-container {
-    flex: 80%;
-}
-
 .accordion {
     font-size: 20px;
     font-weight: 700;
     border-bottom: 1px black solid;
-    transition: 0.4s;
     padding: 18px 8px 8px 8px;
     width: 100%;
 }
@@ -38,7 +27,6 @@
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-in-out;
 }
 
 .panel-active {
@@ -52,29 +40,4 @@
 
 .panel ul {
     padding: 0;
-}
-
-.toggle-container {
-    display: grid;
-    grid-template-columns: 300px 300px auto;
-    margin: 0 10%;
-}
-
-.toggle-option {
-    display: inline-block;
-    font-size: 32px;
-    font-weight: 900;
-    margin: 10px;
-}
-
-.select-container {
-    display: grid;
-    grid-template-columns: 300px 300px auto;
-    margin: 0 10%;
-}
-
-.select-option {
-    display: inline-flex;
-    float: left;
-    margin: 10px;
 }
