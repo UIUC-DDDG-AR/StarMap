@@ -7,8 +7,8 @@ const LandingPage = () => {
     return (
         <Fragment>
             <div className="header">
-            <img src="/images/NavStar.png"></img>
-                <img src="/images/Stars.png"></img>
+            <img src="images/NavStar.png"></img>
+                <img src="images/Stars.png"></img>
                 <div className="landinghead">
                 <h1>
                     Find the right tools for your augmented reality project.
