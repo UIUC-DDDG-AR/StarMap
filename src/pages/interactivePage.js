@@ -1,14 +1,19 @@
 import React from "react";
 
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, withStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Checkbox from "@material-ui/core/Checkbox";
+import MuiExpansionPanel from "@material-ui/core/ExpansionPanel";
+import MuiExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import MuiExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 import Result from "../components/result";
 import Chip from "../components/chip";
-import "./interactivePage.css";
 
 import Capability from "../data/capability";
 
@@ -28,13 +33,37 @@ const useStyles = makeStyles({
         textTransform: "capitalize",
     },
     resultsHeader: {
-        fontSize: "20px",
+        fontSize: 18,
         fontWeight: 700,
         borderBottom: "1px black solid",
-        padding: "18px 8px 8px 8px",
-        marginBottom: "1em"
-    }
+        padding: "13px 0",
+        marginBottom: "1em",
+    },
 });
+
+const ExpansionPanel = withStyles({
+    root: {
+        fontSize: 18,
+        fontWeight: 700,
+        border: "none",
+        borderBottom: "1px black solid",
+        boxShadow: "none",
+    },
+})(MuiExpansionPanel);
+
+const ExpansionPanelSummary = withStyles({
+    root: {
+        padding: 0,
+    },
+})(MuiExpansionPanelSummary);
+
+const ExpansionPanelDetails = withStyles((theme) => ({
+    root: {
+        padding: 0,
+        display: "flex",
+        flexDirection: "column",
+    },
+}))(MuiExpansionPanelDetails);
 
 const InteractivePage = () => {
     /*   
@@ -53,27 +82,19 @@ const InteractivePage = () => {
 
     const classes = useStyles();
     const [chips, setChips] = React.useState([]);
-
     const [tab, setTab] = React.useState(0);
 
-    const handleChange = (event, newtab) => {
+    const handleTab = (event, newtab) => {
         setTab(newtab);
     };
-    const handleClick = (data) => {
+    const handleChip = (data) => {
         const newChips = [...chips, data];
         setChips(newChips);
     };
 
-    const handleDelete = (data) => {
+    const handleUnchip = (data) => {
         const newChips = chips.filter((chip) => chip !== data);
         setChips(newChips);
-    };
-
-    const handleAccordion = (id) => {
-        let panel = document.getElementById(id);
-        if (panel) {
-            panel.classList.toggle("panel-active");
-        }
     };
 
     var arr = [];
@@ -91,7 +112,7 @@ const InteractivePage = () => {
                     value={tab}
                     indicatorColor="primary"
                     textColor="primary"
-                    onChange={handleChange}
+                    onChange={handleTab}
                 >
                     <Tab className={classes.tab} label="Hardware Tools" />
                     <Tab className={classes.tab} label="Software Tools" />
@@ -109,38 +130,39 @@ const InteractivePage = () => {
                             })}
                         </div>
 
-                        <div className="search-categories">
+                        <div>
                             {arr.map((element) => (
-                                <div>
-                                    <div
-                                        className="accordion"
-                                        onClick={handleAccordion.bind(
-                                            this,
-                                            element
-                                        )}
+                                <ExpansionPanel defaultExpanded square>
+                                    <ExpansionPanelSummary
+                                        expandIcon={<ExpandMoreIcon />}
+                                        aria-controls={element}
+                                        id={element}
                                     >
-                                        <span>{element}</span>
-                                    </div>
-
-                                    <div id={element} className="panel">
-                                        <ul>
-                                            {Capability[element].map((data) => (
-                                                <li key={data.title}>
-                                                    <input type="checkbox" />{" "}
-                                                    {data.title}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
-                                </div>
+                                        {element}
+                                    </ExpansionPanelSummary>
+                                    <ExpansionPanelDetails>
+                                        {Capability[element].map((data) => (
+                                            <div>
+                                                <FormControlLabel
+                                                    control={
+                                                        <Checkbox
+                                                            name={data.title}
+                                                            color="default"
+                                                        />
+                                                    }
+                                                    label={data.title}
+                                                />
+                                            </div>
+                                        ))}
+                                    </ExpansionPanelDetails>
+                                </ExpansionPanel>
                             ))}
                         </div>
                     </Grid>
 
                     <Grid item xs={9}>
                         <Container>
-                            <div className={classes.resultsHeader}
-                            >
+                            <div className={classes.resultsHeader}>
                                 <span>Results</span>
                             </div>
 
@@ -152,8 +174,8 @@ const InteractivePage = () => {
                                                 ? "active"
                                                 : "inactive"
                                         }
-                                        onClick={handleClick.bind(this, data)}
-                                        onDelete={handleDelete.bind(this, data)}
+                                        onClick={handleChip.bind(this, data)}
+                                        onDelete={handleUnchip.bind(this, data)}
                                     >
                                         {data}
                                     </Chip>
