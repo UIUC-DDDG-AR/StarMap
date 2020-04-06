@@ -109,7 +109,10 @@ const ToolsPage = (props) => {
                                     />
 
                                     <CardContent className={classes.content}>
-                                        {tool.description}
+                                        {tool.description.slice(0, 150)}
+                                        {tool.description.length > 150
+                                            ? "......"
+                                            : ""}
                                     </CardContent>
                                     <CardActions>
                                         <Button
