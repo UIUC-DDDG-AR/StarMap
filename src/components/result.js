@@ -8,9 +8,11 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
-import Modal from "@material-ui/core/Modal";
-import Backdrop from "@material-ui/core/Backdrop";
-import Fade from "@material-ui/core/Fade";
+
+import Dialog from "@material-ui/core/Dialog";
+import DialogContent from "@material-ui/core/DialogContent";
+import DialogContentText from "@material-ui/core/DialogContentText";
+import DialogTitle from "@material-ui/core/DialogTitle";
 
 const ImgThirdEyeGenX2 = "/images/headsets/moverioBT300.jpg";
 
@@ -43,15 +45,6 @@ const useStyles = makeStyles({
     button: {
         fontWeight: 700,
     },
-    modal: {
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-    },
-    modalContent: {
-        backgroundColor: "white",
-        padding: "1em",
-    },
 });
 
 const ToolsPage = (props) => {
@@ -60,34 +53,22 @@ const ToolsPage = (props) => {
         ? require("../data/software_documentation")
         : require("../data/hardware_documentation");
 
-    const [modal, setModal] = React.useState({ open: false, tool: {} });
+    const [dialog, setDialog] = React.useState({ open: false, tool: {} });
 
-    const handleModal = (tool) => {
-        setModal({ open: true, tool: tool });
+    const handleOpen = (tool) => {
+        setDialog({ open: true, tool: tool });
     };
 
     const handleClose = () => {
-        setModal({ ...modal, open: false });
+        setDialog({ ...dialog, open: false });
     };
-
     return (
         <React.Fragment>
-            <Modal
-                aria-labelledby="transition-modal-title"
-                aria-describedby="transition-modal-description"
-                className={classes.modal}
-                open={modal.open}
-                onClose={handleClose}
-                closeAfterTransition
-                BackdropComponent={Backdrop}
-                BackdropProps={{
-                    timeout: 500,
-                }}
-            >
-                <Fade in={modal.open}>
-                    <Container className={classes.modalContent}>
-                        <h2>{modal.tool.name}</h2>
-                        {Object.entries(modal.tool).map(([key, value]) => (
+            <Dialog open={dialog.open} onClose={handleClose} scroll="body">
+                <DialogTitle>{dialog.tool.name}</DialogTitle>
+                <DialogContent>
+                    <DialogContentText>
+                        {Object.entries(dialog.tool).map(([key, value]) => (
                             <div>
                                 <div>
                                     <b>{key}</b>
@@ -96,9 +77,9 @@ const ToolsPage = (props) => {
                                 </div>
                             </div>
                         ))}
-                    </Container>
-                </Fade>
-            </Modal>
+                    </DialogContentText>
+                </DialogContent>
+            </Dialog>
 
             <Container className={classes.container}>
                 <Grid container spacing={3}>
@@ -127,7 +108,7 @@ const ToolsPage = (props) => {
                                             variant="outlined"
                                             size="medium"
                                             color="default"
-                                            onClick={handleModal.bind(
+                                            onClick={handleOpen.bind(
                                                 this,
                                                 tool
                                             )}
