@@ -8,6 +8,9 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
+import Modal from "@material-ui/core/Modal";
+import Backdrop from "@material-ui/core/Backdrop";
+import Fade from "@material-ui/core/Fade";
 
 const ImgThirdEyeGenX2 = "/images/headsets/moverioBT300.jpg";
 
@@ -39,7 +42,16 @@ const useStyles = makeStyles({
     },
     button: {
         fontWeight: 700,
-    }
+    },
+    modal: {
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    modalContent: {
+        backgroundColor: "white",
+        padding: "1em",
+    },
 });
 
 const ToolsPage = (props) => {
@@ -48,39 +60,88 @@ const ToolsPage = (props) => {
         ? require("../data/software_documentation")
         : require("../data/hardware_documentation");
 
+    const [modal, setModal] = React.useState({ open: false, tool: {} });
+
+    const handleModal = (tool) => {
+        setModal({ open: true, tool: tool });
+    };
+
+    const handleClose = () => {
+        setModal({ ...modal, open: false });
+    };
+
     return (
-        <Container className={classes.container}>
-            <Grid container spacing={3}>
-                {documentation.map((tool) => {
-                    return (
-                        <Grid item xs={6}>
-                            <Card className={classes.card} variant="outlined">
-                                <h2 className={classes.title}>{tool.name}</h2>
+        <React.Fragment>
+            <Modal
+                aria-labelledby="transition-modal-title"
+                aria-describedby="transition-modal-description"
+                className={classes.modal}
+                open={modal.open}
+                onClose={handleClose}
+                closeAfterTransition
+                BackdropComponent={Backdrop}
+                BackdropProps={{
+                    timeout: 500,
+                }}
+            >
+                <Fade in={modal.open}>
+                    <Container className={classes.modalContent}>
+                        <h2>{modal.tool.name}</h2>
+                        {Object.entries(modal.tool).map(([key, value]) => (
+                            <div>
+                                <div>
+                                    <b>{key}</b>
+                                    {": "}
+                                    {value}
+                                </div>
+                            </div>
+                        ))}
+                    </Container>
+                </Fade>
+            </Modal>
 
-                                <CardMedia
-                                    className={classes.media}
-                                    image={ImgThirdEyeGenX2}
-                                />
+            <Container className={classes.container}>
+                <Grid container spacing={3}>
+                    {documentation.map((tool) => {
+                        return (
+                            <Grid item xs={6}>
+                                <Card
+                                    className={classes.card}
+                                    variant="outlined"
+                                >
+                                    <h2 className={classes.title}>
+                                        {tool.name}
+                                    </h2>
 
-                                <CardContent className={classes.content}>
-                                    {tool.description}
-                                </CardContent>
-                                <CardActions>
-                                    <Button
-                                        className={classes.button}
-                                        variant="outlined"
-                                        size="medium"
-                                        color="default"
-                                    >
-                                        Learn More
-                                    </Button>
-                                </CardActions>
-                            </Card>
-                        </Grid>
-                    );
-                })}
-            </Grid>
-        </Container>
+                                    <CardMedia
+                                        className={classes.media}
+                                        image={ImgThirdEyeGenX2}
+                                    />
+
+                                    <CardContent className={classes.content}>
+                                        {tool.description}
+                                    </CardContent>
+                                    <CardActions>
+                                        <Button
+                                            className={classes.button}
+                                            variant="outlined"
+                                            size="medium"
+                                            color="default"
+                                            onClick={handleModal.bind(
+                                                this,
+                                                tool
+                                            )}
+                                        >
+                                            Learn More
+                                        </Button>
+                                    </CardActions>
+                                </Card>
+                            </Grid>
+                        );
+                    })}
+                </Grid>
+            </Container>
+        </React.Fragment>
     );
 };
 export default ToolsPage;
