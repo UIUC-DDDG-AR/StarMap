@@ -45,6 +45,10 @@ const useStyles = makeStyles({
     button: {
         fontWeight: 700,
     },
+    dialogKey: {
+        textTransform: "capitalize",
+        fontWeight: 700,
+    }
 });
 
 const ToolsPage = (props) => {
@@ -71,7 +75,7 @@ const ToolsPage = (props) => {
                         {Object.entries(dialog.tool).map(([key, value]) => (
                             <div>
                                 <div>
-                                    <b>{key}</b>
+                                    <span className={classes.dialogKey}>{key.replace(/_/g, " ")}</span>
                                     {": "}
                                     {value}
                                 </div>
@@ -91,7 +95,7 @@ const ToolsPage = (props) => {
                                     variant="outlined"
                                 >
                                     <h2 className={classes.title}>
-                                        {tool.name}
+                                        {tool.name.replace(/_/g, " ")}
                                     </h2>
 
                                     <CardMedia
