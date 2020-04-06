@@ -48,7 +48,7 @@ const useStyles = makeStyles({
     dialogKey: {
         textTransform: "capitalize",
         fontWeight: 700,
-    }
+    },
 });
 
 const ToolsPage = (props) => {
@@ -57,7 +57,10 @@ const ToolsPage = (props) => {
         ? require("../data/software_documentation")
         : require("../data/hardware_documentation");
 
-    const [dialog, setDialog] = React.useState({ open: false, tool: {} });
+    const [dialog, setDialog] = React.useState({
+        open: false,
+        tool: { name: "" },
+    });
 
     const handleOpen = (tool) => {
         setDialog({ open: true, tool: tool });
@@ -69,13 +72,15 @@ const ToolsPage = (props) => {
     return (
         <React.Fragment>
             <Dialog open={dialog.open} onClose={handleClose} scroll="body">
-                <DialogTitle>{dialog.tool.name}</DialogTitle>
+                <DialogTitle>{dialog.tool.name.replace(/_/g, " ")}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
                         {Object.entries(dialog.tool).map(([key, value]) => (
                             <div>
                                 <div>
-                                    <span className={classes.dialogKey}>{key.replace(/_/g, " ")}</span>
+                                    <span className={classes.dialogKey}>
+                                        {key.replace(/_/g, " ")}
+                                    </span>
                                     {": "}
                                     {value}
                                 </div>
