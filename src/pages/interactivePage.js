@@ -15,7 +15,7 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import Result from "../components/result";
 import Chip from "../components/chip";
 
-import Capability from "../data/capability";
+import capability_information from "../data/capability_information";
 
 const useStyles = makeStyles({
     header: {
@@ -97,7 +97,9 @@ const InteractivePage = () => {
         setChips(newChips);
     };
 
-    var arr = [];
+    const capability_categories = new Set(
+        capability_information.map((capability) => capability.category)
+    );
 
     return (
         <React.Fragment>
@@ -123,37 +125,36 @@ const InteractivePage = () => {
                 <Grid container spacing={2}>
                     <Grid item xs={3}>
                         <div>
-                            {Object.keys(Capability).forEach(function (
-                                element
-                            ) {
-                                arr.push(element);
-                            })}
-                        </div>
-
-                        <div>
-                            {arr.map((element) => (
+                            {[...capability_categories].map((category) => (
                                 <ExpansionPanel defaultExpanded square>
                                     <ExpansionPanelSummary
                                         expandIcon={<ExpandMoreIcon />}
-                                        aria-controls={element}
-                                        id={element}
+                                        aria-controls={category}
+                                        id={category}
                                     >
-                                        {element}
+                                        {category}
                                     </ExpansionPanelSummary>
                                     <ExpansionPanelDetails>
-                                        {Capability[element].map((data) => (
-                                            <div>
-                                                <FormControlLabel
-                                                    control={
-                                                        <Checkbox
-                                                            name={data.title}
-                                                            color="default"
-                                                        />
-                                                    }
-                                                    label={data.title}
-                                                />
-                                            </div>
-                                        ))}
+                                        {capability_information
+                                            .filter(
+                                                (feature) =>
+                                                    feature.category == category
+                                            )
+                                            .map((data) => (
+                                                <div>
+                                                    <FormControlLabel
+                                                        control={
+                                                            <Checkbox
+                                                                name={
+                                                                    data.key
+                                                                }
+                                                                color="default"
+                                                            />
+                                                        }
+                                                        label={data.name}
+                                                    />
+                                                </div>
+                                            ))}
                                     </ExpansionPanelDetails>
                                 </ExpansionPanel>
                             ))}
