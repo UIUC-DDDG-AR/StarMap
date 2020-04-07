@@ -13,6 +13,14 @@ const LandingPage = () => {
                 <h1>
                     Find the right tools for your augmented reality project.
                 </h1>
+                <div className="buttongrp">
+                <div className="button1">
+                        <button type="button"><a href="interactivepage.js"></a>[INTERACTIVE THING] →</button>
+                    </div>
+                    <div className="button2">
+                        <button type="button"><a href="capabilitypage.js"></a>EXPLORE AR CAPABILITIES</button>
+                </div>
+                </div>
                 </div>
             </div>
             <div className="body">

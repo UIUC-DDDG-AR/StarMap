@@ -24,6 +24,47 @@
     padding: 3em 10vw;
 }
 
+.button1 button{
+    padding:16px;
+    color:white;
+    background-color: #2C7BBF;
+    border-width: 0px;
+    border-radius: 10vw;
+    width: 15vw;
+}
+
+.button1 button:hover{
+    background-color:#FFB84E;
+    color:black;
+}
+
+.button2 button{
+    padding:16px;
+    color:white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10vw;
+    width: 15vw;
+}
+
+.button2 button:hover{
+    border-color: #FFB84E;
+    color: #FFB84E;
+}
+
+.button2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttongrp button{
+    display: inline-block;
+}
+
+.button1{
+    margin-right: 30px;
+    float: left;
+}
 
 .header img{
     position: absolute;
