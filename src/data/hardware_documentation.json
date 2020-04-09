@@ -7,10 +7,27 @@
         "official_link": "https://www.microsoft.com/en-us/hololens/buy",
         "price": "$3,500",
         "how_to_buy": "contact the sales team",
-        "use_cases": "Remote Assist, Industrial Medical and Educational Training, Games & Entertainment",
-        "customer_segment": "Enterprise, developers",
-        "related_softwares": "Dynamics 365 Remote Assist, Azure Spatial Anchors, Remote Rendering, Azure Digital Twins, Unity, PiXYZ, Microsoft Edge",
-        "related_hardwares": "Azure Kinect DK",
+        "use_cases": [
+            "Remote Assist",
+            "Industrial Medical and Educational Training",
+            "Games & Entertainment"
+        ],
+        "customer_segment": [
+            "Enterprise",
+            "developers"
+        ],
+        "related_softwares": [
+            "Dynamics 365 Remote Assist",
+            "Azure Spatial Anchors",
+            "Remote Rendering",
+            "Azure Digital Twins",
+            "Unity",
+            "PiXYZ",
+            "Microsoft Edge"
+        ],
+        "related_hardwares": [
+            "Azure Kinect DK"
+        ],
         "documentation_link": "https://docs.microsoft.com/en-us/hololens/",
         "popularity": "50000 sold",
         "release_date": "Feb 24th, 2019",
@@ -20,9 +37,16 @@
         "weight": "566g",
         "dimension": "",
         "resolution": "2K per eye",
-        "field_of_view": "52",
-        "possible_interactions": "Hand tracking, Eye tracking, Voice recognition, Windows Hello, Spatial Mapping(means Real-time environment mesh), Mixed Reality Capture(means Mixed hologram and physical environment photos and videos)",
-        "limitations": "FoV still isn\u2019t big enough\nHand tracking has to be in view",
+        "field_of_view": 52,
+        "possible_interactions": [
+            "Hand tracking",
+            "Eye tracking",
+            "Voice recognition",
+            "Windows Hello",
+            "Spatial Mapping(means Real-time environment mesh)",
+            "Mixed Reality Capture(means Mixed hologram and physical environment photos and videos)"
+        ],
+        "limitations": "FoV still is not big enough\nHand tracking has to be in view",
         "notes": "Difficult to order"
     },
     {
@@ -33,21 +57,40 @@
         "official_link": "https://www.magicleap.com/en-us",
         "price": "$2,295",
         "how_to_buy": "online",
-        "use_cases": "Games & Entertainment, Training, Architecture",
-        "customer_segment": "Enterprise, consumers, developers",
-        "related_softwares": "Lumin SDK, Unity, Unreal Engine",
-        "related_hardwares": "",
+        "use_cases": [
+            "Games & Entertainment",
+            "Training",
+            "Architecture"
+        ],
+        "customer_segment": [
+            "Enterprise",
+            "consumers",
+            "developers"
+        ],
+        "related_softwares": [
+            "Lumin SDK",
+            "Unity",
+            "Unreal Engine"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "https://developer.magicleap.com/home",
         "popularity": "6000 sold",
-        "release_date": "August 25th, 2017",
+        "release_date": "Aug 25th, 2017",
         "version": "1",
         "compatibility": "Magic Leap Toolkit (MLTK) provides developers with a set of useful tools that solve specific real-world problems and extend functionality when developing Magic Leap apps in Unity\u00ae Software and Unreal Engine.",
         "operating_system": "Lumin OS",
         "weight": "316g",
         "dimension": "",
         "resolution": "1440 x 1600",
-        "field_of_view": "50",
-        "possible_interactions": "eye tracking, hand tracking 8 gestures, spatial tracking, 6dof controller",
+        "field_of_view": 50,
+        "possible_interactions": [
+            "eye tracking",
+            "hand tracking 8 gestures",
+            "spatial tracking",
+            "6dof controller"
+        ],
         "limitations": "tethered power unit, limited hand motions, limited field of view",
         "notes": "slightly worse world tracking than hololens, behind in terms of content compared to hololens 2"
     },
@@ -59,10 +102,22 @@
         "official_link": "https://www.nreal.ai/",
         "price": "$499",
         "how_to_buy": "available for sale in early 2020",
-        "use_cases": "Everyday use and wear, Games & Entertainment",
-        "customer_segment": "Consumers, developers",
-        "related_softwares": "nrsdk, Unity, Unreal Engine",
-        "related_hardwares": "Android phones",
+        "use_cases": [
+            "Everyday use and wear",
+            "Games & Entertainment"
+        ],
+        "customer_segment": [
+            "Consumers",
+            "developers"
+        ],
+        "related_softwares": [
+            "nrsdk",
+            "Unity",
+            "Unreal Engine"
+        ],
+        "related_hardwares": [
+            "Android phones"
+        ],
         "documentation_link": "https://developer.nreal.ai/develop/discover/introduction-nrsdk",
         "popularity": "",
         "release_date": "2020",
@@ -72,8 +127,11 @@
         "weight": "88g",
         "dimension": "",
         "resolution": "1080p",
-        "field_of_view": "52",
-        "possible_interactions": "spatial tracking, 3dof controller",
+        "field_of_view": 52,
+        "possible_interactions": [
+            "spatial tracking",
+            "3dof controller"
+        ],
         "limitations": "tethered",
         "notes": "Users could add on lenses to fit to one\u2019s eyesight; The glass is lightweight and quite fashionable."
     },
@@ -85,10 +143,26 @@
         "official_link": "https://epson.com/moverio-augmented-reality-smart-glasses-for-drone-flying",
         "price": "$699",
         "how_to_buy": "online",
-        "use_cases": "Education, fitness training, sports, drone, watch videos",
-        "customer_segment": "Consumers, developers",
-        "related_softwares": "Moverio SDK, wikitude, augumenta",
-        "related_hardwares": "DJI Drones, phones",
+        "use_cases": [
+            "Education",
+            "fitness training",
+            "sports",
+            "drone",
+            "watch videos"
+        ],
+        "customer_segment": [
+            "Consumers",
+            "developers"
+        ],
+        "related_softwares": [
+            "Moverio SDK",
+            "wikitude",
+            "augumenta"
+        ],
+        "related_hardwares": [
+            "DJI Drones",
+            "phones"
+        ],
         "documentation_link": "https://epson.com/moverio-augmented-reality-developers?pg=5#",
         "popularity": "popular in DJI drone industry",
         "release_date": "2016",
@@ -98,8 +172,10 @@
         "weight": "Headset 69g, Controller 129g",
         "dimension": "",
         "resolution": "1280 x 720",
-        "field_of_view": "23",
-        "possible_interactions": "controller",
+        "field_of_view": 23,
+        "possible_interactions": [
+            "controller"
+        ],
         "limitations": "tethered",
         "notes": "DJI Drones: See camera view from the drones, overall flight status, flight mode, compass, batteries, number of satellites. This information is usually shown on phones when using phones to operate. Now on glasses; The glass is very narrow so the users\u2019 peripheral vision is very open; Clear lenses with polar filter addons; Able to be worn with glasses on."
     },
@@ -111,10 +187,24 @@
         "official_link": "https://thirdeyegen.com/",
         "price": "$1,950",
         "how_to_buy": "In production",
-        "use_cases": "Remote Assist, Game & Entertainment, Industrial, Medical and Educational Training, Architecture",
-        "customer_segment": "Enterprise, consumers, developers",
-        "related_softwares": "VisionEye SLAM SDK",
-        "related_hardwares": "X1",
+        "use_cases": [
+            "Remote Assist",
+            "Game & Entertainment",
+            "Industrial",
+            "Medical and Educational Training",
+            "Architecture"
+        ],
+        "customer_segment": [
+            "Enterprise",
+            "consumers",
+            "developers"
+        ],
+        "related_softwares": [
+            "VisionEye SLAM SDK"
+        ],
+        "related_hardwares": [
+            "X1"
+        ],
         "documentation_link": "https://thirdeyegen.com/documentation",
         "popularity": "",
         "release_date": "2020",
@@ -124,8 +214,12 @@
         "weight": "278g",
         "dimension": "",
         "resolution": "1280 x 720",
-        "field_of_view": "42",
-        "possible_interactions": "6dof, gestures, voice commands",
+        "field_of_view": 42,
+        "possible_interactions": [
+            "6dof",
+            "gestures",
+            "voice commands"
+        ],
         "limitations": "",
         "notes": "3D tracking, occlusion, indoor/outdoor use"
     },
@@ -137,10 +231,19 @@
         "official_link": "https://www.vuzix.com/products/m400-smart-glasses",
         "price": "$1,799",
         "how_to_buy": "online",
-        "use_cases": "Warehouse scanning, Remote Assist",
-        "customer_segment": "enterprise",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            "Warehouse scanning",
+            "Remote Assist"
+        ],
+        "customer_segment": [
+            "enterprise"
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2020",
@@ -150,8 +253,13 @@
         "weight": "85g",
         "dimension": "",
         "resolution": "nHD color display",
-        "field_of_view": "17",
-        "possible_interactions": "multi finger tracking, 3dof, motion tracking, touchpad",
+        "field_of_view": 17,
+        "possible_interactions": [
+            "multi finger tracking",
+            "3dof",
+            "motion tracking",
+            "touchpad"
+        ],
         "limitations": "",
         "notes": ""
     },
@@ -163,10 +271,22 @@
         "official_link": "https://www.vuzix.com/products/blade-smart-glasses",
         "price": "$800",
         "how_to_buy": "online",
-        "use_cases": "Smart phones displays, daily wear and use",
-        "customer_segment": "Consumers",
-        "related_softwares": "Vuzix app on phones, Amazon Alexa, Google assistance",
-        "related_hardwares": "Android smart phones, Iphones",
+        "use_cases": [
+            "Smart phones displays",
+            "daily wear and use"
+        ],
+        "customer_segment": [
+            "Consumers"
+        ],
+        "related_softwares": [
+            "Vuzix app on phones",
+            "Amazon Alexa",
+            "Google assistance"
+        ],
+        "related_hardwares": [
+            "Android smart phones",
+            "Iphones"
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "",
@@ -177,7 +297,10 @@
         "dimension": "",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "touchpad, voice commands",
+        "possible_interactions": [
+            "touchpad",
+            "voice commands"
+        ],
         "limitations": "unable to interact with the virtual contents",
         "notes": ""
     },
@@ -189,10 +312,19 @@
         "official_link": "http://www.optinvent.com/our_products/ora-2/",
         "price": "$910",
         "how_to_buy": "online",
-        "use_cases": "Smart phones displays, daily wear and use",
-        "customer_segment": "Consumers",
-        "related_softwares": "Android SDK",
-        "related_hardwares": "ORA-X",
+        "use_cases": [
+            "Smart phones displays",
+            "daily wear and use"
+        ],
+        "customer_segment": [
+            "Consumers"
+        ],
+        "related_softwares": [
+            "Android SDK"
+        ],
+        "related_hardwares": [
+            "ORA-X"
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2014",
@@ -203,7 +335,9 @@
         "dimension": "",
         "resolution": "42 pixels/deg",
         "field_of_view": "",
-        "possible_interactions": "trackpad",
+        "possible_interactions": [
+            "trackpad"
+        ],
         "limitations": "",
         "notes": "can be worn over eye glasses"
     },
@@ -215,10 +349,20 @@
         "official_link": "https://www.dreamworldvision.com/",
         "price": "$799",
         "how_to_buy": "online",
-        "use_cases": "personal virtual screen",
-        "customer_segment": "Consumer",
-        "related_softwares": "Unity SDK",
-        "related_hardwares": "Smart phones, PC, game consoles",
+        "use_cases": [
+            "personal virtual screen"
+        ],
+        "customer_segment": [
+            "Consumer"
+        ],
+        "related_softwares": [
+            "Unity SDK"
+        ],
+        "related_hardwares": [
+            "Smart phones",
+            "PC",
+            "game consoles"
+        ],
         "documentation_link": "https://www.dreamworldvision.com/developers",
         "popularity": "",
         "release_date": "2018",
@@ -228,8 +372,11 @@
         "weight": "240g",
         "dimension": "",
         "resolution": "1280 x 880 per eye, 2560 x 800 total",
-        "field_of_view": "90",
-        "possible_interactions": "3dof (6dof with addons), limited hand gestures",
+        "field_of_view": 90,
+        "possible_interactions": [
+            "3dof (6dof with addons)",
+            "limited hand gestures"
+        ],
         "limitations": "advertised for screen mirror",
         "notes": "currently developing iOS compatibility"
     },
@@ -241,10 +388,18 @@
         "official_link": "https://developer.leapmotion.com/northstar",
         "price": "$500 for fully assembled",
         "how_to_buy": "opensource, build your own or buy fully assembled https://www.smart-prototyping.com/Project-North-Star-Kit",
-        "use_cases": "anything that you want to develop",
-        "customer_segment": "Developers",
-        "related_softwares": "LeapC API",
-        "related_hardwares": "Leap Motion",
+        "use_cases": [
+            "anything that you want to develop"
+        ],
+        "customer_segment": [
+            "Developers"
+        ],
+        "related_softwares": [
+            "LeapC API"
+        ],
+        "related_hardwares": [
+            "Leap Motion"
+        ],
         "documentation_link": "https://developer.leapmotion.com/documentation/",
         "popularity": "",
         "release_date": "",
@@ -254,8 +409,10 @@
         "weight": "",
         "dimension": "",
         "resolution": "1600 x 1440 per eye",
-        "field_of_view": "100",
-        "possible_interactions": "Hand tracking 180 degrees",
+        "field_of_view": 100,
+        "possible_interactions": [
+            "Hand tracking 180 degrees"
+        ],
         "limitations": "",
         "notes": "I think this would be good to check out"
     },
@@ -267,10 +424,21 @@
         "official_link": "https://www.rokid.com/en",
         "price": "less than $500",
         "how_to_buy": "through manufacture",
-        "use_cases": "Daily wear and use, game & entertainment, remote assistance",
-        "customer_segment": "Consumers, enterprise",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            "Daily wear and use",
+            "game & entertainment",
+            "remote assistance"
+        ],
+        "customer_segment": [
+            "Consumers",
+            "enterprise"
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2019",
@@ -280,8 +448,12 @@
         "weight": "120g",
         "dimension": "",
         "resolution": "1280 x 960",
-        "field_of_view": "33",
-        "possible_interactions": "gesture recognition, voice commands, touchpad",
+        "field_of_view": 33,
+        "possible_interactions": [
+            "gesture recognition",
+            "voice commands",
+            "touchpad"
+        ],
         "limitations": "",
         "notes": "capable of face recognition and object recognition using SLAM Corrective lenses available"
     },
@@ -293,10 +465,23 @@
         "official_link": "https://myholo.io/",
         "price": "$249",
         "how_to_buy": "online",
-        "use_cases": "Games & Entertainment, Training, Architecture",
-        "customer_segment": "consumers",
-        "related_softwares": "Unity",
-        "related_hardwares": "enterprise edition(same as premium but doesn\u2019t have hand tracking module), basic edition (no hand tracking, 3dof controller, compatible with iOS)",
+        "use_cases": [
+            "Games & Entertainment",
+            "Training",
+            "Architecture"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            "Unity"
+        ],
+        "related_hardwares": [
+            "enterprise edition(same as premium but doesn\u2019t have hand tracking module)",
+            "basic edition (no hand tracking",
+            "3dof controller",
+            "compatible with iOS)"
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2018",
@@ -306,8 +491,10 @@
         "weight": "235g",
         "dimension": "154 x 184 x 110 mm",
         "resolution": "",
-        "field_of_view": "82",
-        "possible_interactions": "hand tracking",
+        "field_of_view": 82,
+        "possible_interactions": [
+            "hand tracking"
+        ],
         "limitations": "tethered",
         "notes": "Usable with glasses"
     },
@@ -319,10 +506,18 @@
         "official_link": "https://www.aryzon.com/",
         "price": "$33",
         "how_to_buy": "online",
-        "use_cases": "Games & Entertainment",
-        "customer_segment": "consumers",
-        "related_softwares": "Aryzon Unity SDK",
-        "related_hardwares": "Smart phones",
+        "use_cases": [
+            "Games & Entertainment"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            "Aryzon Unity SDK"
+        ],
+        "related_hardwares": [
+            "Smart phones"
+        ],
         "documentation_link": "https://www.aryzon.com/creators",
         "popularity": "",
         "release_date": "2018",
@@ -332,8 +527,10 @@
         "weight": "381g",
         "dimension": "140 x 170 x 120mm",
         "resolution": "",
-        "field_of_view": "35",
-        "possible_interactions": "",
+        "field_of_view": 35,
+        "possible_interactions": [
+            ""
+        ],
         "limitations": "low resolution",
         "notes": "Open source SDK"
     },
@@ -345,10 +542,20 @@
         "official_link": "https://mirareality.com/",
         "price": "$99",
         "how_to_buy": "online",
-        "use_cases": "Remote assistance, game & entertainment",
-        "customer_segment": "Consumers, enterprise",
-        "related_softwares": "Workflow builder (on its website)",
-        "related_hardwares": "Smart phones",
+        "use_cases": [
+            "Remote assistance",
+            "game & entertainment"
+        ],
+        "customer_segment": [
+            "Consumers",
+            "enterprise"
+        ],
+        "related_softwares": [
+            "Workflow builder (on its website)"
+        ],
+        "related_hardwares": [
+            "Smart phones"
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2017",
@@ -358,8 +565,10 @@
         "weight": "",
         "dimension": "",
         "resolution": "1334 x 750",
-        "field_of_view": "60",
-        "possible_interactions": "3dof controller",
+        "field_of_view": 60,
+        "possible_interactions": [
+            "3dof controller"
+        ],
         "limitations": "low resolution",
         "notes": ""
     },
@@ -371,10 +580,18 @@
         "official_link": "http://www.realmax.com/index.php?l=en",
         "price": "less than $1000",
         "how_to_buy": "coming soon",
-        "use_cases": "Game & entertainment",
-        "customer_segment": "education",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            "Game & entertainment"
+        ],
+        "customer_segment": [
+            "education"
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2019",
@@ -384,8 +601,11 @@
         "weight": "510g",
         "dimension": "230 x 190 x 120mm",
         "resolution": "720",
-        "field_of_view": "101",
-        "possible_interactions": "3dof controller, 6dof",
+        "field_of_view": 101,
+        "possible_interactions": [
+            "3dof controller",
+            "6dof"
+        ],
         "limitations": "",
         "notes": ""
     },
@@ -397,10 +617,18 @@
         "official_link": "http://www.antvr.com/en/",
         "price": "$649",
         "how_to_buy": "online",
-        "use_cases": "game & entertainment",
-        "customer_segment": "",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            "game & entertainment"
+        ],
+        "customer_segment": [
+            ""
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2018",
@@ -410,8 +638,13 @@
         "weight": "130g",
         "dimension": "162.4 \u00d7 54 \u00d7 32.5 mm",
         "resolution": "2400 \u00d7 1200 px (per eye)",
-        "field_of_view": "96",
-        "possible_interactions": "2 3dof controllers, hand tracking, eye tracking, 6dof",
+        "field_of_view": 96,
+        "possible_interactions": [
+            "2 3dof controllers",
+            "hand tracking",
+            "eye tracking",
+            "6dof"
+        ],
         "limitations": "",
         "notes": "usable with glasses"
     },
@@ -423,10 +656,18 @@
         "official_link": "http://www.shadowcreator.com/actionone/actionone.html",
         "price": "$1,000",
         "how_to_buy": "online",
-        "use_cases": "",
-        "customer_segment": "",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            ""
+        ],
+        "customer_segment": [
+            ""
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2018",
@@ -436,8 +677,10 @@
         "weight": "",
         "dimension": "",
         "resolution": "720px",
-        "field_of_view": "45",
-        "possible_interactions": "gesture control",
+        "field_of_view": 45,
+        "possible_interactions": [
+            "gesture control"
+        ],
         "limitations": "",
         "notes": ""
     },
@@ -449,10 +692,20 @@
         "official_link": "https://www.google.com/glass/start/",
         "price": "$1,800",
         "how_to_buy": "contact the sales team",
-        "use_cases": "remote assistance, training",
-        "customer_segment": "enterprise",
-        "related_softwares": "Voice Commands, runs on Android Open Source Platform",
-        "related_hardwares": "",
+        "use_cases": [
+            "remote assistance",
+            "training"
+        ],
+        "customer_segment": [
+            "enterprise"
+        ],
+        "related_softwares": [
+            "Voice Commands",
+            "runs on Android Open Source Platform"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "https://developers.google.com/glass-enterprise/guides/get-started",
         "popularity": "new",
         "release_date": "",
@@ -463,7 +716,12 @@
         "dimension": "",
         "resolution": "640 x 360 Optical Display Module",
         "field_of_view": "",
-        "possible_interactions": "Voice commands, Multi-touch gesture touchpad, Power-saving features On head detection sensor, and Eye-on screen sensor",
+        "possible_interactions": [
+            "Voice commands",
+            "Multi-touch gesture touchpad",
+            "Power-saving features On head detection sensor",
+            "and Eye-on screen sensor"
+        ],
         "limitations": "no hand tracking and not designed to be immersive",
         "notes": ""
     },
@@ -475,10 +733,19 @@
         "official_link": "https://everysight.com/",
         "price": "$649",
         "how_to_buy": "online",
-        "use_cases": "sports info display",
-        "customer_segment": "sports",
-        "related_softwares": "Everysight Smartphone Companion App (IOS, Android)",
-        "related_hardwares": "",
+        "use_cases": [
+            "sports info display"
+        ],
+        "customer_segment": [
+            "sports"
+        ],
+        "related_softwares": [
+            "Everysight Smartphone Companion App (IOS",
+            "Android)"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2018",
@@ -489,7 +756,13 @@
         "dimension": "",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "touchpad or bluetooth controller Raptor is controlled via an integrated touchpad in the frames, supporting familiar swipe and tap gestures, even when one is wearing gloves. Voice control is also available for key actions like recording a video, taking a pic, and adjusting volume/ brightness.",
+        "possible_interactions": [
+            "touchpad or bluetooth controller Raptor is controlled via an integrated touchpad in the frames",
+            "supporting familiar swipe and tap gestures",
+            "even when one is wearing gloves. Voice control is also available for key actions like recording a video",
+            "taking a pic",
+            "and adjusting volume/ brightness."
+        ],
         "limitations": "see what I wrote",
         "notes": ""
     },
@@ -501,10 +774,23 @@
         "official_link": "https://us.dynabook.com/smartglasses/",
         "price": "from $2399 to $2899",
         "how_to_buy": "online",
-        "use_cases": "The dynaEdge\u2122 AR Smart Glasses enable multiple usage scenarios, including See-What-I-See, Remote Expert, Document Retrieval, Workflow Instructions and Real-Time Data Capture, making it the enterprise solution for tomorrow\u2014starting today.",
-        "customer_segment": "enterprise",
-        "related_softwares": "Dynabook Vision DE Suite\u2122 3.0",
-        "related_hardwares": "",
+        "use_cases": [
+            "The dynaEdge\u2122 AR Smart Glasses enable multiple usage scenarios",
+            "including See-What-I-See",
+            "Remote Expert",
+            "Document Retrieval",
+            "Workflow Instructions and Real-Time Data Capture",
+            "making it the enterprise solution for tomorrow\u2014starting today."
+        ],
+        "customer_segment": [
+            "enterprise"
+        ],
+        "related_softwares": [
+            "Dynabook Vision DE Suite\u2122 3.0"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2018",
@@ -515,7 +801,9 @@
         "dimension": "",
         "resolution": "Display Resolution: 640x360; Content Resolution: 1280x720",
         "field_of_view": "",
-        "possible_interactions": "A touchpad and programmable buttons on the HMD and directional buttons on the waist-mounted processor. Advanced software options enable voice and gesture capabilities.",
+        "possible_interactions": [
+            "A touchpad and programmable buttons on the HMD and directional buttons on the waist-mounted processor. Advanced software options enable voice and gesture capabilities."
+        ],
         "limitations": "",
         "notes": "The company said the glass is Untethered, but there is a computing unit. Equipped with a high-resolution camera, the dynaEdge\u2122 AR Smart Glasses can record and live stream video, take photos and scan barcodes."
     },
@@ -527,10 +815,21 @@
         "official_link": "https://varjo.com/products/xr-1/",
         "price": "$9,995.00",
         "how_to_buy": "online",
-        "use_cases": "Game & Entertainment",
-        "customer_segment": "consumers, developers",
-        "related_softwares": "Unity, Unreal Engine, Open XR",
-        "related_hardwares": "",
+        "use_cases": [
+            "Game & Entertainment"
+        ],
+        "customer_segment": [
+            "consumers",
+            "developers"
+        ],
+        "related_softwares": [
+            "Unity",
+            "Unreal Engine",
+            "Open XR"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "https://developer.varjo.com/",
         "popularity": "",
         "release_date": "",
@@ -540,8 +839,10 @@
         "weight": "1050g",
         "dimension": "",
         "resolution": " 1920 x 1080",
-        "field_of_view": "87",
-        "possible_interactions": "Eye Tracking",
+        "field_of_view": 87,
+        "possible_interactions": [
+            "Eye Tracking"
+        ],
         "limitations": "Tethered to PC",
         "notes": "VR+AR, can also be worn by people who wear glasses"
     },
@@ -553,10 +854,22 @@
         "official_link": "https://lightform.com/?gclid=CjwKCAjw4KD0BRBUEiwA7MFNTZMVcDc-LMS87ti4mFv5g2bBhvzdybIVHcepzu9audV8_oQeiEFXLRoCNTUQAvD_BwE",
         "price": "$798",
         "how_to_buy": "online",
-        "use_cases": "Creating a projected AR experience, Creating interactive AR experience based on OSC commands from any device",
-        "customer_segment": "consumers, artists & designers",
-        "related_softwares": "",
-        "related_hardwares": "Laptop for creation, mobile for controls, projectors for projection",
+        "use_cases": [
+            "Creating a projected AR experience",
+            "Creating interactive AR experience based on OSC commands from any device"
+        ],
+        "customer_segment": [
+            "consumers",
+            "artists & designers"
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            "Laptop for creation",
+            "mobile for controls",
+            "projectors for projection"
+        ],
         "documentation_link": "https://guide.lightform.com/hc/en-us",
         "popularity": "",
         "release_date": "2014",
@@ -567,7 +880,9 @@
         "dimension": "8,26, 7.87, 4.13",
         "resolution": "1920 x 1080",
         "field_of_view": "",
-        "possible_interactions": "Not much. Controls for animation playback (no gesture support of any kind)",
+        "possible_interactions": [
+            "Not much. Controls for animation playback (no gesture support of any kind)"
+        ],
         "limitations": "No multi-projector support, No real-time scanning-projection, No gesture, LF2 has a minimum focus distance of 3ft, throw ratio of 1.2. It can scan up to 6 ft wide in normal lighting, 12ft wide in a dark room. Scanning glass, mirrors, and highly reflective objects will result in scan holes. Scanning process takes 60-90 seconds, so real-time tracking is not possible.",
         "notes": ""
     },
@@ -579,13 +894,23 @@
         "official_link": "https://www.bose.com/en_us/products/frames.html",
         "price": "$199.95",
         "how_to_buy": "online",
-        "use_cases": "Daily wearable",
-        "customer_segment": "consumers",
-        "related_softwares": "Bose Connect, Bluetooth, Bose AR (audio)",
-        "related_hardwares": "",
+        "use_cases": [
+            "Daily wearable"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            "Bose Connect",
+            "Bluetooth",
+            "Bose AR (audio)"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "https://www.bose.com/en_us/support/products/bose_speakers_support/bose_wearables_speakers_support/bose-frames-alto/manuals_downloads.html",
         "popularity": "",
-        "release_date": "January 2019",
+        "release_date": "Jan 2019",
         "version": "1",
         "compatibility": "iOS devices only (Android under dev, which no news)",
         "operating_system": "",
@@ -593,7 +918,9 @@
         "dimension": "51 mm \u2013 16 mm \u2013 155 mm (Lens width \u2013 Distance between lenses \u2013 Temple length)",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "One-button interaction",
+        "possible_interactions": [
+            "One-button interaction"
+        ],
         "limitations": "Not really for use indoors since they are sunglasses, only sound",
         "notes": "Works with prescription lens"
     },
@@ -605,10 +932,24 @@
         "official_link": "https://www.zungleinc.com/collections/viper",
         "price": "$139.99",
         "how_to_buy": "online",
-        "use_cases": "Daily wearable, Running, hiking, biking Hearing navigation, Calls, talking to assistants",
-        "customer_segment": "consumers",
-        "related_softwares": "Siri, Google Assistant",
-        "related_hardwares": "",
+        "use_cases": [
+            "Daily wearable",
+            "Running",
+            "hiking",
+            "biking Hearing navigation",
+            "Calls",
+            "talking to assistants"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            "Siri",
+            "Google Assistant"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2018",
@@ -619,7 +960,9 @@
         "dimension": "",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "All interactions through mobile (purely for music)",
+        "possible_interactions": [
+            "All interactions through mobile (purely for music)"
+        ],
         "limitations": "",
         "notes": "Reviews suggest that sound quality can be much better especially when there\u2019s wind"
     },
@@ -631,10 +974,18 @@
         "official_link": "https://vueglasses.com/",
         "price": "$299",
         "how_to_buy": "online",
-        "use_cases": "Daily wearable",
-        "customer_segment": "consumers",
-        "related_softwares": "",
-        "related_hardwares": "Android and iOS",
+        "use_cases": [
+            "Daily wearable"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            "Android and iOS"
+        ],
         "documentation_link": "",
         "popularity": "",
         "release_date": "2016",
@@ -645,7 +996,12 @@
         "dimension": "52 - 19 - 138",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "You can set gestures on the glasses that allow you to do a range of things like pick up/hang up phone calls, change songs, turn up volume, etc.",
+        "possible_interactions": [
+            "You can set gestures on the glasses that allow you to do a range of things like pick up/hang up phone calls",
+            "change songs",
+            "turn up volume",
+            "etc."
+        ],
         "limitations": "",
         "notes": ""
     },
@@ -657,13 +1013,21 @@
         "official_link": "https://www.amazon.com/Echo-Frames/dp/B01G62GWS4",
         "price": "$180",
         "how_to_buy": "online",
-        "use_cases": "Daily wearable",
-        "customer_segment": "consumers",
-        "related_softwares": "Amazon Alexa App",
-        "related_hardwares": "",
+        "use_cases": [
+            "Daily wearable"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            "Amazon Alexa App"
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
-        "release_date": "September 2019",
+        "release_date": "Sep 2019",
         "version": "1",
         "compatibility": "iOS and Android devices",
         "operating_system": "",
@@ -671,7 +1035,9 @@
         "dimension": "54 -18 -145 mm",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "Single button control Able to use Google Assistant through selected devices",
+        "possible_interactions": [
+            "Single button control Able to use Google Assistant through selected devices"
+        ],
         "limitations": "Echo Frames are not currently compatible with iOS smartphones. And limited/selected Android devices",
         "notes": ""
     },
@@ -683,10 +1049,23 @@
         "official_link": "https://www.bhaptics.com/tactsuit/",
         "price": "Tactot (Body piece): $500; Tactosy for Arms (both arms): $250; Tactosy for Hands (both hands): $250; Tactosy for Feet (both feet): $250",
         "how_to_buy": "online, only TACTOT (Haptic Vest) is available to B2C (Consumer) clients. Other haptic devices are supposed to be used only for B2B (Enterprise) clients.\n",
-        "use_cases": "Gaming, Training, LBVR, Home Entertainment (theater, Concerts, movies)",
-        "customer_segment": "consumers",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            "Gaming",
+            "Training",
+            "LBVR",
+            "Home Entertainment (theater",
+            "Concerts",
+            "movies)"
+        ],
+        "customer_segment": [
+            "consumers"
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "https://www.bhaptics.com/support/",
         "popularity": "",
         "release_date": "2017",
@@ -697,7 +1076,10 @@
         "dimension": "26 - 50 inch",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "Suit, so pretty much everything that is in contact with the sensors will be tracked",
+        "possible_interactions": [
+            "Suit",
+            "so pretty much everything that is in contact with the sensors will be tracked"
+        ],
         "limitations": "",
         "notes": ""
     },
@@ -709,13 +1091,25 @@
         "official_link": "https://www.woojer.com/vest/",
         "price": "Vest Pro: $599; Strap: $250",
         "how_to_buy": "online",
-        "use_cases": "Gaming, Home Theater (Movies, music), Helping hearing-impaired people feel music/vibration, training",
-        "customer_segment": "",
-        "related_softwares": "",
-        "related_hardwares": "",
+        "use_cases": [
+            "Gaming",
+            "Home Theater (Movies",
+            "music)",
+            "Helping hearing-impaired people feel music/vibration",
+            "training"
+        ],
+        "customer_segment": [
+            ""
+        ],
+        "related_softwares": [
+            ""
+        ],
+        "related_hardwares": [
+            ""
+        ],
         "documentation_link": "",
         "popularity": "",
-        "release_date": "October 8th, 2018",
+        "release_date": "Oct 8th, 2018",
         "version": "",
         "compatibility": "Optional PC Rig, App through Android & iOS",
         "operating_system": "Unity SDK, Unreal SDK",
@@ -723,7 +1117,10 @@
         "dimension": "",
         "resolution": "",
         "field_of_view": "",
-        "possible_interactions": "All torso, hand movement",
+        "possible_interactions": [
+            "All torso",
+            "hand movement"
+        ],
         "limitations": "",
         "notes": ""
     }

@@ -80,7 +80,7 @@ const ToolsPage = (props) => {
                                         {key.replace(/_/g, " ")}
                                     </span>
                                     {": "}
-                                    {value}
+                                    {Array.isArray(value) ? value.join(', ') : value}
                                 </div>
                             </div>
                         ))}
