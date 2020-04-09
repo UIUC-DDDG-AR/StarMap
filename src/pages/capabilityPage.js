@@ -38,6 +38,9 @@ const useStyles = makeStyles({
 
 const CapabilityPage = () => {
     const classes = useStyles();
+    const categories = new Set(
+        capability_information.map((capability) => capability.category)
+    );
 
     return (
         <React.Fragment>
@@ -48,27 +51,36 @@ const CapabilityPage = () => {
             </div>
 
             <Container className={classes.container}>
-                <Grid container spacing={3}>
-                    {capability_information.map((capability) => {
-                        return (
-                            <Grid item xs={6}>
-                                <Card className={classes.card}>
-                                    <h2 className={classes.title}>
-                                        {capability.name}
-                                    </h2>
+                {[...categories].map((category) => (
+                    <React.Fragment>
+                        <h2>{category}</h2>
+                        <Grid container spacing={3}>
+                            {capability_information
+                                .filter(
+                                    (feature) => feature.category == category
+                                )
+                                .map((capability) => (
+                                    <Grid item xs={6}>
+                                        <Card className={classes.card}>
+                                            <h3 className={classes.title}>
+                                                {capability.name}
+                                            </h3>
 
-                                    <CardMedia
-                                        className={classes.media}
-                                        image={`/images/capability/${capability.key}.jpg`}
-                                    />
-                                    <CardContent className={classes.content}>
-                                        {capability.Descripton}
-                                    </CardContent>
-                                </Card>
-                            </Grid>
-                        );
-                    })}
-                </Grid>
+                                            <CardMedia
+                                                className={classes.media}
+                                                image={`/images/capability/${capability.key}.jpg`}
+                                            />
+                                            <CardContent
+                                                className={classes.content}
+                                            >
+                                                {capability.descripton}
+                                            </CardContent>
+                                        </Card>
+                                    </Grid>
+                                ))}
+                        </Grid>
+                    </React.Fragment>
+                ))}
             </Container>
         </React.Fragment>
     );
