@@ -59,7 +59,7 @@ const CapabilityPage = () => {
 
                                     <CardMedia
                                         className={classes.media}
-                                        image="/images/Capability.png"
+                                        image={`/images/capability/${capability.key}.jpg`}
                                     />
                                     <CardContent className={classes.content}>
                                         {capability.Descripton}
