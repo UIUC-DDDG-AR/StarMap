@@ -16,6 +16,8 @@ import Result from "../components/result";
 import Chip from "../components/chip";
 
 import capability_information from "../data/capability_information";
+import software_capability from "../data/software_capability"
+import hardware_capability from "../data/hardware_capability"
 
 const useStyles = makeStyles({
     header: {
@@ -66,40 +68,40 @@ const ExpansionPanelDetails = withStyles((theme) => ({
 }))(MuiExpansionPanelDetails);
 
 const InteractivePage = () => {
-    /*   
-    handleCheckbox(label) {
-        if (this.state.checkboxes.includes(label)) {
-            this.setState({
-                checkboxes: this.state.checkboxes.filter(
-                    checkbox => checkbox !== label
-                )
-            });
-        } else {
-            this.setState({ checkboxes: [...this.state.checkboxes, label] });
-        }
-    }
-    */
-
     const classes = useStyles();
     const [chips, setChips] = React.useState([]);
     const [tab, setTab] = React.useState(0);
+    const [checkbox, setCheckbox] = React.useState([]);
 
     const handleTab = (event, newtab) => {
         setTab(newtab);
     };
-    const handleChip = (data) => {
-        const newChips = [...chips, data];
+
+    const handleChip = (chip) => {
+        const newChips = [...chips, chip];
         setChips(newChips);
     };
 
-    const handleUnchip = (data) => {
-        const newChips = chips.filter((chip) => chip !== data);
+    const handleUnchip = (chip) => {
+        const newChips = chips.filter((x) => x !== chip);
         setChips(newChips);
     };
 
-    const capability_categories = new Set(
-        capability_information.map((capability) => capability.category)
+    const handleCheckbox = (event) => {
+        const checked = event.target.name
+        if (checkbox.includes(checked)) {
+            setCheckbox(checkbox.filter(x => x !== checked));
+        } else {
+            setCheckbox([...checkbox, checked]);
+        }
+    }
+
+    const capabilityCategoryLabels = new Set(
+        capability_information.map((c) => c.category)
     );
+
+    const cap = tab ? software_capability : hardware_capability
+    const avaliableKeys = Object.keys(cap[0])
 
     return (
         <React.Fragment>
@@ -124,41 +126,26 @@ const InteractivePage = () => {
             <Container className={classes.container}>
                 <Grid container spacing={2}>
                     <Grid item xs={3}>
-                        <div>
-                            {[...capability_categories].map((category) => (
-                                <ExpansionPanel defaultExpanded square>
-                                    <ExpansionPanelSummary
-                                        expandIcon={<ExpandMoreIcon />}
-                                        aria-controls={category}
-                                        id={category}
-                                    >
-                                        {category}
-                                    </ExpansionPanelSummary>
-                                    <ExpansionPanelDetails>
-                                        {capability_information
-                                            .filter(
-                                                (feature) =>
-                                                    feature.category == category
-                                            )
-                                            .map((data) => (
-                                                <div>
-                                                    <FormControlLabel
-                                                        control={
-                                                            <Checkbox
-                                                                name={
-                                                                    data.key
-                                                                }
-                                                                color="default"
-                                                            />
-                                                        }
-                                                        label={data.name}
-                                                    />
-                                                </div>
-                                            ))}
-                                    </ExpansionPanelDetails>
-                                </ExpansionPanel>
-                            ))}
-                        </div>
+                        {[...capabilityCategoryLabels].map((label) => (
+                            <ExpansionPanel defaultExpanded square>
+                                <ExpansionPanelSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls={label}
+                                    id={label}
+                                >
+                                    {label}
+                                </ExpansionPanelSummary>
+                                <ExpansionPanelDetails>
+                                    {capability_information
+                                        .filter(info => info.category === label && avaliableKeys.includes(info.key))
+                                        .map((info) =>
+                                            <FormControlLabel
+                                                control={<Checkbox name={info.key} onChange={handleCheckbox} color="default" />}
+                                                label={info.name}
+                                            />)}
+                                </ExpansionPanelDetails>
+                            </ExpansionPanel>
+                        ))}
                     </Grid>
 
                     <Grid item xs={9}>
@@ -167,23 +154,20 @@ const InteractivePage = () => {
                                 <span>Results</span>
                             </div>
 
-                            {categories.map((data) => {
+                            {toolCategoryLabels.map((label) => {
                                 return (
                                     <Chip
-                                        state={
-                                            chips.includes(data)
-                                                ? "active"
-                                                : "inactive"
-                                        }
-                                        onClick={handleChip.bind(this, data)}
-                                        onDelete={handleUnchip.bind(this, data)}
+                                        state={chips.includes(label) ? "active" : "inactive"}
+                                        onClick={handleChip.bind(this, label)}
+                                        onDelete={handleUnchip.bind(this, label)}
                                     >
-                                        {data}
+                                        {label}
                                     </Chip>
                                 );
                             })}
                         </Container>
-                        <Result tab={tab} />
+
+                        <Result tab={tab} chips={chips} checkbox={checkbox} />
                     </Grid>
                 </Grid>
             </Container>
@@ -192,7 +176,7 @@ const InteractivePage = () => {
 };
 export default InteractivePage;
 
-const categories = [
+const toolCategoryLabels = [
     "Body wearables",
     "Projectors",
     "Smart Glasses",

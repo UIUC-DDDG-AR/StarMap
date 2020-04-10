@@ -38,9 +38,7 @@ const useStyles = makeStyles({
 
 const CapabilityPage = () => {
     const classes = useStyles();
-    const categories = new Set(
-        capability_information.map((capability) => capability.category)
-    );
+    const categories = new Set(capability_information.map((capability) => capability.category));
 
     return (
         <React.Fragment>
@@ -54,11 +52,10 @@ const CapabilityPage = () => {
                 {[...categories].map((category) => (
                     <React.Fragment>
                         <h2>{category}</h2>
+                        
                         <Grid container spacing={3}>
                             {capability_information
-                                .filter(
-                                    (feature) => feature.category == category
-                                )
+                                .filter((capability) => capability.category === category)
                                 .map((capability) => (
                                     <Grid item xs={6}>
                                         <Card className={classes.card}>
@@ -66,13 +63,10 @@ const CapabilityPage = () => {
                                                 {capability.name}
                                             </h3>
 
-                                            <CardMedia
-                                                className={classes.media}
+                                            <CardMedia className={classes.media}
                                                 image={`/images/capability/${capability.key}.jpg`}
                                             />
-                                            <CardContent
-                                                className={classes.content}
-                                            >
+                                            <CardContent className={classes.content}>
                                                 {capability.descripton}
                                             </CardContent>
                                         </Card>

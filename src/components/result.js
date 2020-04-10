@@ -14,6 +14,11 @@ import DialogContent from "@material-ui/core/DialogContent";
 import DialogContentText from "@material-ui/core/DialogContentText";
 import DialogTitle from "@material-ui/core/DialogTitle";
 
+import software_documentation from "../data/software_documentation"
+import hardware_documentation from "../data/hardware_documentation"
+import software_capability from "../data/software_capability"
+import hardware_capability from "../data/hardware_capability"
+
 const useStyles = makeStyles({
     header: {
         paddingTop: "4em",
@@ -49,11 +54,12 @@ const useStyles = makeStyles({
     },
 });
 
-const ToolsPage = (props) => {
+const MAX_DESC_LEN = 150
+
+const ToolsPage = ({ tab, chips, checkbox }) => {
     const classes = useStyles();
-    const documentation = props.tab
-        ? require("../data/software_documentation")
-        : require("../data/hardware_documentation");
+    const doc = tab ? software_documentation : hardware_documentation
+    const cap = tab ? software_capability : hardware_capability
 
     const [dialog, setDialog] = React.useState({
         open: false,
@@ -67,6 +73,24 @@ const ToolsPage = (props) => {
     const handleClose = () => {
         setDialog({ ...dialog, open: false });
     };
+
+    const getTools = () => {
+        if (chips.length || checkbox.length) {
+            let newDoc = null;
+            if (chips.length) {
+                // TODO: filter result based on selected chips
+                newDoc = doc
+            }
+            if (checkbox.length) {
+                newDoc = doc.filter((tool, idx) =>
+                    checkbox.length === checkbox.filter(checked => cap[idx][checked][0]).length)
+            }
+            return newDoc
+        } else {
+            return doc
+        }
+    }
+
     return (
         <React.Fragment>
             <Dialog open={dialog.open} onClose={handleClose} scroll="body">
@@ -75,13 +99,11 @@ const ToolsPage = (props) => {
                     <DialogContentText>
                         {Object.entries(dialog.tool).map(([key, value]) => (
                             <div>
-                                <div>
-                                    <span className={classes.dialogKey}>
-                                        {key.replace(/_/g, " ")}
-                                    </span>
-                                    {": "}
-                                    {Array.isArray(value) ? value.join(', ') : value}
-                                </div>
+                                <span className={classes.dialogKey}>
+                                    {key.replace(/_/g, " ")}
+                                </span>
+                                {": "}
+                                {Array.isArray(value) ? value.join(', ') : value}
                             </div>
                         ))}
                     </DialogContentText>
@@ -90,50 +112,39 @@ const ToolsPage = (props) => {
 
             <Container className={classes.container}>
                 <Grid container spacing={3}>
-                    {documentation.map((tool) => {
-                        return (
-                            <Grid item xs={6}>
-                                <Card
-                                    className={classes.card}
-                                    variant="outlined"
-                                >
-                                    <h2 className={classes.title}>
-                                        {tool.name.replace(/_/g, " ")}
-                                    </h2>
+                    {getTools().map((tool) => (
+                        <Grid item xs={6}>
+                            <Card
+                                className={classes.card}
+                                variant="outlined"
+                            >
+                                <h2 className={classes.title}>
+                                    {tool.name.replace(/_/g, " ")}
+                                </h2>
 
-                                    <CardMedia
-                                        className={classes.media}
-                                        image={`/images/${
-                                            props.tab ? "software" : "hardware"
-                                        }/${tool.name.toLowerCase()}.${
-                                            props.tab ? "png" : "jpg"
-                                        }`}
-                                    />
+                                <CardMedia
+                                    className={classes.media}
+                                    image={`/images/${tab ? "software" : "hardware"}/${tool.name.toLowerCase()}.${tab ? "png" : "jpg"}`}
+                                />
 
-                                    <CardContent className={classes.content}>
-                                        {tool.description.slice(0, 150)}
-                                        {tool.description.length > 150
-                                            ? "......"
-                                            : ""}
-                                    </CardContent>
-                                    <CardActions>
-                                        <Button
-                                            className={classes.button}
-                                            variant="outlined"
-                                            size="medium"
-                                            color="default"
-                                            onClick={handleOpen.bind(
-                                                this,
-                                                tool
-                                            )}
-                                        >
-                                            Learn More
+                                <CardContent className={classes.content}>
+                                    {tool.description.slice(0, MAX_DESC_LEN)}
+                                    {tool.description.length > MAX_DESC_LEN ? "......" : ""}
+                                </CardContent>
+                                <CardActions>
+                                    <Button
+                                        className={classes.button}
+                                        variant="outlined"
+                                        size="medium"
+                                        color="default"
+                                        onClick={handleOpen.bind(this, tool)}
+                                    >
+                                        Learn More
                                         </Button>
-                                    </CardActions>
-                                </Card>
-                            </Grid>
-                        );
-                    })}
+                                </CardActions>
+                            </Card>
+                        </Grid>
+                    ))}
                 </Grid>
             </Container>
         </React.Fragment>
