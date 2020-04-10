@@ -1,0 +1,2998 @@
+[
+    {
+        "name": "Hololens2",
+        "object_recognition": [
+            1,
+            "Object Recognition. Azure Custom Vision https://docs.microsoft.com/en-us/windows/mixed-reality/mr-azure-310"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            1,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            "Support Windows Cortana\nnote: can work in noisy industrial environments"
+        ],
+        "hand_controls": [
+            1,
+            "possible to use remote"
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "supported by Azure"
+        ],
+        "show_2d_content": [
+            1,
+            "Can display 2D windows for some traditional apps"
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "MagicLeap1",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            2,
+            "addon"
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            2,
+            "can develop communication apps."
+        ],
+        "video_streaming": [
+            1,
+            "With the device stream functionality, you can stream."
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "spatial anchors are also shareable"
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "NrealLight",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "SLAM"
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            "NRSDK"
+        ],
+        "facial_recognition": [
+            2,
+            "addon"
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            1,
+            "can be connected to a variety of andriod phones or nreal computing unit"
+        ],
+        "hand_tracking": [
+            2,
+            "addon"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            2,
+            "has camera"
+        ],
+        "audio_calling": [
+            1,
+            "Nreal glasses are now compatible with Android native apps, which means as long as the app is installed on the devices, users can view all app activity through their glasses."
+        ],
+        "video_streaming": [
+            2,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            "NRSDK"
+        ],
+        "depth_sensing": [
+            1,
+            "2 cameras"
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            "tethered"
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "can be created on nreal with unity + azure"
+        ],
+        "show_2d_content": [
+            1,
+            "mixed reality glasses"
+        ],
+        "show_3d_content": [
+            1,
+            "mixed reality glasses"
+        ],
+        "extended_tracking": [
+            1,
+            "SLAM"
+        ]
+    },
+    {
+        "name": "Epson_Moverio_BT300",
+        "object_recognition": [
+            1,
+            "Object Recognition & Tracking Wikitude SDK SLAM. https://www.wikitude.com/external/doc/documentation/latest/epson/objecttracking.html#object-and-scene-recognition"
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "Wikitude SDK SLAM"
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            "Wikitude SDK"
+        ],
+        "facial_recognition": [
+            1,
+            "Wikitude SDK"
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            1,
+            "Wikitude SDK"
+        ],
+        "hand_tracking": [
+            2,
+            "with addon, e.g: uSens"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            "Wikitude SDK SLAM"
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            2,
+            "addon e.g: Pupil Labs"
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "can be created using Wikitude Augmented Reality SDK for Epson Moverio Smart Glasses"
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            "Wikitude SDK SLAM"
+        ]
+    },
+    {
+        "name": "ThirdEye_Gen_X2",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "VisionEye SLAM SDK"
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            "VisionEye SLAM SDK"
+        ],
+        "facial_recognition": [
+            1,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            "SLAM"
+        ],
+        "depth_sensing": [
+            1,
+            "dual camera"
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            "ThirdEye Voice Command API"
+        ],
+        "hand_controls": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "VisionEye SLAM SDK"
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            "VisionEye SLAM SDK"
+        ]
+    },
+    {
+        "name": "Vuzix_M400",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            "ikitude SDK"
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            1,
+            "Wikitude SDK"
+        ],
+        "hand_tracking": [
+            2,
+            "addon kinemic band"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Vuzix_Blade",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            1,
+            "Android and iOS"
+        ],
+        "hand_tracking": [
+            2,
+            "hand motion trackers"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            "Alexa"
+        ],
+        "hand_controls": [
+            1,
+            "Phone (optional)"
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Optinvent_ORA-2",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            "addon"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            "8 bit ambient light sensor"
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Dreamworld_DreamGlass",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            2,
+            "with addons"
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "Tracking is inconsistent"
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            "limited"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "Project_North_Star",
+        "object_recognition": [
+            2,
+            "has camera"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            2,
+            "addon"
+        ],
+        "location_tracking": [
+            1,
+            "Tethered"
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            2,
+            "addon leap motion"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            2,
+            "addon e.g: Pupil Labs"
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "Rokid_Project_Aurora",
+        "object_recognition": [
+            1,
+            "Detection and tracking not recognition. note: once the LightForm scans something, it can realign projection if it was moved."
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "SLAM"
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            1,
+            ""
+        ],
+        "location_tracking": [
+            2,
+            "depends on device"
+        ],
+        "cross_compatibility": [
+            1,
+            "USB-c connection to nintendo switch, android, ios, ipad pro"
+        ],
+        "hand_tracking": [
+            1,
+            "able to recognize gestures"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            "SLAM"
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "tethered phone"
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            "LAM"
+        ]
+    },
+    {
+        "name": "Tesseract_Holoboard_Premium_Edition",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            1,
+            "any smarphone + holoboard HDK app"
+        ],
+        "hand_tracking": [
+            1,
+            "limited"
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "bluetooth remote"
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Aryzon_AR_Headset",
+        "object_recognition": [
+            1,
+            "mobile phone camera + arcore/arkit"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "arcore/arkit"
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            "arcore/arkit"
+        ],
+        "facial_recognition": [
+            1,
+            "arcore/arkit"
+        ],
+        "location_tracking": [
+            1,
+            "arcore/arkit"
+        ],
+        "cross_compatibility": [
+            1,
+            "ios and android"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            "arcore/arkit"
+        ],
+        "video_recording": [
+            1,
+            "arcore/arkit"
+        ],
+        "audio_calling": [
+            1,
+            "arkit"
+        ],
+        "video_streaming": [
+            1,
+            "arkit"
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            "arcore/arkit"
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            "arcore/arkit"
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "phone"
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "arcore/arkit"
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            "arcore/arkit"
+        ]
+    },
+    {
+        "name": "Mira_Prism",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            2,
+            "If using Wikitude SDK + attach to advanced phones"
+        ],
+        "dof_3": [
+            1,
+            "Using Phone IMU"
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            "arkit"
+        ],
+        "cross_compatibility": [
+            0,
+            "iphone 7 and 8"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Realmax_Qian",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            2,
+            "addon leap motion"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Antvr_Mix",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            "(two 3DoF controllors)"
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            2,
+            "addon leap motion"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "Shadow_Creator_Action_One",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            "limited"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Google_Glass_Enterprise_Edition_2",
+        "object_recognition": [
+            1,
+            "support for computer vision and advanced machine learning capabilities so developer might be able to develop this capabilities. for more details please contact Google"
+        ],
+        "dof_6": [
+            1,
+            "Single 6-axis Accel/Gyro, single 3-axis Mag"
+        ],
+        "dof_3": [
+            1,
+            "Single 6-axis Accel/Gyro, single 3-axis Mag"
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            1,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "Multi-touch gesture touchpad"
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            "but not sure through cloud. Support for users collaborating in real time"
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "Everysight_Raptor",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            "Headset has internal GPS"
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "Multi-Touch pad for use with or without gloves"
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Toshiba_DynaEdge_AR100",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            "(resolution is not high)"
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            "(Built-in Ambient Light Sensor (ALS) to sense the amount of ambient light present, and appropriately dim the device's screen to match it)"
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "Touch pad + controller(the computing unit itself)"
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            "(one can pull up docs like pdf for side assistance)"
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Varjo_XR1",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "telepresence": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            1,
+            "Uses HTV Vive or SteamVR controllers"
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "name": "Lightform",
+        "object_recognition": [
+            0,
+            "w/ spatial mapping"
+        ],
+        "dof_6": [
+            1,
+            "from the users' perspective."
+        ],
+        "dof_3": [
+            1,
+            "from the users' perspective."
+        ],
+        "room_scene_tracking": [
+            1,
+            "no real-time tracking (60s delay)"
+        ],
+        "light_projection": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            1,
+            "can work with most projectors"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Bose_Frames_Alto_Rondo",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Zungle_Viper",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Vue_Glasses",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            "earch results from Assistant"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Echo_Frames",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            "earch results from Assistant"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Tactsuit",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            "utliple OS but not web"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "name": "Vest_Pro_Strap",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "light_projection": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_compatibility": [
+            0,
+            "utliple OS but not web"
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "telepresence": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "lighting_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_controls": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "cloud_spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    }
+]

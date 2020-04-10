@@ -1,30 +1,58 @@
 import React from "react";
-import "./navbar.css";
-import Logo from "../starmaplogo.png";
+
 import { Link } from "react-router-dom";
+import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import AppBar from "@material-ui/core/AppBar";
+import Toolbar from "@material-ui/core/Toolbar";
+import Button from "@material-ui/core/Button";
 
-class NavBar extends React.Component {
-    render() {
-        return (
-            <div className="nav">
-                <Link to="/">
-                    <img src={Logo} alt="Logo"/>
-            
-                </Link>
+import Logo from "../starmaplogo.png";
 
-                <span className="navbar">
-                    <Link to="/capability">
-                        <span>AR CAPABILITIES</span>
-                    </Link>
-                    <Link to="/tools">
-                        <span>TOOLS FOR AR</span>
-                    </Link>
-                    <Link to="/interactive">
-                        <span>[INTERACTIVE THING]</span>
-                    </Link>
-                </span>
-            </div>
-        );
-    }
-}
+const useStyles = makeStyles((theme) => ({
+    container: {
+        padding: "0 5vw",
+    },
+    nav: {
+        flexGrow: 1,
+        background: "#011140",
+    },
+    space: {
+        flexGrow: 1,
+    },
+    icon: {
+        position: "relative",
+        width: "5em",
+        height: "3em",
+        objectFit: "contain"
+    },
+    font: {
+        margin: 0,
+        padding: 0,
+        textTransform: "capitalize"
+    },
+}));
+
+const NavBar = () => {
+    const classes = useStyles();
+    return (
+        <AppBar className={classes.nav} position="fixed">
+            <Container className={classes.container}>
+                <Toolbar>
+                    <Button color="inherit" component={Link} to="/">
+                        <img className={classes.icon} src={Logo} alt="Logo" />
+                    </Button>
+
+                    <span className={classes.space}></span>
+                    <Button color="inherit" component={Link} to="/capability">
+                        AR CAPABILITIES
+                    </Button>
+                    <Button color="inherit" component={Link} to="/interactive">
+                        [Interactive Thing]
+                    </Button>
+                </Toolbar>
+            </Container>
+        </AppBar>
+    );
+};
 export default NavBar;

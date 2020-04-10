@@ -1,112 +1,186 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
 
-import Card from "../components/card";
-import Logo from "../logo.svg";
-import "./interactivePage.css";
+import { makeStyles, withStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import FormControlLabel from "@material-ui/core/FormControlLabel";
+import Checkbox from "@material-ui/core/Checkbox";
+import MuiExpansionPanel from "@material-ui/core/ExpansionPanel";
+import MuiExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import MuiExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
-import Capability from "../data/capability";
+import Result from "../components/result";
+import Chip from "../components/chip";
 
-class InteractivePage extends Component {
-    constructor(props) {
-        super(props);
+import capability_information from "../data/capability_information";
+import software_capability from "../data/software_capability"
+import hardware_capability from "../data/hardware_capability"
 
-        this.state = {
-            checkboxes: [],
-            chips: []
-        };
-    }
+const useStyles = makeStyles({
+    header: {
+        paddingTop: "4em",
+        background: "#011140",
+        color: "white",
+    },
+    container: {
+        padding: "1em 5vw",
+    },
+    tab: {
+        color: "black",
+        fontWeight: 900,
+        fontSize: 24,
+        textTransform: "capitalize",
+    },
+    resultsHeader: {
+        fontSize: 18,
+        fontWeight: 700,
+        borderBottom: "1px black solid",
+        padding: "13px 0",
+        marginBottom: "1em",
+    },
+});
 
-    handleCheckbox(label) {
-        if (this.state.checkboxes.includes(label)) {
-            this.setState({
-                checkboxes: this.state.checkboxes.filter(
-                    checkbox => checkbox != label
-                )
-            });
+const ExpansionPanel = withStyles({
+    root: {
+        fontSize: 18,
+        fontWeight: 700,
+        border: "none",
+        borderBottom: "1px black solid",
+        boxShadow: "none",
+    },
+})(MuiExpansionPanel);
+
+const ExpansionPanelSummary = withStyles({
+    root: {
+        padding: 0,
+    },
+})(MuiExpansionPanelSummary);
+
+const ExpansionPanelDetails = withStyles((theme) => ({
+    root: {
+        padding: 0,
+        display: "flex",
+        flexDirection: "column",
+    },
+}))(MuiExpansionPanelDetails);
+
+const InteractivePage = () => {
+    const classes = useStyles();
+    const [chips, setChips] = React.useState([]);
+    const [tab, setTab] = React.useState(0);
+    const [checkbox, setCheckbox] = React.useState([]);
+
+    const handleTab = (event, newtab) => {
+        setTab(newtab);
+    };
+
+    const handleChip = (chip) => {
+        const newChips = [...chips, chip];
+        setChips(newChips);
+    };
+
+    const handleUnchip = (chip) => {
+        const newChips = chips.filter((x) => x !== chip);
+        setChips(newChips);
+    };
+
+    const handleCheckbox = (event) => {
+        const checked = event.target.name
+        if (checkbox.includes(checked)) {
+            setCheckbox(checkbox.filter(x => x !== checked));
         } else {
-            this.setState({ checkboxes: [...this.state.checkboxes, label] });
+            setCheckbox([...checkbox, checked]);
         }
     }
 
-    handleAccordion(id) {
-        let panel = document.getElementById(id);
-        if (panel) {
-            panel.classList.toggle("panel-active");
-        }
-    }
+    const capabilityCategoryLabels = new Set(
+        capability_information.map((c) => c.category)
+    );
 
-    render() {
-        return (
-            <Fragment>
-                <div className="header">
+    const cap = tab ? software_capability : hardware_capability
+    const avaliableKeys = Object.keys(cap[0])
+
+    return (
+        <React.Fragment>
+            <div className={classes.header}>
+                <Container className={classes.container}>
                     <h1>Interactive Thing</h1>
-                </div>
+                </Container>
+            </div>
 
-                <div className="toggle-container">
-                    <span className="toggle-option">Hardware Tools</span>
-                    <span className="toggle-option">Software Tools</span>
-                </div>
+            <Container className={classes.container}>
+                <Tabs
+                    value={tab}
+                    indicatorColor="primary"
+                    textColor="primary"
+                    onChange={handleTab}
+                >
+                    <Tab className={classes.tab} label="Hardware Tools" />
+                    <Tab className={classes.tab} label="Software Tools" />
+                </Tabs>
+            </Container>
 
-                <div className="select-container">
-                    <select className="select-option" id="filter">
-                        <option value="Hide Filters">Hide Filters</option>
-                    </select>
-                    <select className="select-option" id="filter">
-                        <option value="Sort By">Sort By</option>
-                    </select>
-                </div>
-
-                <div className="interactive-body">
-                    <div className="search-categories">
-                        <div
-                            className="accordion"
-                            onClick={this.handleAccordion.bind(
-                                this,
-                                "Tracking & Recognition"
-                            )}
-                        >
-                            <span>Tracking &amp; Recognition</span>
-                        </div>
-                        <div id="Tracking &amp; Recognition" className="panel">
-                            <ul>
-                                {Capability.map(data => (
-                                    <li>
-                                        <input
-                                            type="checkbox"
-                                            onClick={this.handleCheckbox.bind(
-                                                this,
-                                                data.title
-                                            )}
-                                        />{" "}
-                                        {data.title}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div
-                            className="accordion"
-                            onClick={this.handleAccordion.bind(
-                                this,
-                                "Something else"
-                            )}
-                        >
-                            <span>Something else</span>
-                        </div>
-                    </div>
-                    <div className="cards-container">
-                        {Capability.map(data => (
-                            <Card
-                                orient="horizontal"
-                                title={data.title}
-                                img={Logo}
-                            >
-                                {data.text}
-                            </Card>
+            <Container className={classes.container}>
+                <Grid container spacing={2}>
+                    <Grid item xs={3}>
+                        {[...capabilityCategoryLabels].map((label) => (
+                            <ExpansionPanel defaultExpanded square>
+                                <ExpansionPanelSummary
+                                    expandIcon={<ExpandMoreIcon />}
+                                    aria-controls={label}
+                                    id={label}
+                                >
+                                    {label}
+                                </ExpansionPanelSummary>
+                                <ExpansionPanelDetails>
+                                    {capability_information
+                                        .filter(info => info.category === label && avaliableKeys.includes(info.key))
+                                        .map((info) =>
+                                            <FormControlLabel
+                                                control={<Checkbox name={info.key} onChange={handleCheckbox} color="default" />}
+                                                label={info.name}
+                                            />)}
+                                </ExpansionPanelDetails>
+                            </ExpansionPanel>
                         ))}
-                    </div>
-                </div>
-            </Fragment>
-        );
-    }
-}
+                    </Grid>
+
+                    <Grid item xs={9}>
+                        <Container>
+                            <div className={classes.resultsHeader}>
+                                <span>Results</span>
+                            </div>
+
+                            {toolCategoryLabels.map((label) => {
+                                return (
+                                    <Chip
+                                        state={chips.includes(label) ? "active" : "inactive"}
+                                        onClick={handleChip.bind(this, label)}
+                                        onDelete={handleUnchip.bind(this, label)}
+                                    >
+                                        {label}
+                                    </Chip>
+                                );
+                            })}
+                        </Container>
+
+                        <Result tab={tab} chips={chips} checkbox={checkbox} />
+                    </Grid>
+                </Grid>
+            </Container>
+        </React.Fragment>
+    );
+};
 export default InteractivePage;
+
+const toolCategoryLabels = [
+    "Body wearables",
+    "Projectors",
+    "Smart Glasses",
+    "Head-mounted Displays",
+    "Mobile",
+    "Add-ons",
+];
