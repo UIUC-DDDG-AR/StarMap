@@ -99,9 +99,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                     <DialogContentText>
                         {Object.entries(dialog.tool).map(([key, value]) => (
                             <div>
-                                <span className={classes.dialogKey}>
-                                    {key.replace(/_/g, " ")}
-                                </span>
+                                <span className={classes.dialogKey}>{key.replace(/_/g, " ")}</span>
                                 {": "}
                                 {Array.isArray(value) ? value.join(', ') : value}
                             </div>
@@ -114,13 +112,8 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                 <Grid container spacing={3}>
                     {getTools().map((tool) => (
                         <Grid item xs={6}>
-                            <Card
-                                className={classes.card}
-                                variant="outlined"
-                            >
-                                <h2 className={classes.title}>
-                                    {tool.name.replace(/_/g, " ")}
-                                </h2>
+                            <Card className={classes.card} variant="outlined">
+                                <h2 className={classes.title}>{tool.name.replace(/_/g, " ")}</h2>
 
                                 <CardMedia
                                     className={classes.media}
@@ -140,7 +133,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                                         onClick={handleOpen.bind(this, tool)}
                                     >
                                         Learn More
-                                        </Button>
+                                    </Button>
                                 </CardActions>
                             </Card>
                         </Grid>
