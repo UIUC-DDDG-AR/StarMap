@@ -59,9 +59,7 @@ const CapabilityPage = () => {
                                 .map((capability) => (
                                     <Grid item xs={6}>
                                         <Card className={classes.card}>
-                                            <h3 className={classes.title}>
-                                                {capability.name}
-                                            </h3>
+                                            <h3 className={classes.title}>{capability.name}</h3>
 
                                             <CardMedia className={classes.media}
                                                 image={`/images/capability/${capability.key}.jpg`}

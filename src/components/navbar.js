@@ -7,7 +7,7 @@ import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Button from "@material-ui/core/Button";
 
-import Logo from "../logo.png";
+import Logo from "../starmaplogo.png";
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -21,7 +21,10 @@ const useStyles = makeStyles((theme) => ({
         flexGrow: 1,
     },
     icon: {
-        width: 40,
+        position: "relative",
+        width: "5em",
+        height: "3em",
+        objectFit: "contain"
     },
     font: {
         margin: 0,
@@ -37,9 +40,7 @@ const NavBar = () => {
             <Container className={classes.container}>
                 <Toolbar>
                     <Button color="inherit" component={Link} to="/">
-                        <h3 className={classes.font}>Star</h3>
                         <img className={classes.icon} src={Logo} alt="Logo" />
-                        <h3 className={classes.font}>Map</h3>
                     </Button>
 
                     <span className={classes.space}></span>
