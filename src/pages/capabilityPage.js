@@ -52,9 +52,10 @@ const CapabilityPage = () => {
                 {[...categories].map((category) => (
                     <React.Fragment>
                         <h2>{category}</h2>
+                        
                         <Grid container spacing={3}>
                             {capability_information
-                                .filter((feature) => feature.category == category)
+                                .filter((capability) => capability.category === category)
                                 .map((capability) => (
                                     <Grid item xs={6}>
                                         <Card className={classes.card}>

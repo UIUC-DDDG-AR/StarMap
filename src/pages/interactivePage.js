@@ -137,15 +137,12 @@ const InteractivePage = () => {
                                 </ExpansionPanelSummary>
                                 <ExpansionPanelDetails>
                                     {capability_information
-                                        .map((info) => {
-                                            if (info.category === label && avaliableKeys.includes(info.key)) {
-                                                return (
-                                                    <FormControlLabel
-                                                        control={<Checkbox name={info.key} onChange={handleCheckbox} color="default" />}
-                                                        label={info.name}
-                                                    />)
-                                            }
-                                        })}
+                                        .filter(info => info.category === label && avaliableKeys.includes(info.key))
+                                        .map((info) =>
+                                            <FormControlLabel
+                                                control={<Checkbox name={info.key} onChange={handleCheckbox} color="default" />}
+                                                label={info.name}
+                                            />)}
                                 </ExpansionPanelDetails>
                             </ExpansionPanel>
                         ))}
