@@ -38,8 +38,7 @@ const useStyles = makeStyles({
         padding: "0 1em",
     },
     media: {
-        height: 300,
-        margin: "0 1em",
+        height: 200,
         objectFit: "contain",
     },
     content: {
@@ -114,7 +113,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                     {getTools().map((tool) => (
                         <Grid item xs={6}>
                             <Card className={classes.card} variant="outlined">
-                                <h2 className={classes.title}>{tool.name}</h2>
+                                <h3 className={classes.title}>{tool.name}</h3>
 
                                 <CardMedia
                                     className={classes.media}
