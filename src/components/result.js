@@ -40,6 +40,7 @@ const useStyles = makeStyles({
     media: {
         height: 300,
         margin: "0 1em",
+        objectFit: "contain",
     },
     content: {
         fontSize: 14,
@@ -117,6 +118,8 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
 
                                 <CardMedia
                                     className={classes.media}
+                                    component="img"
+                                    alt={tool.name}
                                     image={`/images/${tab ? "software" : "hardware"}/${tool.id}.${tab ? "png" : "jpg"}`}
                                 />
 
