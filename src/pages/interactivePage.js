@@ -18,6 +18,8 @@ import Chip from "../components/chip";
 import capability_information from "../data/capability_information";
 import software_capability from "../data/software_capability"
 import hardware_capability from "../data/hardware_capability"
+import software_documentation from "../data/software_documentation"
+import hardware_documentation from "../data/hardware_documentation"
 
 const useStyles = makeStyles({
     header: {
@@ -75,6 +77,8 @@ const InteractivePage = () => {
 
     const handleTab = (event, newtab) => {
         setTab(newtab);
+        setCheckbox([])
+        setChips([])
     };
 
     const handleChip = (chip) => {
@@ -100,8 +104,17 @@ const InteractivePage = () => {
         capability_information.map((c) => c.category)
     );
 
+    const softwareCategoryLabels = new Set(
+        software_documentation.map((c) => c.category)
+    )
+
+    const hardwareCategoryLabels = new Set(
+        hardware_documentation.map((c) => c.category)
+    )
+
     const cap = tab ? software_capability : hardware_capability
     const avaliableKeys = Object.keys(cap[0])
+    const chipLabels = tab ? softwareCategoryLabels : hardwareCategoryLabels
 
     return (
         <React.Fragment>
@@ -137,10 +150,10 @@ const InteractivePage = () => {
                                 </ExpansionPanelSummary>
                                 <ExpansionPanelDetails>
                                     {capability_information
-                                        .filter(info => info.category === label && avaliableKeys.includes(info.key))
+                                        .filter(info => info.category === label && avaliableKeys.includes(info.id))
                                         .map((info) =>
                                             <FormControlLabel
-                                                control={<Checkbox name={info.key} onChange={handleCheckbox} color="default" />}
+                                                control={<Checkbox name={info.id} onChange={handleCheckbox} color="default" />}
                                                 label={info.name}
                                             />)}
                                 </ExpansionPanelDetails>
@@ -154,7 +167,7 @@ const InteractivePage = () => {
                                 <span>Results</span>
                             </div>
 
-                            {toolCategoryLabels.map((label) => {
+                            {[...chipLabels].map((label) => {
                                 return (
                                     <Chip
                                         state={chips.includes(label) ? "active" : "inactive"}
@@ -175,12 +188,3 @@ const InteractivePage = () => {
     );
 };
 export default InteractivePage;
-
-const toolCategoryLabels = [
-    "Body wearables",
-    "Projectors",
-    "Smart Glasses",
-    "Head-mounted Displays",
-    "Mobile",
-    "Add-ons",
-];

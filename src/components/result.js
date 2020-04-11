@@ -79,10 +79,10 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
             let newDoc = null;
             if (chips.length) {
                 // TODO: filter result based on selected chips
-                newDoc = doc
+                newDoc = doc.filter((tool, idx) => chips.includes(tool.category))
             }
             if (checkbox.length) {
-                newDoc = doc.filter((tool, idx) =>
+                newDoc = newDoc.filter((tool, idx) =>
                     checkbox.length === checkbox.filter(checked => cap[idx][checked][0]).length)
             }
             return newDoc
@@ -94,7 +94,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
     return (
         <React.Fragment>
             <Dialog open={dialog.open} onClose={handleClose} scroll="body">
-                <DialogTitle>{dialog.tool.name.replace(/_/g, " ")}</DialogTitle>
+                <DialogTitle>{dialog.tool.name}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
                         {Object.entries(dialog.tool).map(([key, value]) => (
@@ -113,11 +113,11 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                     {getTools().map((tool) => (
                         <Grid item xs={6}>
                             <Card className={classes.card} variant="outlined">
-                                <h2 className={classes.title}>{tool.name.replace(/_/g, " ")}</h2>
+                                <h2 className={classes.title}>{tool.name}</h2>
 
                                 <CardMedia
                                     className={classes.media}
-                                    image={`/images/${tab ? "software" : "hardware"}/${tool.name.toLowerCase()}.${tab ? "png" : "jpg"}`}
+                                    image={`/images/${tab ? "software" : "hardware"}/${tool.id}.${tab ? "png" : "jpg"}`}
                                 />
 
                                 <CardContent className={classes.content}>

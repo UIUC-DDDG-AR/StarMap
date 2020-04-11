@@ -333,7 +333,7 @@
         ]
     },
     {
-        "name": "Wikitude_SDK",
+        "name": "Wikitude SDK",
         "object_recognition": [
             1,
             ""
@@ -444,7 +444,7 @@
         ]
     },
     {
-        "name": "SparkAR",
+        "name": "Spark AR",
         "object_recognition": [
             1,
             "target tracking"
@@ -666,7 +666,7 @@
         ]
     },
     {
-        "name": "Unreal_Engine",
+        "name": "Unreal Engine",
         "object_recognition": [
             1,
             "arkit 3"
@@ -999,7 +999,7 @@
         ]
     },
     {
-        "name": "AR_js ",
+        "name": "AR.js",
         "object_recognition": [
             1,
             ""
@@ -1110,7 +1110,7 @@
         ]
     },
     {
-        "name": "8th_Wall ",
+        "name": "8th Wall",
         "object_recognition": [
             1,
             ""
@@ -1221,7 +1221,7 @@
         ]
     },
     {
-        "name": "Three_js ",
+        "name": "Three.js",
         "object_recognition": [
             1,
             ""
@@ -1332,7 +1332,7 @@
         ]
     },
     {
-        "name": "A_Frame ",
+        "name": "A-Frame",
         "object_recognition": [
             1,
             ""
@@ -1443,7 +1443,7 @@
         ]
     },
     {
-        "name": "Amazon_Sumerian ",
+        "name": "Amazon Sumerian",
         "object_recognition": [
             1,
             ""
@@ -1554,7 +1554,7 @@
         ]
     },
     {
-        "name": "Babylon_js ",
+        "name": "Babylon.js",
         "object_recognition": [
             1,
             ""
@@ -1665,7 +1665,7 @@
         ]
     },
     {
-        "name": "PlayCanvas ",
+        "name": "PlayCanvas",
         "object_recognition": [
             1,
             ""
@@ -1776,7 +1776,7 @@
         ]
     },
     {
-        "name": "Lens_Studio",
+        "name": "Lens Studio",
         "object_recognition": [
             1,
             ""
