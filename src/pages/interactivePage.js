@@ -153,7 +153,12 @@ const InteractivePage = () => {
                                         .filter(info => info.category === label && avaliableKeys.includes(info.id))
                                         .map((info) =>
                                             <FormControlLabel
-                                                control={<Checkbox name={info.id} onChange={handleCheckbox} color="default" />}
+                                                control={
+                                                    <Checkbox 
+                                                    name={info.id} 
+                                                    checked={checkbox.includes(info.id)}
+                                                    onChange={handleCheckbox} 
+                                                    color="default" />}
                                                 label={info.name}
                                             />)}
                                 </ExpansionPanelDetails>

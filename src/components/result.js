@@ -76,10 +76,10 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
 
     const getTools = () => {
         if (chips.length || checkbox.length) {
-            let newDoc = null;
+            let newDoc = doc;
             if (chips.length) {
                 // TODO: filter result based on selected chips
-                newDoc = doc.filter((tool, idx) => chips.includes(tool.category))
+                newDoc = newDoc.filter((tool, idx) => chips.includes(tool.category))
             }
             if (checkbox.length) {
                 newDoc = newDoc.filter((tool, idx) =>
