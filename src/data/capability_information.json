@@ -102,7 +102,7 @@
         "descripton": "Telepresence refers to a set of technologies which allow a person to feel as if they were present, to give the appearance of being present, or to have an effect. One approach is to capture a person\u2019s appearance and body movements and present a hologram of them to the other connected device in real time, as if the person is present in another user\u2019s context."
     },
     {
-        "id": "lighting_estimation",
+        "id": "light_estimation",
         "name": "Light Estimation",
         "category": "Tracking and Recognition",
         "descripton": "The capability to detect the lighting data of the user\u2019s environment. Some AR features need lighting data for better performance and/or user-experiences. For example, it can be used to adjust intensity and colors of the virtual content to be more visible."
@@ -126,13 +126,13 @@
         "descripton": "The capability to recognize humans\u2019 speeches. Voice recognition is commonly used to perform commands on a device or multiple connected devices so that users don\u2019t have to use a mouse, idboarch or press any buttons. Use cases include voice dialing, domotic appliance control in smart homes, and etc."
     },
     {
-        "id": "hand_controls",
+        "id": "hand_control",
         "name": "Hand Control",
         "category": "Augmentation and Interaction",
         "descripton": "A piece of hardware that users can interact with hands to operate a device. This includes touchpads, which support familiar swipes and tap gestures to operate a device. Some AR equipment are using phones as a controller while functioning as a computer unit to the equipment."
     },
     {
-        "id": "cloud_spatial_anchor",
+        "id": "spatial_anchor",
         "name": "Spatial Anchor",
         "category": "Display of Information",
         "descripton": "By sharing virtual content to the cloud and anchoring it to a shared physical space, multiple users can view and interact the virtual content from different positions simultaneously in real time."
