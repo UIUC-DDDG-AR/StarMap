@@ -108,13 +108,9 @@ const LandingPage = () => {
                     <div className={classes.content}>
                         <CardMedia className={classes.media} image={Logo} />
                         <CardContent className={classes.text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Sagittis orci a scelerisque purus semper.
-                            Aliquet sagittis id consectetur purus ut faucibus
-                            pulvinar elementum. Eu tincidunt tortor aliquam nulla.
-                            Pharetra magna ac placerat vestibulum lectus. Sagittis
-                            aliquam malesuada bibendum arcu.
+                        STARMAP (Suggestion Tool for Augmented
+Reality Makers and Programmers) helps developers discover the best hardware and software to create their desired Augmented Reality (AR) experience. 
+
                         </CardContent>
                     </div>
                 </Card>
@@ -124,13 +120,7 @@ const LandingPage = () => {
                     <div className={classes.content}>
                         <CardMedia className={classes.media} image={Logo} />
                         <CardContent className={classes.text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Sagittis orci a scelerisque purus semper.
-                            Aliquet sagittis id consectetur purus ut faucibus
-                            pulvinar elementum. Eu tincidunt tortor aliquam nulla.
-                            Pharetra magna ac placerat vestibulum lectus. Sagittis
-                            aliquam malesuada bibendum arcu.
+                        Augmented Reality is a rapidly growing industry with constantly changing technology. Whether you are an experienced AR developer or are embarking on your first AR project, STARMAP can guide you through the development process. Use STARMAP to learn about your options for AR Tools and the features they support. 
                         </CardContent>
                     </div>
                 </Card>
