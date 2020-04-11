@@ -54,7 +54,7 @@ const useStyles = makeStyles({
     },
 });
 
-const MAX_DESC_LEN = 150
+const MAX_DESC_LEN = 160
 
 const ToolsPage = ({ tab, chips, checkbox }) => {
     const classes = useStyles();
@@ -126,6 +126,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                                     {tool.description.slice(0, MAX_DESC_LEN)}
                                     {tool.description.length > MAX_DESC_LEN ? "......" : ""}
                                 </CardContent>
+
                                 <CardActions>
                                     <Button
                                         className={classes.button}
