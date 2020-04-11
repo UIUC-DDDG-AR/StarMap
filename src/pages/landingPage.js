@@ -95,8 +95,8 @@ const LandingPage = () => {
                 <Container className={classes.container}>
                     <div className={classes.subHeader}>
                         <h1 className={classes.title}>Find the right tools for your augmented reality project.</h1>
-                        <Link className={classes.button1} to="interactive">[INTERACTIVE THING] →</Link>
-                        <Link className={classes.button2} to="capability">EXPLORE AR CAPABILITIES</Link>
+                        <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
+                        <Link className={classes.button2} to="capability">Explore AR Capabilities</Link>
                     </div>
                 </Container>
 
