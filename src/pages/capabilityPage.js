@@ -61,8 +61,8 @@ const CapabilityPage = () => {
                                         <Card className={classes.card}>
                                             <h3 className={classes.title}>{capability.name}</h3>
 
-                                            <CardMedia className={classes.media}
-                                                image={`/images/capability/${capability.key}.jpg`}
+                                            <CardMedia className={classes.media} component="img" alt={capability.name}
+                                                image={`/images/capability/${capability.id}.jpg`}
                                             />
                                             <CardContent className={classes.content}>
                                                 {capability.descripton}

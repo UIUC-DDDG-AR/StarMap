@@ -1,6 +1,8 @@
 [
     {
+        "id": "vuforia",
         "name": "Vuforia",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "Vuforia is an engine supported in Unity. Vuforia is its own AR tech that runs in both iOS and Android and can run on older phones. Vuforia will use ARKit/ARCore tech if the hardware will support it. Vuforia also has other advanced features like image tracking, motion planning.",
         "official_link": "https://developer.vuforia.com/",
@@ -29,7 +31,9 @@
         "notes": ""
     },
     {
+        "id": "opencv",
         "name": "OpenCV",
+        "category": "Low Level Libraries",
         "type": "Software",
         "description": "OpenCV (Open source computer vision) is a library of programming functions mainly aimed at real-time computer vision.",
         "official_link": "https://opencv.org/",
@@ -55,7 +59,9 @@
         "notes": ""
     },
     {
+        "id": "unity3d",
         "name": "Unity3D",
+        "category": "Game Engines",
         "type": "Software",
         "description": "Key features: Great for cross platform development, Language required: C# or JavaScript, One of the few great VR/AR real-time development tools, Asset store, Great documentation, Different rendering pipelines for different hardwares specs (HighDefinitionRenderingPipeline for AAA games and Universal Rendering Pipeline for mobile), Friendly with many great softwares related to 3D real time development",
         "official_link": "https://unity.com/",
@@ -104,7 +110,9 @@
         "notes": "Unity has great resources for developers to dive in. The company has many new feature presentations, tutorials, documentation on codes and on collaboration with leading companies in real time industries."
     },
     {
-        "name": "Wikitude_SDK",
+        "id": "wikitude_sdk",
+        "name": "Wikitude SDK",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "",
         "official_link": "https://www.wikitude.com/products/wikitude-sdk/",
@@ -134,7 +142,9 @@
         "notes": "Once developed web AR called \u201cAR Window\u201d in 2012.\nDidn\u2019t find anything about web AR development since then."
     },
     {
-        "name": "SparkAR",
+        "id": "sparkar",
+        "name": "Spark AR",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "",
         "official_link": "",
@@ -164,7 +174,9 @@
         "notes": ""
     },
     {
+        "id": "manomotion",
         "name": "ManoMotion",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "ManoMotion provides a framework for real- time 3D gestural analysis. Minimal hardware, minimal computing power. All that is required is a simple RGB camera found in everyday smartphone.",
         "official_link": "https://www.manomotion.com/",
@@ -190,7 +202,9 @@
         "notes": ""
     },
     {
-        "name": "Unreal_Engine",
+        "id": "unreal_engine",
+        "name": "Unreal Engine",
+        "category": "Game Engines",
         "type": "Software",
         "description": "Key features:Technical art pipeline, world building, animation, simulation, optimization\nOne of the few great VR/AR real-time development tools\nOffers one of the best graphics in real time development\nArtist friendly software (no coding required)\nLanguage supported: C++, Blueprints(visual programming)",
         "official_link": "",
@@ -238,7 +252,9 @@
         "notes": "Not good for solo devs apparently"
     },
     {
+        "id": "arkit",
         "name": "ARKit",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "Framework from Apple for building AR apps and games for iOS devices. High level API supplying powerful features for creating virtual objects. Utilizes SLAM to accurately map the surroundings.",
         "official_link": "",
@@ -266,7 +282,9 @@
         "notes": ""
     },
     {
+        "id": "arcore",
         "name": "ARCore",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "Google platform for building AR experiences, using different APIs ARCore enables your phone to sense its environment, understand the world and interact with information.",
         "official_link": "",
@@ -292,7 +310,9 @@
         "notes": ""
     },
     {
-        "name": "AR_js ",
+        "id": "ar_js",
+        "name": "AR.js",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "AR. js is a lightweight library for Augmented Reality on the Web, coming with features like Marker based and Location based AR.",
         "official_link": "",
@@ -318,7 +338,9 @@
         "notes": ""
     },
     {
-        "name": "8th_Wall ",
+        "id": "wall_8th",
+        "name": "8th Wall",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "8th Wall enables developers to create, collaborate and publish Web AR experiences that run directly in a mobile web browser.",
         "official_link": "https://www.8thwall.com/",
@@ -349,7 +371,9 @@
         "notes": ""
     },
     {
-        "name": "Three_js ",
+        "id": "three_js",
+        "name": "Three.js",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "Three.js is a cross-browser JavaScript library and Application Programming Interface (API) used to create and display animated 3D computer graphics in a web browser.",
         "official_link": "https://threejs.org/",
@@ -381,7 +405,9 @@
         "notes": "Using threex.artookit (the extension of Three.js) which is part of AR.js. \nDevelop AR relays on AR.js which is a higher level library built on Three.js.\n"
     },
     {
-        "name": "A_Frame ",
+        "id": "a_frame",
+        "name": "A-Frame",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "A-Frame is a three.js framework with an entity-component-system (ECS) architecture.",
         "official_link": "https://aframe.io/",
@@ -414,7 +440,9 @@
         "notes": "Can experiment AR on ARCore compatible devices and Chrome 79 or newer.\nMature AR development with AR.js https://github.com/jeromeetienne/ar.js\nWorks with 8th Wall easily. \nWell developed, just like an online Unity. Also, good  Being based on top of HTML, A-Frame is accessible to everyone."
     },
     {
-        "name": "Amazon_Sumerian ",
+        "id": "amazon_sumerian",
+        "name": "Amazon Sumerian",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "Augmented reality experiences built with Amazon Sumerian run on Android and iOS mobile devices without requiring native app downloads (based on WebGL 2.).",
         "official_link": "https://aws.amazon.com/sumerian/",
@@ -446,7 +474,9 @@
         "notes": "Work with 8th wall. Can also develop native apps. They did image tracking with 8th wall on web. Provide a library of primitive shapes, 3D models, hosts, textures, and scripts.\n"
     },
     {
-        "name": "Babylon_js ",
+        "id": "babylon_js",
+        "name": "Babylon.js",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "Babylon.js is a real time 3D engine using a JavaScript library for displaying 3D graphics in a web browser via HTML5.",
         "official_link": "https://www.babylonjs.com/",
@@ -472,7 +502,9 @@
         "notes": "BabylonAR is a plugin intended to bring AR and computer vision functionality to Babylon.js Web apps. Also work with 8th Wall."
     },
     {
-        "name": "PlayCanvas ",
+        "id": "playcanvas",
+        "name": "PlayCanvas",
+        "category": "Web AR Frameworks",
         "type": "Software",
         "description": "PlayCanvas is an open-source[1] 3D game engine/interactive 3D application engine alongside a proprietary cloud-hosted creation platform that allows for simultaneous editing from multiple computers \\via a browser-based interface",
         "official_link": "https://playcanvas.com/",
@@ -498,7 +530,9 @@
         "notes": "It has a mature web AR development tool using AR Starter Kit. Works with 8th Wall"
     },
     {
-        "name": "Lens_Studio",
+        "id": "lens_studio",
+        "name": "Lens Studio",
+        "category": "Native AR Frameworks",
         "type": "Software",
         "description": "",
         "official_link": "",

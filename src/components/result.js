@@ -38,8 +38,8 @@ const useStyles = makeStyles({
         padding: "0 1em",
     },
     media: {
-        height: 300,
-        margin: "0 1em",
+        height: 200,
+        objectFit: "contain",
     },
     content: {
         fontSize: 14,
@@ -54,7 +54,7 @@ const useStyles = makeStyles({
     },
 });
 
-const MAX_DESC_LEN = 150
+const MAX_DESC_LEN = 160
 
 const ToolsPage = ({ tab, chips, checkbox }) => {
     const classes = useStyles();
@@ -76,13 +76,13 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
 
     const getTools = () => {
         if (chips.length || checkbox.length) {
-            let newDoc = null;
+            let newDoc = doc;
             if (chips.length) {
                 // TODO: filter result based on selected chips
-                newDoc = doc
+                newDoc = newDoc.filter((tool, idx) => chips.includes(tool.category))
             }
             if (checkbox.length) {
-                newDoc = doc.filter((tool, idx) =>
+                newDoc = newDoc.filter((tool, idx) =>
                     checkbox.length === checkbox.filter(checked => cap[idx][checked][0]).length)
             }
             return newDoc
@@ -94,7 +94,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
     return (
         <React.Fragment>
             <Dialog open={dialog.open} onClose={handleClose} scroll="body">
-                <DialogTitle>{dialog.tool.name.replace(/_/g, " ")}</DialogTitle>
+                <DialogTitle>{dialog.tool.name}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
                         {Object.entries(dialog.tool).map(([key, value]) => (
@@ -113,17 +113,20 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
                     {getTools().map((tool) => (
                         <Grid item xs={6}>
                             <Card className={classes.card} variant="outlined">
-                                <h2 className={classes.title}>{tool.name.replace(/_/g, " ")}</h2>
+                                <h3 className={classes.title}>{tool.name}</h3>
 
                                 <CardMedia
                                     className={classes.media}
-                                    image={`/images/${tab ? "software" : "hardware"}/${tool.name.toLowerCase()}.${tab ? "png" : "jpg"}`}
+                                    component="img"
+                                    alt={tool.name}
+                                    image={`/images/${tab ? "software" : "hardware"}/${tool.id}.${tab ? "png" : "jpg"}`}
                                 />
 
                                 <CardContent className={classes.content}>
                                     {tool.description.slice(0, MAX_DESC_LEN)}
                                     {tool.description.length > MAX_DESC_LEN ? "......" : ""}
                                 </CardContent>
+
                                 <CardActions>
                                     <Button
                                         className={classes.button}

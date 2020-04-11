@@ -1,6 +1,6 @@
 [
     {
-        "name": "Hololens2",
+        "name": "Hololens 2",
         "object_recognition": [
             1,
             "Object Recognition. Azure Custom Vision https://docs.microsoft.com/en-us/windows/mixed-reality/mr-azure-310"
@@ -107,7 +107,7 @@
         ]
     },
     {
-        "name": "MagicLeap1",
+        "name": "Magic Leap 1",
         "object_recognition": [
             2,
             "has camera"
@@ -214,7 +214,7 @@
         ]
     },
     {
-        "name": "NrealLight",
+        "name": "nrealLight",
         "object_recognition": [
             2,
             "has camera"
@@ -321,7 +321,7 @@
         ]
     },
     {
-        "name": "Epson_Moverio_BT300",
+        "name": "Epson Moverio BT300",
         "object_recognition": [
             1,
             "Object Recognition & Tracking Wikitude SDK SLAM. https://www.wikitude.com/external/doc/documentation/latest/epson/objecttracking.html#object-and-scene-recognition"
@@ -428,7 +428,7 @@
         ]
     },
     {
-        "name": "ThirdEye_Gen_X2",
+        "name": "ThirdEye Gen X2",
         "object_recognition": [
             2,
             "has camera"
@@ -535,7 +535,7 @@
         ]
     },
     {
-        "name": "Vuzix_M400",
+        "name": "Vuzix M400",
         "object_recognition": [
             2,
             "has camera"
@@ -642,7 +642,7 @@
         ]
     },
     {
-        "name": "Vuzix_Blade",
+        "name": "Vuzix Blade",
         "object_recognition": [
             2,
             "has camera"
@@ -749,7 +749,7 @@
         ]
     },
     {
-        "name": "Optinvent_ORA-2",
+        "name": "Optinvent ORA-2",
         "object_recognition": [
             2,
             "has camera"
@@ -856,7 +856,7 @@
         ]
     },
     {
-        "name": "Dreamworld_DreamGlass",
+        "name": "Dreamworld DreamGlass",
         "object_recognition": [
             2,
             "has camera"
@@ -963,7 +963,7 @@
         ]
     },
     {
-        "name": "Project_North_Star",
+        "name": "Project North Star",
         "object_recognition": [
             2,
             "has camera"
@@ -1070,7 +1070,7 @@
         ]
     },
     {
-        "name": "Rokid_Project_Aurora",
+        "name": "Rokid Project Aurora",
         "object_recognition": [
             1,
             "Detection and tracking not recognition. note: once the LightForm scans something, it can realign projection if it was moved."
@@ -1177,7 +1177,7 @@
         ]
     },
     {
-        "name": "Tesseract_Holoboard_Premium_Edition",
+        "name": "Tesseract Holoboard Premium Edition",
         "object_recognition": [
             0,
             ""
@@ -1284,7 +1284,7 @@
         ]
     },
     {
-        "name": "Aryzon_AR_Headset",
+        "name": "Aryzon AR Headset",
         "object_recognition": [
             1,
             "mobile phone camera + arcore/arkit"
@@ -1391,7 +1391,7 @@
         ]
     },
     {
-        "name": "Mira_Prism",
+        "name": "Mira Prism",
         "object_recognition": [
             0,
             ""
@@ -1498,7 +1498,7 @@
         ]
     },
     {
-        "name": "Realmax_Qian",
+        "name": "Realmax Qian",
         "object_recognition": [
             0,
             ""
@@ -1605,7 +1605,7 @@
         ]
     },
     {
-        "name": "Antvr_Mix",
+        "name": "ANTVR Mix",
         "object_recognition": [
             0,
             ""
@@ -1712,7 +1712,7 @@
         ]
     },
     {
-        "name": "Shadow_Creator_Action_One",
+        "name": "Shadow Creator Action One",
         "object_recognition": [
             0,
             ""
@@ -1819,7 +1819,7 @@
         ]
     },
     {
-        "name": "Google_Glass_Enterprise_Edition_2",
+        "name": "Google Glass Enterprise Edition 2",
         "object_recognition": [
             1,
             "support for computer vision and advanced machine learning capabilities so developer might be able to develop this capabilities. for more details please contact Google"
@@ -1926,7 +1926,7 @@
         ]
     },
     {
-        "name": "Everysight_Raptor",
+        "name": "Everysight Raptor",
         "object_recognition": [
             0,
             ""
@@ -2033,7 +2033,7 @@
         ]
     },
     {
-        "name": "Toshiba_DynaEdge_AR100",
+        "name": "Toshiba DynaEdge AR100",
         "object_recognition": [
             0,
             ""
@@ -2140,7 +2140,7 @@
         ]
     },
     {
-        "name": "Varjo_XR1",
+        "name": "Varjo XR1",
         "object_recognition": [
             0,
             ""
@@ -2354,7 +2354,7 @@
         ]
     },
     {
-        "name": "Bose_Frames_Alto_Rondo",
+        "name": "Bose Frames Alto Rondo",
         "object_recognition": [
             0,
             ""
@@ -2461,7 +2461,7 @@
         ]
     },
     {
-        "name": "Zungle_Viper",
+        "name": "Zungle Viper",
         "object_recognition": [
             0,
             ""
@@ -2568,7 +2568,7 @@
         ]
     },
     {
-        "name": "Vue_Glasses",
+        "name": "Vue Glasses",
         "object_recognition": [
             0,
             ""
@@ -2675,7 +2675,7 @@
         ]
     },
     {
-        "name": "Echo_Frames",
+        "name": "Echo Frames",
         "object_recognition": [
             0,
             ""
@@ -2889,7 +2889,7 @@
         ]
     },
     {
-        "name": "Vest_Pro_Strap",
+        "name": "Vest Pro Strap",
         "object_recognition": [
             0,
             ""

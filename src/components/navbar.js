@@ -48,7 +48,7 @@ const NavBar = () => {
                         AR CAPABILITIES
                     </Button>
                     <Button color="inherit" component={Link} to="/interactive">
-                        [Interactive Thing]
+                        Tools Suggestion
                     </Button>
                 </Toolbar>
             </Container>
