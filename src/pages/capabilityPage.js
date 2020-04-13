@@ -31,8 +31,9 @@ const useStyles = makeStyles({
         height: 300,
     },
     content: {
-        fontSize: 14,
+        fontSize: 16,
         padding: "1em 0",
+        lineHeight: "1.25",
     },
 });
 

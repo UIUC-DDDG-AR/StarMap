@@ -17,7 +17,7 @@ const useStyles = makeStyles({
         paddingTop: "3em",
         background: "#011140",
         color: "white",
-        backgroundImage: `url("/images/Stars.png")`,
+        backgroundImage: `url("/images/stars.svg")`,
     },
     title: {
         fontSize: "4em",
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     subHeader: {
         maxWidth: "600px",
         padding: "4em 0",
-        backgroundImage: `url("/images/NavStar.png")`,
+        backgroundImage: `url("/images/nav-stars.svg")`,
     },
     star: {
         opacity: 0.8,
@@ -42,8 +42,9 @@ const useStyles = makeStyles({
         flexFlow: "row nowrap",
         justifyContent: "center",
         alignItems: "center",
-        fontSize: 14,
+        fontSize: "1em",
         padding: "1em 0",
+        lineHeight: "1.25",
     },
     media: {
         flex: 1,
