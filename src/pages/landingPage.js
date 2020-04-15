@@ -38,7 +38,7 @@ const useStyles = makeStyles({
         boxShadow: "none",
         textAlign: "right",
         marginRight: 122,
-        marginTop:30,
+        marginTop: 30,
 
 
     },
@@ -60,12 +60,12 @@ const useStyles = makeStyles({
         width: "20vw",
         objectFit: "cover",
         marginLeft: -160,
-        marginTop:-70,
-        marginRight:25,
+        marginTop: -70,
+        marginRight: 25,
     },
     text: {
-        marginTop:-15,
-        flex: 1, 
+        marginTop: -15,
+        flex: 1,
         fontSize: 18,
     },
     button1: {
@@ -122,18 +122,20 @@ const LandingPage = () => {
                     <div className={classes.content}>
                         <CardMedia className={classes.media} image={Logo} />
                         <CardContent className={classes.text}>
-                        Augmented Reality is a rapidly evolving technology. STARMAP (Suggestion Tool for Augmented
-Reality Makers and Programmers) helps developers navigate the variety of hardware and software used to create Augmented Reality (AR) experiences.  Whether you are an experienced AR developer or are embarking on your first AR project, STARMAP can guide you through the development process. Use STARMAP to learn about your options for AR Tools and supported features.
-
+                            Augmented Reality is a rapidly evolving technology. STARMAP (Suggestion Tool for Augmented
+                            Reality Makers and Programmers) helps developers navigate the variety of hardware and software 
+                            used to create Augmented Reality (AR) experiences. Whether you are an experienced AR developer 
+                            or are embarking on your first AR project, STARMAP can guide you through the development process.
+                            Use STARMAP to learn about your options for AR Tools and supported features.
                         </CardContent>
                     </div>
                 </Card>
                 <Card className={classes.card}>
 
                     <div className={classes.content}>
-                    
+
                         <CardContent className={classes.text}>
-                         
+
                         </CardContent>
                     </div>
                 </Card>
