@@ -120,7 +120,7 @@ const InteractivePage = () => {
         <React.Fragment>
             <div className={classes.header}>
                 <Container className={classes.container}>
-                    <h1>Interactive Thing</h1>
+                    <h1>Augmented Reality Tools Suggestion</h1>
                 </Container>
             </div>
 
