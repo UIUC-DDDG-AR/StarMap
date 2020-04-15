@@ -42,8 +42,9 @@ const useStyles = makeStyles({
         objectFit: "contain",
     },
     content: {
-        fontSize: 14,
+        fontSize: 16,
         padding: "1em",
+        lineHeight: "1.25",
     },
     button: {
         fontWeight: 700,

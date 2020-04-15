@@ -17,7 +17,7 @@ const useStyles = makeStyles({
         paddingTop: "3em",
         background: "#011140",
         color: "white",
-        backgroundImage: `url("/images/Stars.png")`,
+        backgroundImage: `url("/images/stars.svg")`,
     },
     title: {
         fontSize: "4em",
@@ -26,7 +26,7 @@ const useStyles = makeStyles({
     subHeader: {
         maxWidth: "600px",
         padding: "4em 0",
-        backgroundImage: `url("/images/NavStar.png")`,
+        backgroundImage: `url("/images/nav-stars.svg")`,
     },
     star: {
         opacity: 0.8,
@@ -47,26 +47,19 @@ const useStyles = makeStyles({
         flexFlow: "row nowrap",
         justifyContent: "center",
         alignItems: "center",
-        fontSize: 14,
-        padding: ".25em 0",
-        marginLeft: 175,
-        marginRight: -10,
-        textAlign: "left",
-
+        padding: "0.25em 0",
     },
     media: {
         flex: 1,
         height: "20vh",
         width: "20vw",
         objectFit: "cover",
-        marginLeft: -160,
-        marginTop: -70,
-        marginRight: 25,
     },
     text: {
-        marginTop: -15,
         flex: 1,
-        fontSize: 18,
+        fontSize: "1em",
+        lineHeight: "1.25",
+        textAlign: "left",
     },
     button1: {
         display: "inline-block",
