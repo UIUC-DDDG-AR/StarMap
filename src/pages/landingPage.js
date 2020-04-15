@@ -7,7 +7,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 
-import Logo from "../logo.png";
+import Logo from "../starmaplogoblue.png";
 
 const useStyles = makeStyles({
     container: {
@@ -36,24 +36,30 @@ const useStyles = makeStyles({
         display: "flex",
         flexDirection: "column",
         boxShadow: "none",
+        textAlign: "right",
+        marginRight: 122,
+        marginTop: 30,
+
+
     },
     content: {
         display: "flex",
         flexFlow: "row nowrap",
         justifyContent: "center",
         alignItems: "center",
-        fontSize: "1em",
-        padding: "1em 0",
-        lineHeight: "1.25",
+        padding: "0.25em 0",
     },
     media: {
         flex: 1,
-        height: "30vh",
-        width: "30vw",
+        height: "20vh",
+        width: "20vw",
         objectFit: "cover",
     },
     text: {
         flex: 1,
+        fontSize: "1em",
+        lineHeight: "1.25",
+        textAlign: "left",
     },
     button1: {
         display: "inline-block",
@@ -104,34 +110,25 @@ const LandingPage = () => {
             </div>
             <Container className={classes.container}>
                 <Card className={classes.card}>
-                    <h2>What is StarMap?</h2>
+                    <h2>What is STARMAP and how can it help you?</h2>
 
                     <div className={classes.content}>
                         <CardMedia className={classes.media} image={Logo} />
                         <CardContent className={classes.text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Sagittis orci a scelerisque purus semper.
-                            Aliquet sagittis id consectetur purus ut faucibus
-                            pulvinar elementum. Eu tincidunt tortor aliquam nulla.
-                            Pharetra magna ac placerat vestibulum lectus. Sagittis
-                            aliquam malesuada bibendum arcu.
+                            Augmented Reality is a rapidly evolving technology. STARMAP (Suggestion Tool for Augmented
+                            Reality Makers and Programmers) helps developers navigate the variety of hardware and software 
+                            used to create Augmented Reality (AR) experiences. Whether you are an experienced AR developer 
+                            or are embarking on your first AR project, STARMAP can guide you through the development process.
+                            Use STARMAP to learn about your options for AR Tools and supported features.
                         </CardContent>
                     </div>
                 </Card>
                 <Card className={classes.card}>
-                    <h2 >How can StarMap help you?</h2>
 
                     <div className={classes.content}>
-                        <CardMedia className={classes.media} image={Logo} />
+
                         <CardContent className={classes.text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Sagittis orci a scelerisque purus semper.
-                            Aliquet sagittis id consectetur purus ut faucibus
-                            pulvinar elementum. Eu tincidunt tortor aliquam nulla.
-                            Pharetra magna ac placerat vestibulum lectus. Sagittis
-                            aliquam malesuada bibendum arcu.
+
                         </CardContent>
                     </div>
                 </Card>
