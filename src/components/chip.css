@@ -6,26 +6,30 @@
     box-sizing: border-box;
     border: 1px solid black;
     border-radius: 24px;
-    padding: 8px 22px 8px 24px;
+    padding: 8px 24px 8px 24px;
     margin: 8px 8px;
     width: fit-content;
 }
 
 .orange-chip.active {
-    border-color: white;
+    border: 0px;
     background: orange;
 }
 
 .orange-chip.active:hover {
-    border-color: orange;
+    opacity: 85%;
 }
 
 .orange-chip.inactive:hover {
-    background: lightgray;
-    color: #2C7BBF;
-    border-color: #2C7BBF;
+    border-color:orange;
+    background-color: orange;
+    opacity: 85%;
 }
 
 .orange-chip-svg:hover {
     fill: gray;
+}
+
+.icon-padding-left {
+    padding-left: 8px;
 }
