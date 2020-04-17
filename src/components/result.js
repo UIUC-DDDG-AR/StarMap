@@ -112,7 +112,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
             <Container className={classes.container}>
                 <Grid container spacing={3}>
                     {getTools().map((tool) => (
-                        <Grid item xs={6}>
+                        <Grid item md={6}>
                             <Card className={classes.card} variant="outlined">
                                 <h3 className={classes.title}>{tool.name}</h3>
 

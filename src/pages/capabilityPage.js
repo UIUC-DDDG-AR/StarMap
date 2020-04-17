@@ -32,8 +32,8 @@ const CapabilityPageHeader = () => {
     )
 }
 
-const CapabilityPageContent = (props) => {
-    const { categories } = props
+const CapabilityPageContent = () => {
+    const categories = new Set(capability_information.map((capability) => capability.category));
     const classes = makeStyles({
         root: {
             paddingTop: "1em",
@@ -53,7 +53,6 @@ const CapabilityPageContent = (props) => {
             lineHeight: "1.25",
         },
     })()
-
     return (
         <Container className={classes.root} maxWidth="xl">
             {[...categories].map((category) => (
@@ -87,12 +86,11 @@ const CapabilityPageContent = (props) => {
 }
 
 const CapabilityPage = () => {
-    const categories = new Set(capability_information.map((capability) => capability.category));
 
     return (
         <React.Fragment>
             <CapabilityPageHeader />
-            <CapabilityPageContent categories={categories} />
+            <CapabilityPageContent />
         </React.Fragment>
     );
 };

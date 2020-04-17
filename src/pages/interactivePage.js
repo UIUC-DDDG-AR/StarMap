@@ -11,6 +11,7 @@ import MuiExpansionPanel from "@material-ui/core/ExpansionPanel";
 import MuiExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
 import MuiExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import Typography from "@material-ui/core/Typography"
 
 import Result from "../components/result";
 import Chip from "../components/chip";
@@ -22,18 +23,10 @@ import software_documentation from "../data/software_documentation"
 import hardware_documentation from "../data/hardware_documentation"
 
 const useStyles = makeStyles({
-    header: {
-        paddingTop: "4em",
-        background: "#011140",
-        color: "white",
-    },
-    container: {
-        padding: "1em 5vw",
-    },
     tab: {
         color: "black",
         fontWeight: 900,
-        fontSize: 24,
+        fontSize: "24px",
         textTransform: "capitalize",
     },
     resultsHeader: {
@@ -68,6 +61,28 @@ const ExpansionPanelDetails = withStyles((theme) => ({
         flexDirection: "column",
     },
 }))(MuiExpansionPanelDetails);
+
+const InteractivePageHeader = () => {
+    const classes = makeStyles({
+        root: {
+            background: "#011140",
+            color: "white",
+        },
+        container: {
+            display: "flex",
+            alignItems: "flex-end",
+            height: 170,
+            paddingBottom: 30,
+        },
+    })()
+    return (
+        <div className={classes.root}>
+            <Container maxWidth="xl" className={classes.container}>
+                <Typography variant="h4">Augmented Reality Tools Suggestion</Typography>
+            </Container>
+        </div>
+    )
+}
 
 const InteractivePage = () => {
     const classes = useStyles();
@@ -118,13 +133,9 @@ const InteractivePage = () => {
 
     return (
         <React.Fragment>
-            <div className={classes.header}>
-                <Container className={classes.container}>
-                    <h1>Augmented Reality Tools Suggestion</h1>
-                </Container>
-            </div>
+            <InteractivePageHeader />
 
-            <Container className={classes.container}>
+            <Container maxWidth="xl">
                 <Tabs
                     value={tab}
                     indicatorColor="primary"
@@ -136,7 +147,7 @@ const InteractivePage = () => {
                 </Tabs>
             </Container>
 
-            <Container className={classes.container}>
+            <Container maxWidth="xl">
                 <Grid container spacing={2}>
                     <Grid item xs={3}>
                         {[...capabilityCategoryLabels].map((label) => (
@@ -154,11 +165,11 @@ const InteractivePage = () => {
                                         .map((info) =>
                                             <FormControlLabel
                                                 control={
-                                                    <Checkbox 
-                                                    name={info.id} 
-                                                    checked={checkbox.includes(info.id)}
-                                                    onChange={handleCheckbox} 
-                                                    color="default" />}
+                                                    <Checkbox
+                                                        name={info.id}
+                                                        checked={checkbox.includes(info.id)}
+                                                        onChange={handleCheckbox}
+                                                        color="default" />}
                                                 label={info.name}
                                             />)}
                                 </ExpansionPanelDetails>
