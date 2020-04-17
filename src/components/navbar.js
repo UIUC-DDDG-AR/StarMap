@@ -10,9 +10,6 @@ import Button from "@material-ui/core/Button";
 import Logo from "../starmaplogo.png";
 
 const useStyles = makeStyles((theme) => ({
-    container: {
-        padding: "0 5vw",
-    },
     nav: {
         flexGrow: 1,
         background: "#011140",
@@ -37,7 +34,7 @@ const NavBar = () => {
     const classes = useStyles();
     return (
         <AppBar className={classes.nav} position="fixed">
-            <Container className={classes.container}>
+            <Container maxWidth="xl">
                 <Toolbar>
                     <Button color="inherit" component={Link} to="/">
                         <img className={classes.icon} src={Logo} alt="Logo" />

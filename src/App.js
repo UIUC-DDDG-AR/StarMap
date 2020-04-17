@@ -1,5 +1,8 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 import { HashRouter, Switch, Route } from "react-router-dom";
+
+import { ThemeProvider } from '@material-ui/core/styles';
+import theme from './theme';
 
 import NavBar from "./components/navbar";
 
@@ -7,12 +10,10 @@ import LandingPage from "./pages/landingPage";
 import CapabilityPage from "./pages/capabilityPage";
 import InteractivePage from "./pages/interactivePage";
 
-import "./App.css";
-
 class App extends Component {
     render() {
         return (
-            <Fragment>
+            <ThemeProvider theme={theme}>
                 <HashRouter>
                     <NavBar />
                     <Switch>
@@ -27,7 +28,7 @@ class App extends Component {
                         </Route>
                     </Switch>
                 </HashRouter>
-            </Fragment>
+            </ThemeProvider>
         );
     }
 }
