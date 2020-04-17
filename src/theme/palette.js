@@ -4,5 +4,8 @@ export default {
     },
     secondary: {
         main: "#FFB84E"
+    },
+    text: {
+        primary: "#011140"
     }
 };

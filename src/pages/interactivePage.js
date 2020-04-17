@@ -23,10 +23,7 @@ import software_documentation from "../data/software_documentation"
 import hardware_documentation from "../data/hardware_documentation"
 
 const useStyles = makeStyles({
-    tab: {
-        color: "black",
-        fontWeight: 900,
-        fontSize: "24px",
+    capitalize: {
         textTransform: "capitalize",
     },
     resultsHeader: {
@@ -142,8 +139,8 @@ const InteractivePage = () => {
                     textColor="primary"
                     onChange={handleTab}
                 >
-                    <Tab className={classes.tab} label={<Typography variant="h5">Hardware Tools</Typography>} />
-                    <Tab className={classes.tab} label={<Typography variant="h5">Software Tools</Typography>} />
+                    <Tab label={<Typography className={classes.capitalize} variant="h5">Hardware Tools</Typography>} />
+                    <Tab label={<Typography className={classes.capitalize} variant="h5">Software Tools</Typography>} />
                 </Tabs>
             </Container>
 
