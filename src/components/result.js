@@ -26,7 +26,7 @@ const useStyles = makeStyles({
         color: "white",
     },
     container: {
-        padding: "1em",
+        padding: "1em 0",
     },
     grid: {
         flexGrow: 1,
@@ -55,7 +55,7 @@ const useStyles = makeStyles({
     },
 });
 
-const MAX_DESC_LEN = 160
+const MAX_DESC_LEN = 100
 
 const ToolsPage = ({ tab, chips, checkbox }) => {
     const classes = useStyles();
@@ -110,9 +110,9 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
             </Dialog>
 
             <Container className={classes.container}>
-                <Grid container spacing={3}>
+                <Grid container spacing={2}>
                     {getTools().map((tool) => (
-                        <Grid item xs={6}>
+                        <Grid item md={6}>
                             <Card className={classes.card} variant="outlined">
                                 <h3 className={classes.title}>{tool.name}</h3>
 
