@@ -20,12 +20,11 @@ const LandingPageHeader = () => {
         container: {
             display: "flex",
             alignItems: "center",
-            maxWidth: "700px",
             backgroundImage: `url("/images/nav-stars.svg")`,
         },
         content: {
+            maxWidth: "700px",
             textAlign: "left",
-            width: "100vw",
         },
         star: {
             opacity: 0.8,
@@ -79,7 +78,7 @@ const LandingPageHeader = () => {
 const LandingPageContent = () => {
     const classes = makeStyles({
         root: {
-            margin: "4em 0"
+            margin: "4em 0",
         },
         media: {
             objectFit: "contain",
@@ -89,7 +88,7 @@ const LandingPageContent = () => {
     })()
     return (
         <Container maxWidth="xl">
-            <Grid className={classes.root} container spacing={3} >
+            <Grid className={classes.root} container spacing={2} >
                 <Grid item sm={6}>
                     <img className={classes.media} src={Logo} alt="Startmap Logo" />
                 </Grid>

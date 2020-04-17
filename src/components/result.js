@@ -55,7 +55,7 @@ const useStyles = makeStyles({
     },
 });
 
-const MAX_DESC_LEN = 160
+const MAX_DESC_LEN = 100
 
 const ToolsPage = ({ tab, chips, checkbox }) => {
     const classes = useStyles();
@@ -110,7 +110,7 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
             </Dialog>
 
             <Container className={classes.container}>
-                <Grid container spacing={3}>
+                <Grid container spacing={2}>
                     {getTools().map((tool) => (
                         <Grid item md={6}>
                             <Card className={classes.card} variant="outlined">

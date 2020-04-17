@@ -59,7 +59,7 @@ const CapabilityPageContent = () => {
                 <React.Fragment>
                     <Typography variant="h5" gutterBottom>{category}</Typography>
 
-                    <Grid container spacing={3}>
+                    <Grid container spacing={2}>
                         {capability_information
                             .filter((capability) => capability.category === category)
                             .map((capability) => (
@@ -86,7 +86,6 @@ const CapabilityPageContent = () => {
 }
 
 const CapabilityPage = () => {
-
     return (
         <React.Fragment>
             <CapabilityPageHeader />
