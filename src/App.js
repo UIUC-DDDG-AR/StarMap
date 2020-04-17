@@ -5,7 +5,6 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './theme';
 
 import NavBar from "./components/navbar";
-
 import LandingPage from "./pages/landingPage";
 import CapabilityPage from "./pages/capabilityPage";
 import InteractivePage from "./pages/interactivePage";
@@ -32,5 +31,4 @@ class App extends Component {
         );
     }
 }
-
 export default App;

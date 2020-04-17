@@ -11,15 +11,21 @@ import Logo from "../starmaplogoblue.png";
 const LandingPageHeader = () => {
     const classes = makeStyles({
         root: {
-            paddingTop: "3em",
+            display: "flex",
             background: "#011140",
             color: "white",
+            height: "70vh",
             backgroundImage: `url("/images/stars.svg")`,
         },
         container: {
-            maxWidth: "600px",
-            padding: "4em 0",
+            display: "flex",
+            alignItems: "center",
+            maxWidth: "700px",
             backgroundImage: `url("/images/nav-stars.svg")`,
+        },
+        content: {
+            textAlign: "left",
+            width: "100vw",
         },
         star: {
             opacity: 0.8,
@@ -59,8 +65,8 @@ const LandingPageHeader = () => {
 
     return (
         <div className={classes.root}>
-            <Container maxWidth="xl">
-                <div className={classes.container}>
+            <Container maxWidth="xl" className={classes.container}>
+                <div className={classes.content}>
                     <Typography variant="h1" gutterBottom>Find the right tools for your augmented reality project.</Typography>
                     <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
                     <Link className={classes.button2} to="capability">Explore AR Capabilities</Link>
@@ -83,7 +89,7 @@ const LandingPageContent = () => {
     })()
     return (
         <Container maxWidth="xl">
-            <Grid className={classes.root} container spacing="2" >
+            <Grid className={classes.root} container spacing={3} >
                 <Grid item sm={6}>
                     <img className={classes.media} src={Logo} alt="Startmap Logo" />
                 </Grid>
