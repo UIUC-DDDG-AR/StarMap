@@ -138,18 +138,18 @@ const InteractivePage = () => {
             <Container maxWidth="xl">
                 <Tabs
                     value={tab}
-                    indicatorColor="primary"
+                    indicatorColor="secondary"
                     textColor="primary"
                     onChange={handleTab}
                 >
-                    <Tab className={classes.tab} label="Hardware Tools" />
-                    <Tab className={classes.tab} label="Software Tools" />
+                    <Tab className={classes.tab} label={<Typography variant="h5">Hardware Tools</Typography>} />
+                    <Tab className={classes.tab} label={<Typography variant="h5">Software Tools</Typography>} />
                 </Tabs>
             </Container>
 
             <Container maxWidth="xl">
-                <Grid container spacing={2}>
-                    <Grid item xs={3}>
+                <Grid container justify="center" spacing={2}>
+                    <Grid item xs={12} sm={3}>
                         {[...capabilityCategoryLabels].map((label) => (
                             <ExpansionPanel defaultExpanded square>
                                 <ExpansionPanelSummary
@@ -177,24 +177,22 @@ const InteractivePage = () => {
                         ))}
                     </Grid>
 
-                    <Grid item xs={9}>
-                        <Container>
-                            <div className={classes.resultsHeader}>
-                                <span>Results</span>
-                            </div>
+                    <Grid item xs={12} sm={9}>
+                        <div className={classes.resultsHeader}>
+                            <span>Results</span>
+                        </div>
 
-                            {[...chipLabels].map((label) => {
-                                return (
-                                    <Chip
-                                        state={chips.includes(label) ? "active" : "inactive"}
-                                        onClick={handleChip.bind(this, label)}
-                                        onDelete={handleUnchip.bind(this, label)}
-                                    >
-                                        {label}
-                                    </Chip>
-                                );
-                            })}
-                        </Container>
+                        {[...chipLabels].map((label) => {
+                            return (
+                                <Chip
+                                    state={chips.includes(label) ? "active" : "inactive"}
+                                    onClick={handleChip.bind(this, label)}
+                                    onDelete={handleUnchip.bind(this, label)}
+                                >
+                                    {label}
+                                </Chip>
+                            );
+                        })}
 
                         <Result tab={tab} chips={chips} checkbox={checkbox} />
                     </Grid>

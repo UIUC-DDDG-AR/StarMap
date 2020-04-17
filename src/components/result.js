@@ -26,7 +26,7 @@ const useStyles = makeStyles({
         color: "white",
     },
     container: {
-        padding: "1em",
+        padding: "1em 0",
     },
     grid: {
         flexGrow: 1,
