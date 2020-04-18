@@ -45,7 +45,7 @@ const NavBar = () => {
 
                     <span className={classes.space}></span>
                     <Button color="inherit" component={Link} to="/capability">
-                        AR CAPABILITIES
+                        AR Capabilities
                     </Button>
                     <Button color="inherit" component={Link} to="/interactive">
                         Tools Suggestion
