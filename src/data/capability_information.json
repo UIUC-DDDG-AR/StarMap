@@ -1,174 +1,174 @@
 [
     {
-        "key": "object_recognition",
+        "id": "object_recognition",
         "name": "Object Recognition",
         "category": "Tracking and Recognition",
         "description": "The capability to identify the form and shape of an object and their position in space using a camera and computer vision technique. Object Recognition is able to tell what the object is based on deep learning and machine learning algorithms.\nMore specifically, Object Recognition can be broken down to three levels: Object detection, recognition and tracking."
     },
     {
-        "key": "room_scene_tracking",
+        "id": "room_scene_tracking",
         "name": "Room/Scene Recognition",
         "category": "Tracking and Recognition",
         "description": "The capability to understand the world around you so that AR experiences are more immersive by adding augmented objects to the world in accurate positions. This capability combines recognition of notable scene features with motion sensing data to recognize larger structures than table-size objects, rooms, faces of buildings, courtyards and etc. It works best with predictable lighting conditions."
     },
     {
-        "key": "hand_tracking",
+        "id": "hand_tracking",
         "name": "Hand Tracking",
         "category": "Augmentation and Interaction",
         "description": "The capability to recognize hands\u2019 movements and/or gestures. Hands can be used to interact with menus, models, and the environment. For example, it can be used to practice hands-on activities for education and training, such as surgeons and mechanics. (Current hand tracking is accurate but not from all angles/all situations)"
     },
     {
-        "key": "eye_tracking",
+        "id": "eye_tracking",
         "name": "Eye Tracking",
         "category": "Augmentation and Interaction",
         "description": "The capability to track where a person\u2019s gaze is directed by using human-facing sensors. Applications include: detecting a person\u2019s presence, attention, and focus, eye-controlled UI, and rendering optimization. Note: many AR hardwares do not have eye-tracking on but one can use add-ons, such as Pupil Core Binocular."
     },
     {
-        "key": "extended_tracking",
+        "id": "extended_tracking",
         "name": "Extended Tracking",
         "category": "Tracking and Recognition",
         "description": "The capability to keep digital augmentations that are attached to a targeted object, scene, or image to stay in the FOV even when the initial target is no longer in the field of view or cannot be directly tracked for other reasons. Therefore, AR experiences feel more fluid and immersive."
     },
     {
-        "key": "dof_6",
+        "id": "dof_6",
         "name": "6DoF",
         "category": "Tracking and Recognition",
         "description": "6DoF (6 Degrees of Freedom of movement in 3D space) refers to both translation and rotation about x,y and z axes (yaw, pitch, roll). In addition to the accelerometer and gyroscope, 6DoF requires camera(s) or external sensors in order for it to work accurately. "
     },
     {
-        "key": "dof_3",
+        "id": "dof_3",
         "name": "3DoF",
         "category": "Tracking and Recognition",
         "description": "3DoF (3 Degrees of Freedom of movement in 3D space) refers to rotation(yaw, pitch,roll) about x,y and z axes. It  lacks the other three movements of  translation. However, there are hardware add-ons to enable a 3DoF equipment to do 6DoF."
     },
     {
-        "key": "image_tracking",
+        "id": "image_tracking",
         "name": "Image-based Tracking",
         "category": "Tracking and Recognition",
         "description": "The capability to recognize and track specific images through cameras and superimpose virtual content onto them. These images sometimes are referred to fiducial markers (AR markers). Using computer vision techniques of contour detection, feature extraction and pose estimation, the AR hardware processes the data of image position, size and orientation from the markers for building virtual content."
     },
     {
-        "key": "plane_detection",
+        "id": "plane_detection",
         "name": "Plane Detection",
         "category": "Tracking and Recognition",
         "description": "Plane Tracking, or marker-less tracking, uses objects in the image frame instead of an AR marker in addition to the standard computer vision techniques. For example, AKAZE or ORB from OpenCV is used to compare local features and to find matches between video frames. Compared to marker tracking, Plane Tracking requires good lighting, not as robust, and has higher computation cost."
     },
     {
-        "key": "facial_recognition",
+        "id": "facial_recognition",
         "name": "Facial Recognition",
         "category": "Tracking and Recognition",
         "description": "Facial Recognition identifies or verifies a person, which generally works by creating a template of the target\u2019s facial image and comparing the template to preexisted photos of faces. The template is created by use of measurements, distance between eye, width of nose, length of jaw line. Moreover, it can work by extracting landmarks such as a nose or eyes. In general, there are two approaches, geometric (shapes) or photometric (pixels). 3D facial recognition is not affected by lighting. Common applications include photo tagging, security, social media filters, and etc. One note is that for biometrics, it is less accurate than iris or fingerprint recognition."
     },
     {
-        "key": "location_tracking",
+        "id": "location_tracking",
         "name": "Location-based Tracking",
         "category": "Tracking and Recognition",
         "description": "For software, location-based tracking means being able to anchor a virtual object onto the real world by longitude and latitude data. Global Positioning System (GPS) is a satellite-based radionavigation system and  provides geolocation and time information anywhere on or near the Earth where there is an unobstructed line of sight to four or more gps satellites (31 in orbit). The accuracy depends on weather, line of sight to satellites, number of channels on receiver."
     },
     {
-        "key": "depth_sensing",
+        "id": "depth_sensing",
         "name": "Depth Sensing",
         "category": "Tracking and Recognition",
         "description": "The capability to  understand which objects are closer than others. Two common approaches. Method 1: Depth sensor uses an infrared projector that measures the time it takes for the infrared light to reflect off objects. Method 2: two camera lenses to compare two images to capture the depth of objects in stereo, like how human eyes do."
     },
     {
-        "key": "picture_taking",
+        "id": "picture_taking",
         "name": "Picture Taking",
         "category": "Display of Information",
         "description": "The capability to take a screenshot of what the user is seeing.\nSome devices are able to capture the virtual image along the real for combined AR results.\n"
     },
     {
-        "key": "video_recording",
+        "id": "video_recording",
         "name": "Video Recording",
         "category": "Display of Information",
         "description": "The capability to record a video and audio of what the user is seeing. Some devices are able to capture the virtual content superimposed on the real world."
     },
     {
-        "key": "video_streaming",
+        "id": "video_streaming",
         "name": "Video Streaming",
         "category": "Display of Information",
         "description": "The capability to stream what the user is seeing or the camera is pointed to so that multiple users can operate on the shared data in real time."
     },
     {
-        "key": "audio_calling",
+        "id": "audio_calling",
         "name": "Audio Calling",
         "category": "Display of Information",
         "description": "The capability to call or communicate to another user through audio."
     },
     {
-        "key": "telepresence",
+        "id": "telepresence",
         "name": "Telepresence",
         "category": "Display of Information",
         "description": "Telepresence refers to a set of technologies which allow a person to feel as if they were present, to give the appearance of being present, or to have an effect. One approach is to capture a person\u2019s appearance and body movements and present a hologram of them to the other connected device in real time, as if the person is present in another user\u2019s context."
     },
     {
-        "key": "light_estimation",
+        "id": "light_estimation",
         "name": "Light Estimation",
         "category": "Tracking and Recognition",
         "description": "The capability to detect the lighting data of the user\u2019s environment. Some AR features need lighting data for better performance and/or user-experiences. For example, it can be used to adjust intensity and colors of the virtual content to be more visible."
     },
     {
-        "key": "cross_platform",
+        "id": "cross_platform",
         "name": "Cross-platform Capability",
         "category": "Display of Information",
         "description": "Non-native means the AR content can be running on several platforms like mobile phones, computers, and laptops by sharing via a URL web link. Users do not have to download any native apps to their devices."
     },
     {
-        "key": "light_projection",
+        "id": "light_projection",
         "name": "Light Projection",
         "category": "Tracking and Recognition",
         "description": "Project-based AR directly overlays digital projection onto the physical world, which can create an immersive and shared AR experience. It typically works on projectors with depth cameras. For some, users are able to touch and interact with virtual content."
     },
     {
-        "key": "voice_recognition",
+        "id": "voice_recognition",
         "name": "Voice Recognition",
         "category": "Tracking and Recognition",
-        "description": "The capability to recognize humans\u2019 speeches. Voice recognition is commonly used to perform commands on a device or multiple connected devices so that users don\u2019t have to use a mouse, keyboarch or press any buttons. Use cases include voice dialing, domotic appliance control in smart homes, and etc."
+        "description": "The capability to recognize humans\u2019 speeches. Voice recognition is commonly used to perform commands on a device or multiple connected devices so that users don\u2019t have to use a mouse, idboarch or press any buttons. Use cases include voice dialing, domotic appliance control in smart homes, and etc."
     },
     {
-        "key": "hand_control",
+        "id": "hand_control",
         "name": "Hand Control",
         "category": "Augmentation and Interaction",
         "description": "A piece of hardware that users can interact with hands to operate a device. This includes touchpads, which support familiar swipes and tap gestures to operate a device. Some AR equipment are using phones as a controller while functioning as a computer unit to the equipment."
     },
     {
-        "key": "spatial_anchor",
+        "id": "spatial_anchor",
         "name": "Spatial Anchor",
         "category": "Display of Information",
         "description": "By sharing virtual content to the cloud and anchoring it to a shared physical space, multiple users can view and interact the virtual content from different positions simultaneously in real time."
     },
     {
-        "key": "show_2d_content",
+        "id": "show_2d_content",
         "name": "Show 2D Content",
         "category": "Display of Information",
         "description": "Able to visualize 2D contents such as texts, images, and/or videos"
     },
     {
-        "key": "show_3d_content",
+        "id": "show_3d_content",
         "name": "Show 3D Content",
         "category": "Display of Information",
         "description": "Able to visualize 3D contents such as 3D models and animations"
     },
     {
-        "key": "body_recognition",
+        "id": "body_recognition",
         "name": "Body Recognition",
         "category": "Tracking and Recognition",
         "description": "The capability to recognize whether there's a body in the scene/environment. Some are able to do body segmentation by narrowing down body parts to joints and connections. Potential applications include detecting human presence, body and movement tracking, and etc."
     },
     {
-        "key": "motion_tracking",
+        "id": "motion_tracking",
         "name": "Motion Tracking",
         "category": "Tracking and Recognition",
         "description": "The process or technique of recording patterns of movement digitally, especially the recording of an actor's movements for the purpose of animating a digital character in a movie or video game. (Definition from Oxford Dictionary)"
     },
     {
-        "key": "people_occlusion",
+        "id": "people_occlusion",
         "name": "People Occlusion",
         "category": "Tracking and Recognition",
         "description": "The capability to hide virtual objects behind people or show in front based on real world depth order, which makes AR experience more immersive. This requires the capability to understand the real world environments and objects so virtual objects can interact with people accurately."
     },
     {
-        "key": "multi_object_tracking",
+        "id": "multi_object_tracking",
         "name": "Multi-Object Tracking",
         "category": "Tracking and Recognition",
         "description": "Able to track multiple objects."
