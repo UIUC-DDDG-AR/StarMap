@@ -61,22 +61,22 @@ const useStyles = makeStyles({
         lineHeight: "1.25",
         textAlign: "left",
     },
-    button1: {
+    button2: {
         display: "inline-block",
         backgroundColor: "#2C7BBF",
-        borderWidth: "0px",
+        borderWidth: "1px solid #2C7BBF",
         borderRadius: "10vw",
         boxSizing: "border-box",
         color: "white",
         textDecoration: "none",
         padding: "16px",
-        margin: "0 0.5em",
+        margin: "0 0.1em",
         '&:hover': {
             backgroundColor: "#FFB84E",
             color: "black"
         }
     },
-    button2: {
+    button1: {
         display: "inline-block",
         backgroundColor: "transparent",
         border: "1px solid white",
@@ -85,10 +85,10 @@ const useStyles = makeStyles({
         color: "white",
         textDecoration: "none",
         padding: "16px",
-        margin: "0 0.5em",
+        margin: "0 1.25em",
         '&:hover': {
-            backgroundColor: "#FFB84E",
-            color: "black"
+            borderColor: "#FFB84E",
+            color: "#FFB84E"
         }
     }
 });
@@ -102,14 +102,16 @@ const LandingPage = () => {
                 <Container className={classes.container}>
                     <div className={classes.subHeader}>
                         <h1 className={classes.title}>Find the right tools for your augmented reality project.</h1>
+                        <Link className={classes.button2} to="capability">Explore Augmented Reality</Link>
                         <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
-                        <Link className={classes.button2} to="capability">Explore AR Capabilities</Link>
+                        
                     </div>
                 </Container>
 
             </div>
             <Container className={classes.container}>
                 <Card className={classes.card}>
+                    <h1>Welcome to STARMAP: an interactive documentation tool for Augmented Reality developers.</h1>
                     <h2>What is STARMAP and how can it help you?</h2>
 
                     <div className={classes.content}>

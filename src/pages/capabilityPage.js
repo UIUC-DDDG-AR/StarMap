@@ -29,11 +29,14 @@ const useStyles = makeStyles({
     },
     media: {
         height: 300,
+        width: 500,
+
     },
     content: {
         fontSize: 16,
         padding: "1em 0",
         lineHeight: "1.25",
+        width: 500,
     },
 });
 
