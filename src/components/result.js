@@ -92,19 +92,22 @@ const ToolsPage = ({ tab, chips, checkbox }) => {
         }
     }
 
+    const hideFromDialog = ["id"]
     return (
         <React.Fragment>
             <Dialog open={dialog.open} onClose={handleClose} scroll="body">
                 <DialogTitle>{dialog.tool.name}</DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        {Object.entries(dialog.tool).map(([key, value]) => (
-                            <div>
-                                <span className={classes.dialogKey}>{key.replace(/_/g, " ")}</span>
-                                {": "}
-                                {Array.isArray(value) ? value.join(', ') : value}
-                            </div>
-                        ))}
+                        {Object.entries(dialog.tool)
+                            .filter(([key, value]) => !hideFromDialog.includes(key))
+                            .map(([key, value]) => (
+                                <div>
+                                    <span className={classes.dialogKey}>{key.replace(/_/g, " ")}</span>
+                                    {": "}
+                                    {Array.isArray(value) ? value.join(', ') : value}
+                                </div>
+                            ))}
                     </DialogContentText>
                 </DialogContent>
             </Dialog>

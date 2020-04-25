@@ -73,7 +73,7 @@ const CapabilityPageContent = () => {
                                             image={`/images/capability/${capability.id}.jpg`}
                                         />
                                         <CardContent className={classes.content}>
-                                            <Typography variant="p">{capability.descripton}</Typography>
+                                            <Typography variant="p">{capability.description}</Typography>
                                         </CardContent>
                                     </Card>
                                 </Grid>
