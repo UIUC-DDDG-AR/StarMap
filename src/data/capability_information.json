@@ -15,7 +15,7 @@
         "id": "hand_tracking",
         "name": "Hand Tracking",
         "category": "Augmentation and Interaction",
-        "descripton": "The capability to recognize hands\u2019 movements and/or gestures. Hands can be used to interact with menus, models, and the environment. For example, it can be used to practice hands-on activities for education and training, such as surgeons and mechanics. (Current hand tracking is accurate but not from all angles/all situations)"
+        "descripton": "The capability to recognize the movement of hand\u2019 and finger movements and/or gestures. Hands can be used to interact with menus, models, and the environment. For example, hand tracking is useful for education and training in AR, by helping users such as surgeons and mechanics practice hands-on activities. (Current hand tracking is accurate but not from all angles/all situations)"
     },
     {
         "id": "eye_tracking",

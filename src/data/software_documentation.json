@@ -27,7 +27,7 @@
         "release_date": "",
         "version": "",
         "company": "Unity Technologies, Qualcomm",
-        "limitations": "Vuforia is an old well-developed and great product. That supports the widest range of products.  There are no significant limitations of Vuforia when compare to ARCore and ARKitFor both apple and android. Costs money to publish application.\n",
+        "limitations": "Vuforia is an old well-developed product that supports the widest range of products.  There are no significant limitations of Vuforia when compared to ARCore and ARKit. There is a monetary cost to publish Vuforia applications.\n",
         "notes": ""
     },
     {
@@ -67,12 +67,12 @@
         "official_link": "https://unity.com/",
         "key_features": [
             "Great for cross platform development",
-            "language required: C# or JavaScript",
-            "one of the few great VR/AR real-time development tools",
-            "Asset store",
+            "Language required: C# or JavaScript",
+            "One of the few great VR/AR real-time development tools",
+            "Has a store for 3D assets",
             "Great documentation",
-            "Different rendering pipelines for different hardwares specs (HighDefinitionRenderingPipeline for AAA games and Universal Rendering Pipeline for mobile)",
-            "friendly with many great softwares related to 3D real time development"
+            "Different rendering pipelines for different hardware specificiations (High Definition Rendering Pipeline for AAA games and Universal Rendering Pipeline for mobile)",
+            "Friendly with many great softwares related to 3D real time development"
         ],
         "price": "Free for hobby development. \nPro License is $150 a month for professional development;\nIf one team grows and the game generates more revenue, Unity would charge more.",
         "open_source_link": "",
@@ -138,8 +138,8 @@
         "release_date": "Dec 1st, 2019",
         "version": "8.10.x",
         "company": "Wikitude",
-        "limitations": "Demo youtube video seems subpar.",
-        "notes": "Once developed web AR called \u201cAR Window\u201d in 2012.\nDidn\u2019t find anything about web AR development since then."
+        "limitations": "Video demonstration seems subpar.",
+        "notes": "Once developed web AR called \u201cAR Window\u201d in 2012."
     },
     {
         "id": "sparkar",
@@ -170,7 +170,7 @@
         "release_date": "2017",
         "version": "",
         "company": "Facebook",
-        "limitations": "Limited hand tracking, submission requires review process, only works on Facebook and Instagram apps.",
+        "limitations": "Limited hand tracking, submissions requires review process, only works on Facebook and Instagram apps.",
         "notes": ""
     },
     {
@@ -206,7 +206,7 @@
         "name": "Unreal Engine",
         "category": "Game Engines",
         "type": "Software",
-        "description": "Key features:Technical art pipeline, world building, animation, simulation, optimization\nOne of the few great VR/AR real-time development tools\nOffers one of the best graphics in real time development\nArtist friendly software (no coding required)\nLanguage supported: C++, Blueprints(visual programming)",
+        "description": "Key features: Technical art pipeline, world building, animation, simulation, optimization\nOne of the few great VR/AR real-time development tools\nOffers one of the best graphics in real time development\nArtist friendly software (no coding required)\nLanguage supported: C++, Blueprints(visual programming)",
         "official_link": "",
         "key_features": [
             "Technical art pipeline",
@@ -314,7 +314,7 @@
         "name": "AR.js",
         "category": "Web AR Frameworks",
         "type": "Software",
-        "description": "AR. js is a lightweight library for Augmented Reality on the Web, coming with features like Marker based and Location based AR.",
+        "description": "AR.js is a lightweight library for Augmented Reality on the Web, coming with features such as Marker based and Location based AR.",
         "official_link": "",
         "key_features": [
             ""

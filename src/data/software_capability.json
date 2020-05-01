@@ -3,7 +3,7 @@
         "name": "Vuforia",
         "object_recognition": [
             1,
-            "models targets + deep learning targets note:To recognize 3d objects: needs to be opaque, solid, few moving parts, high contrast coloring, convex, uniform shape. "
+            "models targets + deep learning targets note:To recognize 3d objects: It is recommended that objects are be opaque, solid, have few moving parts, have high contrast coloring, are convex, and have a uniform shape. "
         ],
         "dof_6": [
             1,
