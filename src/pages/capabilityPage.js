@@ -6,78 +6,92 @@ import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
+import Typography from "@material-ui/core/Typography"
 
 import capability_information from "../data/capability_information";
 
-const useStyles = makeStyles({
-    header: {
-        paddingTop: "4em",
-        background: "#011140",
-        color: "white",
-    },
-    container: {
-        padding: "1em 5vw",
-    },
-    grid: {
-        flexGrow: 1,
-    },
-    card: {
-        boxShadow: "none",
-    },
-    title: {
-        //padding: "1em",
-    },
-    media: {
-        height: 300,
-        width: 500,
+const CapabilityPageHeader = () => {
+    const classes = makeStyles({
+        root: {
+            background: "#011140",
+            color: "white",
+        },
+        container: {
+            display: "flex",
+            alignItems: "flex-end",
+            height: 170,
+            paddingBottom: 30,
+        },
+    })()
+    return (
+        <div className={classes.root}>
+            <Container maxWidth="xl" className={classes.container}>
+                <Typography variant="h4">Augmented Reality Capabilities</Typography>
+            </Container>
+        </div>
+    )
+}
 
-    },
-    content: {
-        fontSize: 16,
-        padding: "1em 0",
-        lineHeight: "1.25",
-        width: 500,
-    },
-});
+const CapabilityPageContent = () => {
+    const categories = new Set(capability_information.map((capability) => capability.category));
+    const classes = makeStyles({
+        root: {
+            paddingTop: "1em",
+        },
+        grid: {
+            flexGrow: 1,
+        },
+        card: {
+            boxShadow: "none",
+        },
+        media: {
+            height: 300,
+            width: 500,
+        },
+        content: {
+            fontSize: 16,
+            padding: "1em 0",
+            lineHeight: "1.25",
+            width: 500,
+        },
+    })()
+    return (
+        <Container className={classes.root} maxWidth="xl">
+            {[...categories].map((category) => (
+                <React.Fragment>
+                    <Typography variant="h5" gutterBottom>{category}</Typography>
+
+                    <Grid container spacing={2}>
+                        {capability_information
+                            .filter((capability) => capability.category === category)
+                            .map((capability) => (
+                                <Grid item md={6}>
+                                    <Card className={classes.card}>
+                                        <Typography variant="h6">{capability.name}</Typography>
+                                        <CardMedia 
+                                            className={classes.media} 
+                                            component="img" 
+                                            alt={capability.name}
+                                            image={`/images/capability/${capability.id}.jpg`}
+                                        />
+                                        <CardContent className={classes.content}>
+                                            <Typography variant="p">{capability.description}</Typography>
+                                        </CardContent>
+                                    </Card>
+                                </Grid>
+                            ))}
+                    </Grid>
+                </React.Fragment>
+            ))}
+        </Container>
+    )
+}
 
 const CapabilityPage = () => {
-    const classes = useStyles();
-    const categories = new Set(capability_information.map((capability) => capability.category));
-
     return (
         <React.Fragment>
-            <div className={classes.header}>
-                <Container className={classes.container}>
-                    <h1>Augmented Reality Capabilities</h1>
-                </Container>
-            </div>
-
-            <Container className={classes.container}>
-                {[...categories].map((category) => (
-                    <React.Fragment>
-                        <h2>{category}</h2>
-                        
-                        <Grid container spacing={3}>
-                            {capability_information
-                                .filter((capability) => capability.category === category)
-                                .map((capability) => (
-                                    <Grid item xs={6}>
-                                        <Card className={classes.card}>
-                                            <h3 className={classes.title}>{capability.name}</h3>
-
-                                            <CardMedia className={classes.media} component="img" alt={capability.name}
-                                                image={`/images/capability/${capability.id}.jpg`}
-                                            />
-                                            <CardContent className={classes.content}>
-                                                {capability.descripton}
-                                            </CardContent>
-                                        </Card>
-                                    </Grid>
-                                ))}
-                        </Grid>
-                    </React.Fragment>
-                ))}
-            </Container>
+            <CapabilityPageHeader />
+            <CapabilityPageContent />
         </React.Fragment>
     );
 };
