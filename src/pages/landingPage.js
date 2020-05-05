@@ -3,136 +3,115 @@ import { Link } from "react-router-dom";
 
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardMedia from "@material-ui/core/CardMedia";
+import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography"
 
 import Logo from "../starmaplogoblue.png";
 
-const useStyles = makeStyles({
-    container: {
-        padding: "1em 5vw",
-    },
-    header: {
-        paddingTop: "3em",
-        background: "#011140",
-        color: "white",
-        backgroundImage: `url("/images/stars.svg")`,
-    },
-    title: {
-        fontSize: "4em",
-        fontWeight: 400,
-    },
-    subHeader: {
-        maxWidth: "600px",
-        padding: "4em 0",
-        backgroundImage: `url("/images/nav-stars.svg")`,
-    },
-    star: {
-        opacity: 0.8,
-        objectFit: "contain"
-    },
-    card: {
-        display: "flex",
-        flexDirection: "column",
-        boxShadow: "none",
-        textAlign: "right",
-        marginRight: 122,
-        marginTop: 30,
-
-
-    },
-    content: {
-        display: "flex",
-        flexFlow: "row nowrap",
-        justifyContent: "center",
-        alignItems: "center",
-        padding: "0.25em 0",
-    },
-    media: {
-        flex: 1,
-        height: "20vh",
-        width: "20vw",
-        objectFit: "cover",
-    },
-    text: {
-        flex: 1,
-        fontSize: "1em",
-        lineHeight: "1.25",
-        textAlign: "left",
-    },
-    button1: {
-        display: "inline-block",
-        backgroundColor: "#2C7BBF",
-        borderWidth: "0px",
-        borderRadius: "10vw",
-        boxSizing: "border-box",
-        color: "white",
-        textDecoration: "none",
-        padding: "16px",
-        margin: "0 0.5em",
-        '&:hover': {
-            backgroundColor: "#FFB84E",
-            color: "black"
+const LandingPageHeader = () => {
+    const classes = makeStyles({
+        root: {
+            display: "flex",
+            background: "#011140",
+            color: "white",
+            height: "70vh",
+            backgroundImage: `url("/images/stars.svg")`,
+        },
+        container: {
+            display: "flex",
+            alignItems: "center",
+            backgroundImage: `url("/images/nav-stars.svg")`,
+        },
+        content: {
+            maxWidth: "700px",
+            textAlign: "left",
+        },
+        star: {
+            opacity: 0.8,
+            objectFit: "contain"
+        },
+        button2: {
+            display: "inline-block",
+            backgroundColor: "#2C7BBF",
+            borderWidth: "1px solid #2C7BBF",
+            borderRadius: "10vw",
+            boxSizing: "border-box",
+            color: "white",
+            textDecoration: "none",
+            padding: "16px",
+            margin: "0 0.1em 1em 0",
+            '&:hover': {
+                backgroundColor: "#FFB84E",
+                color: "black"
+            }
+        },
+        button1: {
+            display: "inline-block",
+            backgroundColor: "transparent",
+            border: "1px solid white",
+            borderRadius: "10vw",
+            boxSizing: "border-box",
+            color: "white",
+            textDecoration: "none",
+            padding: "16px",
+            margin: "0 1.25em",
+            '&:hover': {
+                borderColor: "#FFB84E",
+                color: "#FFB84E"
+            }
         }
-    },
-    button2: {
-        display: "inline-block",
-        backgroundColor: "transparent",
-        border: "1px solid white",
-        borderRadius: "10vw",
-        boxSizing: "border-box",
-        color: "white",
-        textDecoration: "none",
-        padding: "16px",
-        margin: "0 0.5em",
-        '&:hover': {
-            backgroundColor: "#FFB84E",
-            color: "black"
-        }
-    }
-});
-
-const LandingPage = () => {
-    const classes = useStyles();
+    })()
 
     return (
-        <Fragment>
-            <div className={classes.header}>
-                <Container className={classes.container}>
-                    <div className={classes.subHeader}>
-                        <h1 className={classes.title}>Find the right tools for your augmented reality project.</h1>
-                        <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
-                        <Link className={classes.button2} to="capability">Explore AR Capabilities</Link>
-                    </div>
-                </Container>
-
-            </div>
-            <Container className={classes.container}>
-                <Card className={classes.card}>
-                    <h2>What is STARMAP and how can it help you?</h2>
-
-                    <div className={classes.content}>
-                        <CardMedia className={classes.media} image={Logo} />
-                        <CardContent className={classes.text}>
-                            Augmented Reality is a rapidly evolving technology. STARMAP (Suggestion Tool for Augmented
-                            Reality Makers and Programmers) helps developers navigate the variety of hardware and software 
-                            used to create Augmented Reality (AR) experiences. Whether you are an experienced AR developer 
-                            or are embarking on your first AR project, STARMAP can guide you through the development process.
-                            Use STARMAP to learn about your options for AR Tools and supported features.
-                        </CardContent>
-                    </div>
-                </Card>
-                <Card className={classes.card}>
-
-                    <div className={classes.content}>
-
-                        <CardContent className={classes.text}>
-
-                        </CardContent>
-                    </div>
-                </Card>
+        <div className={classes.root}>
+            <Container maxWidth="xl" className={classes.container}>
+                <div className={classes.content}>
+                    <Typography variant="h1" gutterBottom>Find the right tools for your augmented reality project.</Typography>
+                    <Link className={classes.button2} to="capability">Explore AR Capabilities</Link>
+                    <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
+                </div>
             </Container>
+        </div>
+    )
+}
+
+const LandingPageContent = () => {
+    const classes = makeStyles({
+        root: {
+            margin: "4em 0",
+        },
+        media: {
+            objectFit: "contain",
+            maxWidth: "100%",
+            maxHeight: "250px",
+        },
+    })()
+    return (
+        <Container maxWidth="xl">
+            <Grid className={classes.root} container spacing={2} >
+                <Grid item sm={6}>
+                    <img className={classes.media} src={Logo} alt="Startmap Logo" />
+                </Grid>
+                <Grid item sm={6}>
+                    <Typography variant="h5" gutterBottom>What is STARMAP and how can it help you?</Typography>
+                    <Typography variant="p">
+                        Augmented Reality is a rapidly evolving technology. STARMAP (Suggestion Tool for Augmented
+                        Reality Makers and Programmers) helps developers navigate the variety of hardware and software
+                        used to create Augmented Reality (AR) experiences. Whether you are an experienced AR developer
+                        or are embarking on your first AR project, STARMAP can guide you through the development process.
+                        Use STARMAP to learn about your options for AR Tools and supported features.
+                    </Typography>
+                </Grid>
+            </Grid>
+        </Container>
+    )
+}
+
+const LandingPage = () => {
+    return (
+        <Fragment>
+            <LandingPageHeader />
+            <LandingPageContent />
         </Fragment>
     );
 };
