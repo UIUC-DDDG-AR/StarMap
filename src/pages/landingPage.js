@@ -30,22 +30,22 @@ const LandingPageHeader = () => {
             opacity: 0.8,
             objectFit: "contain"
         },
-        button1: {
+        button2: {
             display: "inline-block",
             backgroundColor: "#2C7BBF",
-            borderWidth: "0px",
+            borderWidth: "1px solid #2C7BBF",
             borderRadius: "10vw",
             boxSizing: "border-box",
             color: "white",
             textDecoration: "none",
             padding: "16px",
-            margin: "0 0.5em 1em 0",
+            margin: "0 0.1em 1em 0",
             '&:hover': {
                 backgroundColor: "#FFB84E",
                 color: "black"
             }
         },
-        button2: {
+        button1: {
             display: "inline-block",
             backgroundColor: "transparent",
             border: "1px solid white",
@@ -54,10 +54,10 @@ const LandingPageHeader = () => {
             color: "white",
             textDecoration: "none",
             padding: "16px",
-            margin: "0 0.5em",
+            margin: "0 1.25em",
             '&:hover': {
-                backgroundColor: "#FFB84E",
-                color: "black"
+                borderColor: "#FFB84E",
+                color: "#FFB84E"
             }
         }
     })()
@@ -67,8 +67,8 @@ const LandingPageHeader = () => {
             <Container maxWidth="xl" className={classes.container}>
                 <div className={classes.content}>
                     <Typography variant="h1" gutterBottom>Find the right tools for your augmented reality project.</Typography>
-                    <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
                     <Link className={classes.button2} to="capability">Explore AR Capabilities</Link>
+                    <Link className={classes.button1} to="interactive">View AR Tools Suggestion →</Link>
                 </div>
             </Container>
         </div>

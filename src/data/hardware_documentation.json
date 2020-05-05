@@ -1102,14 +1102,14 @@
         "company": "bHaptics Inc",
         "official_link": "https://www.bhaptics.com/tactsuit/",
         "price": "Tactot (Body piece): $500; Tactosy for Arms (both arms): $250; Tactosy for Hands (both hands): $250; Tactosy for Feet (both feet): $250",
-        "how_to_buy": "online, only TACTOT (Haptic Vest) is available to B2C (Consumer) clients. Other haptic devices are supposed to be used only for B2B (Enterprise) clients.\n",
+        "how_to_buy": "Only the TACTOT (Haptic Vest) is available to B2C (Consumer) clients to buy online. Other haptic devices are supposed to be used only for B2B (Enterprise) clients.\n",
         "use_cases": [
             "Gaming",
             "Training",
             "LBVR",
-            "Home Entertainment (theater",
+            "Home Entertainment (Theater",
             "Concerts",
-            "movies)"
+            "Movies)"
         ],
         "customer_segment": [
             "consumers"

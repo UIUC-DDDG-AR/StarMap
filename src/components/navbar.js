@@ -15,8 +15,8 @@ const useStyles = makeStyles((theme) => ({
     },
     icon: {
         position: "relative",
-        width: "5em",
-        height: "3em",
+        width: "8em",
+        height: "6em",
         objectFit: "contain"
     },
     buttonDesktop: {
