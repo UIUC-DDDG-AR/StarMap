@@ -18,13 +18,13 @@
 }
 
 .orange-chip.active:hover {
-    opacity: 85%;
+    opacity: 0.85;
 }
 
 .orange-chip.inactive:hover {
     border-color:orange;
     background-color: orange;
-    opacity: 85%;
+    opacity: 0.85;
 }
 
 .orange-chip-svg:hover {
