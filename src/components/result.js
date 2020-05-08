@@ -43,15 +43,20 @@ const useStyles = makeStyles({
     },
     content: {
         fontSize: 16,
-        padding: "1em",
+        padding: "16px",
         lineHeight: "1.25",
     },
     button: {
         fontWeight: 700,
+        border: "1px solid black",
+        margin: "8px",
     },
     dialogKey: {
         textTransform: "capitalize",
         fontWeight: 700,
+    },
+    CardActions: {
+        padding: "100px",
     },
 });
 

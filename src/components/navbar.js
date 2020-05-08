@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     icon: {
         position: "relative",
         width: "8em",
-        height: "6em",
+        height: "3em",
         objectFit: "contain"
     },
     buttonDesktop: {
@@ -39,7 +39,7 @@ const NavBar = () => {
 
                     <span className={classes.space}></span>
                     <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/capability">
-                        AR CAPABILITIES
+                        AR Capabilities
                     </Button>
                     <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/interactive">
                         Tools Suggestion

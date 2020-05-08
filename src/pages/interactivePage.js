@@ -23,15 +23,26 @@ import software_documentation from "../data/software_documentation"
 import hardware_documentation from "../data/hardware_documentation"
 
 const useStyles = makeStyles({
-    capitalize: {
+    header: {
+        paddingTop: "4em",
+        background: "#011140",
+        color: "white",
+    },
+    container: {
+        padding: "1em 5vw",
+    },
+    tab: {
+        color: "black",
+        fontWeight: 700,
+        fontSize: 18,
         textTransform: "capitalize",
     },
     resultsHeader: {
         fontSize: 18,
         fontWeight: 700,
-        borderBottom: "1px black solid",
-        padding: "13px 0",
-        marginBottom: "1em",
+        borderBottom: "2px #011140 solid",
+        padding: "16px 0",
+        marginBottom: "16px",
     },
 });
 
@@ -40,14 +51,39 @@ const ExpansionPanel = withStyles({
         fontSize: 18,
         fontWeight: 700,
         border: "none",
-        borderBottom: "1px black solid",
         boxShadow: "none",
+    },
+    expanded: {
+        '&$root': {
+        margin: "40px 0",
+        },
     },
 })(MuiExpansionPanel);
 
 const ExpansionPanelSummary = withStyles({
     root: {
-        padding: 0,
+        '&$expanded': {
+            minHeight: 0,
+            padding: "4px 0",
+          },
+        borderBottom: "2px #011140 solid",
+        margin: 0,
+        padding: "4px 0",
+    },
+    content: {
+        '&$expanded': {
+            margin: 0,
+            padding: "4px 0",
+          },
+        margin:0,
+        padding: "4px 0",
+        
+    },
+    expanded: {
+        '&$content': {
+            margin: 0,
+            padding: "4px 0",
+          },
     },
 })(MuiExpansionPanelSummary);
 
@@ -156,6 +192,7 @@ const InteractivePage = () => {
                                 >
                                     {label}
                                 </ExpansionPanelSummary>
+                                
                                 <ExpansionPanelDetails>
                                     {capability_information
                                         .filter(info => info.category === label && avaliableKeys.includes(info.id))
