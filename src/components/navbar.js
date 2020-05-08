@@ -38,7 +38,7 @@ const NavBar = () => {
                     </Button>
 
                     <span className={classes.space}></span>
-                    <Button color="inherit" component={Link} to="/capability">
+                    <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/capability">
                         AR Capabilities
                     </Button>
                     <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/interactive">
