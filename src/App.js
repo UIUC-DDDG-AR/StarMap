@@ -8,6 +8,7 @@ import NavBar from "./components/navbar";
 import LandingPage from "./pages/landingPage";
 import CapabilityPage from "./pages/capabilityPage";
 import InteractivePage from "./pages/interactivePage";
+import UsecasePage from "./pages/usecasePage";
 
 class App extends Component {
     render() {
@@ -16,6 +17,9 @@ class App extends Component {
                 <HashRouter>
                     <NavBar />
                     <Switch>
+                        <Route path="/usecase">
+                            <UsecasePage />
+                        </Route>
                         <Route path="/capability">
                             <CapabilityPage />
                         </Route>
