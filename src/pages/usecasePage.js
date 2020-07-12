@@ -20,6 +20,9 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 
+import usecase from "../data/usecase";
+import capability_information from "../data/capability_information";
+
 const UsecasePageHeader = () => {
     const classes = makeStyles({
         root: {
@@ -42,6 +45,8 @@ const UsecasePageHeader = () => {
     )
 }
 
+const capabilities_id = new Set(capability_information.map((capability) => capability.id));
+
 const createData = (capabilities, snapchat, pokmongo) => {
     return {
       capabilities,
@@ -53,7 +58,10 @@ const createData = (capabilities, snapchat, pokmongo) => {
     };
 }
 
-const rows = [
+// const capabilities = usecase.filter(application => (application.application_name === "Snapchat")
+//                             .map(application) => application.)
+
+const data = [
     createData('Object Recognition', 'X', ''),
     createData('6DOF', 'X', 'X'),
     createData('3DOF', 'X', 'X'),
@@ -76,7 +84,7 @@ const StyledTableCell = withStyles((theme) => ({
 
 const Row = (props) => {
     const classes = makeStyles(theme => ({
-        _rows: {
+        rows: {
             '&:nth-of-type(even)': {
                 backgroundColor: theme.palette.action.hover,
               },
@@ -102,7 +110,7 @@ const Row = (props) => {
   
     return (
       <React.Fragment>
-        <TableRow className={classes._rows}>
+        <TableRow className={classes.rows}>
           <TableCell  align="right" width="2%">
             <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
               {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
@@ -112,13 +120,13 @@ const Row = (props) => {
           <StyledTableCell align="center">{row.snapchat}</StyledTableCell>
           <StyledTableCell align="center">{row.pokmongo}</StyledTableCell>
         </TableRow>
-        <TableRow className={classes._rows}>
+        <TableRow className={classes.rows}>
           <StyledTableCell style={{ paddingBottom: 0, paddingTop: 0 }}  align="center" colSpan={6}>
             <Collapse in={open} timeout="auto" unmountOnExit>
               <Box margin={1}>
                 <Table size="small" style={{ width: "100%" }}aria-label="purchases">
                   <TableHead>
-                    <TableRow className={classes._rows}>
+                    <TableRow className={classes.rows}>
                       <TableCell align="center" width="1%"/>
                       <TableCell align="center" width="49%"/>
                       <TableCell align="center" width="25%">SnapChat</TableCell>
@@ -127,7 +135,7 @@ const Row = (props) => {
                   </TableHead>
                   <TableBody>
                     {row.detial.map((d) => (
-                      <TableRow key={d.snapchat} className={classes._rows}>
+                      <TableRow key={d.snapchat} className={classes.rows}>
                         <TableCell align="center" width="1%"/>
                         <TableCell align="center" width="49%"/>
                         {/* <TableCell align="center" width="25%">{d.snapchat}</TableCell> */}
@@ -172,7 +180,7 @@ const Row = (props) => {
 
 const UsecasePageContent = () => {
     const classes = makeStyles(theme => ({
-        _rows: {
+        rows: {
               '& > *': {
                 borderBottom: 'unset',
               },
@@ -182,7 +190,7 @@ const UsecasePageContent = () => {
     <TableContainer style={{ width: 2000, paddingLeft: "6em" }} >
       <Table style={{ width: 1200 }} aria-label="collapsible table">
         <TableHead>
-          <TableRow className={classes._rows}>
+          <TableRow className={classes.rows}>
             <StyledTableCell  align="right" width="2%"/>
             <StyledTableCell align="center">Capabilities</StyledTableCell>
             <StyledTableCell align="center">SnapChat</StyledTableCell>
@@ -190,7 +198,7 @@ const UsecasePageContent = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-            {rows.map((row) => (
+            {data.map((row) => (
             <Row key={row.capabilities} row={row} />
             ))}
         </TableBody>

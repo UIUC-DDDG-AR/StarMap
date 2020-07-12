@@ -1,0 +1,113 @@
+[
+    {
+        "application_name": "Snapchat",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            2,
+            "can sence environment"
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            1,
+            "add interactive sticker to face including animal face"
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            "track hands postion and rotation"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            1,
+            "change color and size of eyes"
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    }
+]
