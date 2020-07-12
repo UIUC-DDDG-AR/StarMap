@@ -20,7 +20,7 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 
-import usecase from "../data/usecase";
+import usecase from "../data/usecase_transpose";
 import capability_information from "../data/capability_information";
 
 const UsecasePageHeader = () => {
@@ -53,19 +53,24 @@ const createData = (capabilities, snapchat, pokmongo) => {
       snapchat,
       pokmongo,
       detial: [
-        { snapchat: 'StarMap/public/images/software/arcore.png', pokmongo: ''},
+        { snapchat: '/images/capability/audio_calling.jpg', pokmongo: '/images/software/playcanvas.png'},
       ],
     };
 }
 
-// const capabilities = usecase.filter(application => (application.application_name === "Snapchat")
-//                             .map(application) => application.)
+const idFindName = (id, capability_information) => {
+  return capability_information.map(info => {
+    return id === info.id ? info.name : ''
+  })
+}
 
-const data = [
-    createData('Object Recognition', 'X', ''),
-    createData('6DOF', 'X', 'X'),
-    createData('3DOF', 'X', 'X'),
-];
+const data = [];
+usecase.map((cap) => {
+    data.push(createData(
+      idFindName(cap.id, capability_information),
+      cap.Snapchat[0] === 1? 'X' : '', 
+      cap.pokmon_go[0] === 1? 'X' : ''))
+});
 
 const StyledTableCell = withStyles((theme) => ({
     head: {
@@ -111,7 +116,7 @@ const Row = (props) => {
     return (
       <React.Fragment>
         <TableRow className={classes.rows}>
-          <TableCell  align="right" width="2%">
+          <TableCell  align="right" width="1%">
             <IconButton aria-label="expand row" size="small" onClick={() => setOpen(!open)}>
               {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
             </IconButton>
@@ -125,19 +130,11 @@ const Row = (props) => {
             <Collapse in={open} timeout="auto" unmountOnExit>
               <Box margin={1}>
                 <Table size="small" style={{ width: "100%" }}aria-label="purchases">
-                  <TableHead>
-                    <TableRow className={classes.rows}>
-                      <TableCell align="center" width="1%"/>
-                      <TableCell align="center" width="49%"/>
-                      <TableCell align="center" width="25%">SnapChat</TableCell>
-                      <TableCell align="center" >Pokmon Go</TableCell>
-                    </TableRow>
-                  </TableHead>
                   <TableBody>
                     {row.detial.map((d) => (
                       <TableRow key={d.snapchat} className={classes.rows}>
                         <TableCell align="center" width="1%"/>
-                        <TableCell align="center" width="49%"/>
+                        <TableCell align="center" width="45%"/>
                         {/* <TableCell align="center" width="25%">{d.snapchat}</TableCell> */}
                         {/* <TableCell align="center">{d.pokmongo}</TableCell> */}
                         <TableCell>
@@ -146,7 +143,7 @@ const Row = (props) => {
                                 className={classes.media} 
                                 component="img" 
                                 // alt={capability.name}
-                                image={`/images/capability/audio_calling.jpg`}
+                                image={d.snapchat}
                               />
                               <CardContent className={classes.content}>
                                   <Typography variant="p">contents</Typography>
@@ -159,7 +156,7 @@ const Row = (props) => {
                                 className={classes.media} 
                                 component="img" 
                                 // alt={capability.name}
-                                image={`/images/capability/audio_calling.jpg`}
+                                image={d.snapchat}
                               />
                               <CardContent className={classes.content}>
                                   <Typography variant="p">contents</Typography>
@@ -191,7 +188,7 @@ const UsecasePageContent = () => {
       <Table style={{ width: 1200 }} aria-label="collapsible table">
         <TableHead>
           <TableRow className={classes.rows}>
-            <StyledTableCell  align="right" width="2%"/>
+            <StyledTableCell  align="right" width="1%"/>
             <StyledTableCell align="center">Capabilities</StyledTableCell>
             <StyledTableCell align="center">SnapChat</StyledTableCell>
             <StyledTableCell align="center">Pokmon Go</StyledTableCell>

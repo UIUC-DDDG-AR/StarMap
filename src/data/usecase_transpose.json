@@ -1,0 +1,4403 @@
+[
+    {
+        "id": "object_recognition",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            2,
+            "can scan the buildings"
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            0,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "dof_6",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            2,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "dof_3",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            1,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "room_scene_tracking",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            2,
+            "road and environment sence"
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            2,
+            "can sence environment"
+        ],
+        "Spatial.io": [
+            1,
+            "only one wall)"
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "image_tracking",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            1,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            0,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "facial_recognition",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            "add interactive sticker to face including animal face"
+        ],
+        "Spatial.io": [
+            0,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "location_tracking",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            1,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "cross_platform",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            1,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            1,
+            ""
+        ],
+        "Holo": [
+            1,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            1,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "motion_tracking",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            0,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "hand_tracking",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            "using controller)"
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            "track hands postion and rotation"
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            2,
+            "foot tracking"
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "picture_taking",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            1,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            1,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            1,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "video_recording",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            1,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            1,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "video_streaming",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "audio_calling",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "body_recognition",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "plane_detection",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            1,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "people_occlusion",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            0,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            2,
+            "can only occulation part of body"
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "multi_object_tracking",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            2,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            1,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            0,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "depth_sensing",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "light_estimation",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            0,
+            ""
+        ],
+        "Spatial.io": [
+            0,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "voice_recognition",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            "only recording)"
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            0,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            0,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "hand_control",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "eye_tracking",
+        "AMBEO Augmented Audio Lab": [
+            0,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            0,
+            ""
+        ],
+        "Angry Birds FPS": [
+            0,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            0,
+            ""
+        ],
+        "Dr G Invaders": [
+            0,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            0,
+            ""
+        ],
+        "Galaxy Explorer": [
+            0,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            0,
+            ""
+        ],
+        "HoloHuman": [
+            0,
+            ""
+        ],
+        "HoloTour": [
+            0,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            0,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            0,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            0,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            0,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            "change color and size of eyes"
+        ],
+        "Spatial.io": [
+            0,
+            ""
+        ],
+        "Virtual training programs": [
+            0,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            0,
+            ""
+        ],
+        "WSJ Stock Data": [
+            0,
+            ""
+        ]
+    },
+    {
+        "id": "spatial_anchor",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            0,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            0,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            0,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "show_2d_content",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            1,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            0,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            1,
+            ""
+        ],
+        "Holo": [
+            1,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            0,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            1,
+            ""
+        ],
+        "Sky View": [
+            1,
+            ""
+        ],
+        "Skylight": [
+            1,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            1,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            0,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "show_3d_content",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            1,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            0,
+            ""
+        ],
+        "Civilisations AR": [
+            1,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            1,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            1,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            1,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            1,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            1,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            1,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            0,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    },
+    {
+        "id": "extended_tracking",
+        "AMBEO Augmented Audio Lab": [
+            1,
+            ""
+        ],
+        "AmiKasa": [
+            0,
+            ""
+        ],
+        "Angry Birds": [
+            1,
+            ""
+        ],
+        "Angry Birds FPS": [
+            1,
+            ""
+        ],
+        "BMW Head-up Display": [
+            1,
+            ""
+        ],
+        "Civilisations AR": [
+            0,
+            ""
+        ],
+        "Curate": [
+            1,
+            ""
+        ],
+        "Dr G Invaders": [
+            1,
+            ""
+        ],
+        "FlippyFriendsAR": [
+            1,
+            ""
+        ],
+        "Fragments": [
+            1,
+            ""
+        ],
+        "Galaxy Explorer": [
+            1,
+            ""
+        ],
+        "GIPHY World": [
+            1,
+            ""
+        ],
+        "Google Maps": [
+            0,
+            ""
+        ],
+        "Google Translate": [
+            0,
+            ""
+        ],
+        "Holo": [
+            0,
+            ""
+        ],
+        "HoloAnatomy": [
+            1,
+            ""
+        ],
+        "HoloHuman": [
+            1,
+            ""
+        ],
+        "HoloTour": [
+            1,
+            ""
+        ],
+        "Houzz": [
+            1,
+            ""
+        ],
+        "IBM": [
+            1,
+            ""
+        ],
+        "IKEA place": [
+            1,
+            ""
+        ],
+        "Just a line": [
+            1,
+            ""
+        ],
+        "Magic Leap Create": [
+            1,
+            ""
+        ],
+        "Mondly": [
+            0,
+            ""
+        ],
+        "Obsess ": [
+            1,
+            ""
+        ],
+        "pokmon_go": [
+            0,
+            ""
+        ],
+        "PresentAR": [
+            1,
+            ""
+        ],
+        "Quiver": [
+            0,
+            ""
+        ],
+        "SeeSignal": [
+            1,
+            ""
+        ],
+        "Sephora Virtual Artist": [
+            0,
+            ""
+        ],
+        "Sky View": [
+            0,
+            ""
+        ],
+        "Skylight": [
+            0,
+            ""
+        ],
+        "Snapchat": [
+            0,
+            ""
+        ],
+        "Spatial.io": [
+            1,
+            ""
+        ],
+        "Virtual training programs": [
+            1,
+            ""
+        ],
+        "Vision Picking": [
+            0,
+            ""
+        ],
+        "WallaMe": [
+            1,
+            ""
+        ],
+        "Wanna Kicks": [
+            1,
+            ""
+        ],
+        "WorkLink": [
+            1,
+            ""
+        ],
+        "WSJ Stock Data": [
+            1,
+            ""
+        ]
+    }
+]
