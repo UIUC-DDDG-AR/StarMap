@@ -48,12 +48,12 @@ const UsecasePageHeader = () => {
 
 // const capabilities_id = new Set(capability_information.map((capability) => capability.id));
 
-const createData = (capability_id, capability_name, snapchat, pokmongo) => {
+const createData = (capability_id, capability_name, snapchat, pokemongo) => {
     return {
       capability_id,
       capability_name,
       snapchat,
-      pokmongo,
+      pokemongo,
       content: card_content
     };
 }
@@ -67,6 +67,7 @@ const idFindName = (id, capability_information) => {
 }
 
 const data = [];
+
 usecase.map((cap) => {
     data.push(createData(
       cap.id,
@@ -116,6 +117,53 @@ const Row = (props) => {
 
     const { row } = props;
     const [open, setOpen] = useState(false);
+
+    let snapCard;
+    let pokemonCard;
+    
+    if (row.snapchat === 'X') {
+      snapCard = 
+        row.content
+          .filter((cnt) => cnt.capability_id === row.capability_id)
+          .map((cnt) => (
+        <TableCell width="40%">
+          <Card className={classes.card}>
+              <CardMedia 
+                className={classes.media} 
+                component="img" 
+                // alt={cnt.capability.name}
+                image={`/images/capability/${cnt.capability_id}.jpg`}
+              />
+              <CardContent className={classes.content}>
+                  <Typography variant="p">{cnt.snapchat}</Typography>
+              </CardContent>
+          </Card>
+        </TableCell>
+    ))}else {
+      snapCard = <TableCell width="40%"></TableCell>
+    }
+
+    if (row.pokemongo === 'X') {
+      pokemonCard = 
+        row.content
+          .filter((cnt) => cnt.capability_id === row.capability_id)
+          .map((cnt) => (
+          <TableCell width="40%">
+            <Card className={classes.card}>
+                <CardMedia 
+                  className={classes.media} 
+                  component="img" 
+                  // alt={cnt.capability.name}
+                  image={`/images/capability/${cnt.capability_id}.jpg`}
+                />
+                <CardContent className={classes.content}>
+                    <Typography variant="p">{cnt.pokemon_go}</Typography>
+                </CardContent>
+            </Card>
+          </TableCell>
+    ))}else {
+      pokemonCard = <TableCell width="40%"></TableCell>
+    }
   
     return (
       <React.Fragment>
@@ -125,9 +173,9 @@ const Row = (props) => {
               {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
             </IconButton>
           </TableCell>
-          <StyledTableCell className={classes.headText} width="20%">{row.capability_name}</StyledTableCell>
+          <StyledTableCell className={classes.headText} width="19%">{row.capability_name}</StyledTableCell>
           <StyledTableCell >{row.snapchat}</StyledTableCell>
-          <StyledTableCell >{row.pokmongo}</StyledTableCell>
+          <StyledTableCell >{row.pokemongo}</StyledTableCell>
         </TableRow>
         <TableRow className={classes.rows}>
           <StyledTableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
@@ -135,40 +183,12 @@ const Row = (props) => {
               <Box margin={0}>
                 <Table size="small" style={{ width: "100%" }}>
                   <TableBody>
-                    {row.content
-                    .filter((cnt) => cnt.capability_id === row.capability_id)
-                    .map((cnt) => (
                       <TableRow className={classes.rows}>
                         <TableCell align="center" width="1%"/>
-                        <TableCell align="center" width="20%"/>
-                        <TableCell>
-                          <Card className={classes.card}>
-                              <CardMedia 
-                                className={classes.media} 
-                                component="img" 
-                                // alt={cnt.capability.name}
-                                image={`/images/capability/${cnt.capability_id}.jpg`}
-                              />
-                              <CardContent className={classes.content}>
-                                  <Typography variant="p">{cnt.snapchat}</Typography>
-                              </CardContent>
-                          </Card>
-                        </TableCell>
-                        <TableCell>
-                          <Card className={classes.card}>
-                              <CardMedia 
-                                className={classes.media} 
-                                component="img" 
-                                // alt={cnt.capability.name}
-                                image={`/images/capability/${cnt.capability_id}.jpg`}
-                              />
-                              <CardContent className={classes.content}>
-                                  <Typography variant="p">{cnt.pokemon_go}</Typography>
-                              </CardContent>
-                          </Card>
-                        </TableCell>
+                        <TableCell align="center" width="19%"/>
+                        {snapCard}
+                        {pokemonCard}
                       </TableRow>
-                    ))}
                   </TableBody>
                 </Table>
               </Box>
@@ -196,14 +216,14 @@ const UsecasePageContent = () => {
         <TableHead >
           <TableRow className={classes.rows}>
             <StyledTableCell width="1%"/>
-            <StyledTableCell className={classes.headText} width="20%">Capabilities</StyledTableCell>
+            <StyledTableCell className={classes.headText} width="19%">Capabilities</StyledTableCell>
             <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
             <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
             {data.map((row) => (
-            <Row key={row.capabilities} row={row} />
+            <Row key={row.capability_id} row={row} />
             ))}
         </TableBody>
       </Table>
