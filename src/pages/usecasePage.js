@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import PropTypes from 'prop-types';
 import { withStyles, makeStyles } from "@material-ui/core/styles";
@@ -22,6 +22,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 
 import usecase from "../data/usecase_transpose";
 import capability_information from "../data/capability_information";
+import card_content from "../data/example_page_content.json"
 
 const UsecasePageHeader = () => {
     const classes = makeStyles({
@@ -45,28 +46,30 @@ const UsecasePageHeader = () => {
     )
 }
 
-const capabilities_id = new Set(capability_information.map((capability) => capability.id));
+// const capabilities_id = new Set(capability_information.map((capability) => capability.id));
 
-const createData = (capabilities, snapchat, pokmongo) => {
+const createData = (capability_id, capability_name, snapchat, pokmongo) => {
     return {
-      capabilities,
+      capability_id,
+      capability_name,
       snapchat,
       pokmongo,
-      detial: [
-        { snapchat: '/images/capability/audio_calling.jpg', pokmongo: '/images/software/playcanvas.png'},
-      ],
+      content: card_content
     };
 }
 
 const idFindName = (id, capability_information) => {
   return capability_information.map(info => {
-    return id === info.id ? info.name : ''
+    if (id === info.id) {
+      return info.name;
+    }
   })
 }
 
 const data = [];
 usecase.map((cap) => {
     data.push(createData(
+      cap.id,
       idFindName(cap.id, capability_information),
       cap.Snapchat[0] === 1? 'X' : '', 
       cap.pokmon_go[0] === 1? 'X' : ''))
@@ -74,16 +77,14 @@ usecase.map((cap) => {
 
 const StyledTableCell = withStyles((theme) => ({
     head: {
-      backgroundColor: theme.palette.primary.second,
-      color: theme.palette.common.black,
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.common.white,
+      fontWeight: "400",
       // width: "5%",
-      // Do not work for some reason...
-      // align: "center",
+      textAlign: "center",
     },
     body: {
-      // Do not work for some reason...
-      textalign: "center",
-      align: "center",
+      textAlign: "center",
     },
 }))(TableCell);
 
@@ -96,6 +97,9 @@ const Row = (props) => {
               '& > *': {
                 borderRight: '5px',
             },
+        },
+        headText: {
+          fontWeight: 'bold'
         },
         card: {
           boxShadow: "none",
@@ -111,7 +115,7 @@ const Row = (props) => {
     }))()
 
     const { row } = props;
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
   
     return (
       <React.Fragment>
@@ -121,32 +125,32 @@ const Row = (props) => {
               {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
             </IconButton>
           </TableCell>
-          <StyledTableCell align="center">{row.capabilities}</StyledTableCell>
-          <StyledTableCell align="center">{row.snapchat}</StyledTableCell>
-          <StyledTableCell align="center">{row.pokmongo}</StyledTableCell>
+          <StyledTableCell className={classes.headText} width="20%">{row.capability_name}</StyledTableCell>
+          <StyledTableCell >{row.snapchat}</StyledTableCell>
+          <StyledTableCell >{row.pokmongo}</StyledTableCell>
         </TableRow>
         <TableRow className={classes.rows}>
-          <StyledTableCell style={{ paddingBottom: 0, paddingTop: 0 }}  align="center" colSpan={6}>
+          <StyledTableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
             <Collapse in={open} timeout="auto" unmountOnExit>
-              <Box margin={1}>
-                <Table size="small" style={{ width: "100%" }}aria-label="purchases">
+              <Box margin={0}>
+                <Table size="small" style={{ width: "100%" }}>
                   <TableBody>
-                    {row.detial.map((d) => (
-                      <TableRow key={d.snapchat} className={classes.rows}>
+                    {row.content
+                    .filter((cnt) => cnt.capability_id === row.capability_id)
+                    .map((cnt) => (
+                      <TableRow className={classes.rows}>
                         <TableCell align="center" width="1%"/>
-                        <TableCell align="center" width="45%"/>
-                        {/* <TableCell align="center" width="25%">{d.snapchat}</TableCell> */}
-                        {/* <TableCell align="center">{d.pokmongo}</TableCell> */}
+                        <TableCell align="center" width="20%"/>
                         <TableCell>
                           <Card className={classes.card}>
                               <CardMedia 
                                 className={classes.media} 
                                 component="img" 
-                                // alt={capability.name}
-                                image={d.snapchat}
+                                // alt={cnt.capability.name}
+                                image={`/images/capability/${cnt.capability_id}.jpg`}
                               />
                               <CardContent className={classes.content}>
-                                  <Typography variant="p">contents</Typography>
+                                  <Typography variant="p">{cnt.snapchat}</Typography>
                               </CardContent>
                           </Card>
                         </TableCell>
@@ -155,11 +159,11 @@ const Row = (props) => {
                               <CardMedia 
                                 className={classes.media} 
                                 component="img" 
-                                // alt={capability.name}
-                                image={d.snapchat}
+                                // alt={cnt.capability.name}
+                                image={`/images/capability/${cnt.capability_id}.jpg`}
                               />
                               <CardContent className={classes.content}>
-                                  <Typography variant="p">contents</Typography>
+                                  <Typography variant="p">{cnt.pokemon_go}</Typography>
                               </CardContent>
                           </Card>
                         </TableCell>
@@ -182,16 +186,19 @@ const UsecasePageContent = () => {
                 borderBottom: 'unset',
               },
         },
+        headText: {
+          fontWeight: 'bold'
+        },
     }))()
     return (
-    <TableContainer style={{ width: 2000, paddingLeft: "6em" }} >
+    <TableContainer style={{ width: "100vw", paddingLeft: "6em" }} >
       <Table style={{ width: 1200 }} aria-label="collapsible table">
-        <TableHead>
+        <TableHead >
           <TableRow className={classes.rows}>
-            <StyledTableCell  align="right" width="1%"/>
-            <StyledTableCell align="center">Capabilities</StyledTableCell>
-            <StyledTableCell align="center">SnapChat</StyledTableCell>
-            <StyledTableCell align="center">Pokmon Go</StyledTableCell>
+            <StyledTableCell width="1%"/>
+            <StyledTableCell className={classes.headText} width="20%">Capabilities</StyledTableCell>
+            <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
+            <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
           </TableRow>
         </TableHead>
         <TableBody>

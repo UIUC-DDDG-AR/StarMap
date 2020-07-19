@@ -1,0 +1,137 @@
+[
+    {
+        "capability_id": "object_recognition",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "dof_6",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "dof_3",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "room_scene_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "image_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "facial_recognition",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "location_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "cross_platform",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "motion_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "hand_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "picture_taking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "video_recording",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "video_streaming",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "audio_calling",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "body_recognition",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "plane_detection",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "people_occlusion",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "multi_object_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "depth_sensing",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "light_estimation",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "voice_recognition",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "hand_control",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "eye_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "spatial_anchor",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "show_2d_content",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "show_3d_content",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    },
+    {
+        "capability_id": "extended_tracking",
+        "snapchat": "1",
+        "pokemon_go": "2"
+    }
+]
