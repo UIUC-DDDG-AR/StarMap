@@ -132,7 +132,7 @@ const Row = (props) => {
                 className={classes.media} 
                 component="img" 
                 // alt={cnt.capability.name}
-                image={`/images/capability/${cnt.capability_id}.jpg`}
+                image={`/images/snapchat/${cnt.capability_id}.png`}
               />
               <CardContent className={classes.content}>
                   <Typography variant="p">{cnt.snapchat}</Typography>
