@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
-import PropTypes from 'prop-types';
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography"
@@ -46,8 +45,6 @@ const UsecasePageHeader = () => {
     )
 }
 
-// const capabilities_id = new Set(capability_information.map((capability) => capability.id));
-
 const createData = (capability_id, capability_name, snapchat, pokemongo) => {
     return {
       capability_id,
@@ -81,7 +78,6 @@ const StyledTableCell = withStyles((theme) => ({
       backgroundColor: theme.palette.primary.main,
       color: theme.palette.common.white,
       fontWeight: "400",
-      // width: "5%",
       textAlign: "center",
     },
     body: {
@@ -93,10 +89,10 @@ const Row = (props) => {
     const classes = makeStyles(theme => ({
         rows: {
             '&:nth-of-type(even)': {
-                backgroundColor: theme.palette.action.hover,
+                backgroundColor: theme.palette.common.white,
               },
               '& > *': {
-                borderRight: '5px',
+                borderRight: '0px',
             },
         },
         headText: {
@@ -106,7 +102,7 @@ const Row = (props) => {
           boxShadow: "none",
         },
         media: {
-          height: 300,
+          height: 250,
         },
         content: {
           fontSize: 16,
@@ -126,12 +122,12 @@ const Row = (props) => {
         row.content
           .filter((cnt) => cnt.capability_id === row.capability_id)
           .map((cnt) => (
-        <TableCell width="40%">
+        <TableCell width="30%">
           <Card className={classes.card}>
               <CardMedia 
                 className={classes.media} 
                 component="img" 
-                // alt={cnt.capability.name}
+                alt={cnt.capability_id}
                 image={`/images/snapchat/${cnt.capability_id}.png`}
               />
               <CardContent className={classes.content}>
@@ -140,7 +136,7 @@ const Row = (props) => {
           </Card>
         </TableCell>
     ))}else {
-      snapCard = <TableCell width="40%"></TableCell>
+      snapCard = <TableCell width="30%"></TableCell>
     }
 
     if (row.pokemongo === 'X') {
@@ -148,13 +144,13 @@ const Row = (props) => {
         row.content
           .filter((cnt) => cnt.capability_id === row.capability_id)
           .map((cnt) => (
-          <TableCell width="40%">
+          <TableCell width="30%">
             <Card className={classes.card}>
                 <CardMedia 
                   className={classes.media} 
                   component="img" 
-                  // alt={cnt.capability.name}
-                  image={`/images/capability/${cnt.capability_id}.jpg`}
+                  alt={cnt.capability_id}
+                  image={`/images/pokemon/${cnt.capability_id}.jpg`}
                 />
                 <CardContent className={classes.content}>
                     <Typography variant="p">{cnt.pokemon_go}</Typography>
@@ -162,7 +158,7 @@ const Row = (props) => {
             </Card>
           </TableCell>
     ))}else {
-      pokemonCard = <TableCell width="40%"></TableCell>
+      pokemonCard = <TableCell width="30%"></TableCell>
     }
   
     return (
@@ -173,7 +169,7 @@ const Row = (props) => {
               {open ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
             </IconButton>
           </TableCell>
-          <StyledTableCell className={classes.headText} width="19%">{row.capability_name}</StyledTableCell>
+          <StyledTableCell className={classes.headText} width="25%">{row.capability_name}</StyledTableCell>
           <StyledTableCell >{row.snapchat}</StyledTableCell>
           <StyledTableCell >{row.pokemongo}</StyledTableCell>
         </TableRow>
@@ -185,7 +181,7 @@ const Row = (props) => {
                   <TableBody>
                       <TableRow className={classes.rows}>
                         <TableCell align="center" width="1%"/>
-                        <TableCell align="center" width="19%"/>
+                        <TableCell align="center" width="25%"/>
                         {snapCard}
                         {pokemonCard}
                       </TableRow>
@@ -216,7 +212,7 @@ const UsecasePageContent = () => {
         <TableHead >
           <TableRow className={classes.rows}>
             <StyledTableCell width="1%"/>
-            <StyledTableCell className={classes.headText} width="19%">Capabilities</StyledTableCell>
+            <StyledTableCell className={classes.headText} width="25%">Capabilities</StyledTableCell>
             <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
             <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
           </TableRow>
@@ -230,7 +226,6 @@ const UsecasePageContent = () => {
     </TableContainer>
     )
 }
-
 
 const UsecasePage = () => {
     return (
