@@ -1,5 +1,4 @@
 import React, { Fragment, useState } from "react";
-import { Link } from "react-router-dom";
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography"
@@ -9,7 +8,6 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import Paper from '@material-ui/core/Paper';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Box from '@material-ui/core/Box';
@@ -19,31 +17,11 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 
+import PageHeader from "../components/pageHeader";
+
 import usecase from "../data/usecase_transpose";
 import capability_information from "../data/capability_information";
 import card_content from "../data/example_page_content.json"
-
-const UsecasePageHeader = () => {
-    const classes = makeStyles({
-        root: {
-            background: "white",
-            color: "black",
-        },
-        container: {
-            display: "flex",
-            alignItems: "flex-end",
-            height: 170,
-            paddingBottom: 30,
-        },
-    })()
-    return (
-        <div className={classes.root}>
-            <Container maxWidth="xl" className={classes.container}>
-                <Typography variant="h4">Augmented Capabilities Example</Typography>
-            </Container>
-        </div>
-    )
-}
 
 const createData = (capability_id, capability_name, snapchat, pokemongo) => {
     return {
@@ -230,7 +208,7 @@ const UsecasePageContent = () => {
 const UsecasePage = () => {
     return (
         <React.Fragment>
-            <UsecasePageHeader />
+            <PageHeader>Augmented Reality Applications</PageHeader>
             <UsecasePageContent />
         </React.Fragment>
     );
