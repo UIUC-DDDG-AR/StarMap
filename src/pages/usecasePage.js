@@ -1,21 +1,26 @@
 import React, { Fragment, useState } from "react";
+
 import { withStyles, makeStyles } from "@material-ui/core/styles";
+import Box from '@material-ui/core/Box';
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography"
+
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
-import Box from '@material-ui/core/Box';
 import Collapse from '@material-ui/core/Collapse';
 import IconButton from '@material-ui/core/IconButton';
+
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
+
+import CheckIcon from '@material-ui/icons/Check';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 
 import PageHeader from "../components/pageHeader";
 
@@ -47,8 +52,8 @@ usecase.map((cap) => {
     data.push(createData(
         cap.id,
         idFindName(cap.id, capability_information),
-        cap.Snapchat[0] === 1 ? 'X' : '',
-        cap.pokmon_go[0] === 1 ? 'X' : ''))
+        cap.Snapchat[0] === 1 ? true : false,
+        cap.pokmon_go[0] === 1 ? true : false))
 });
 
 const StyledTableCell = withStyles((theme) => ({
@@ -95,7 +100,7 @@ const Row = (props) => {
     let snapCard;
     let pokemonCard;
 
-    if (row.snapchat === 'X') {
+    if (row.snapchat) {
         snapCard =
             row.content
                 .filter((cnt) => cnt.capability_id === row.capability_id)
@@ -118,7 +123,7 @@ const Row = (props) => {
         snapCard = <TableCell width="30%"></TableCell>
     }
 
-    if (row.pokemongo === 'X') {
+    if (row.pokemongo) {
         pokemonCard =
             row.content
                 .filter((cnt) => cnt.capability_id === row.capability_id)
@@ -150,8 +155,8 @@ const Row = (props) => {
                     </IconButton>
                 </TableCell>
                 <StyledTableCell className={classes.headText} width="25%">{row.capability_name}</StyledTableCell>
-                <StyledTableCell >{row.snapchat}</StyledTableCell>
-                <StyledTableCell >{row.pokemongo}</StyledTableCell>
+                <StyledTableCell>{row.snapchat ? <CheckIcon /> : null}</StyledTableCell>
+                <StyledTableCell>{row.pokemongo ? <CheckIcon /> : null}</StyledTableCell>
             </TableRow>
             <TableRow className={classes.rows}>
                 <StyledTableCell style={{ paddingBottom: 0, paddingTop: 0 }} colSpan={6}>
