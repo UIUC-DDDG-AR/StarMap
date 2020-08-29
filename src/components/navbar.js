@@ -11,7 +11,7 @@ import Logo from "../starmaplogo.png";
 
 const useStyles = makeStyles((theme) => ({
     space: {
-        flexGrow: 1,
+        flexGrow: 5,
     },
     icon: {
         position: "relative",
@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     },
     buttonDesktop: {
         display: 'none',
+        flexGrow: 1,
         [theme.breakpoints.up('md')]: {
             display: 'flex',
         },
@@ -38,11 +39,14 @@ const NavBar = () => {
                     </Button>
 
                     <span className={classes.space}></span>
+                    <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/usecase">
+                        Applications
+                    </Button>
                     <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/capability">
-                        AR Capabilities
+                        capabilities
                     </Button>
                     <Button className={classes.buttonDesktop} color="inherit" component={Link} to="/interactive">
-                        Tools Suggestion
+                        Tools
                     </Button>
                 </Toolbar>
             </Container>

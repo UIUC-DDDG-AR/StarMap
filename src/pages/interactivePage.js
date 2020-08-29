@@ -15,6 +15,7 @@ import Typography from "@material-ui/core/Typography"
 
 import Result from "../components/result";
 import Chip from "../components/chip";
+import PageHeader from "../components/pageHeader";
 
 import capability_information from "../data/capability_information";
 import software_capability from "../data/software_capability"
@@ -95,28 +96,6 @@ const ExpansionPanelDetails = withStyles((theme) => ({
     },
 }))(MuiExpansionPanelDetails);
 
-const InteractivePageHeader = () => {
-    const classes = makeStyles({
-        root: {
-            background: "#011140",
-            color: "white",
-        },
-        container: {
-            display: "flex",
-            alignItems: "flex-end",
-            height: 170,
-            paddingBottom: 30,
-        },
-    })()
-    return (
-        <div className={classes.root}>
-            <Container maxWidth="xl" className={classes.container}>
-                <Typography variant="h4">Augmented Reality Tools Suggestion</Typography>
-            </Container>
-        </div>
-    )
-}
-
 const InteractivePage = () => {
     const classes = useStyles();
     const [chips, setChips] = React.useState([]);
@@ -166,7 +145,7 @@ const InteractivePage = () => {
 
     return (
         <React.Fragment>
-            <InteractivePageHeader />
+            <PageHeader>Augmented Reality Tools Suggestion</PageHeader>
 
             <Container maxWidth="xl">
                 <Tabs

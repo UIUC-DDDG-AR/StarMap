@@ -8,29 +8,9 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography"
 
-import capability_information from "../data/capability_information";
+import PageHeader from "../components/pageHeader";
 
-const CapabilityPageHeader = () => {
-    const classes = makeStyles({
-        root: {
-            background: "#011140",
-            color: "white",
-        },
-        container: {
-            display: "flex",
-            alignItems: "flex-end",
-            height: 170,
-            paddingBottom: 30,
-        },
-    })()
-    return (
-        <div className={classes.root}>
-            <Container maxWidth="xl" className={classes.container}>
-                <Typography variant="h4">Augmented Reality Capabilities</Typography>
-            </Container>
-        </div>
-    )
-}
+import capability_information from "../data/capability_information";
 
 const CapabilityPageContent = () => {
     const categories = new Set(capability_information.map((capability) => capability.category));
@@ -88,7 +68,7 @@ const CapabilityPageContent = () => {
 const CapabilityPage = () => {
     return (
         <React.Fragment>
-            <CapabilityPageHeader />
+            <PageHeader>Augmented Reality Capabilities</PageHeader>
             <CapabilityPageContent />
         </React.Fragment>
     );

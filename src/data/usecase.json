@@ -1,0 +1,4553 @@
+[
+    {
+        "application_name": "AMBEO Augmented Audio Lab",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            "only recording)"
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "AmiKasa",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Angry Birds",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Angry Birds FPS",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            "using controller)"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "BMW Head-up Display",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            2,
+            "road and environment sence"
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Civilisations AR",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Curate",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Dr G Invaders",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            2,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "FlippyFriendsAR",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Fragments",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Galaxy Explorer",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "GIPHY World",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Google Maps",
+        "object_recognition": [
+            2,
+            "can scan the buildings"
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Google Translate",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Holo",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "HoloAnatomy",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "HoloHuman",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "HoloTour",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Houzz",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "IBM",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            2,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "IKEA place",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Just a line",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Magic Leap Create",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Mondly",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Obsess ",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            1,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            1,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Pok\u00e9mon Go",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "PresentAR",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Quiver",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "SeeSignal",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Sephora Virtual Artist",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            1,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Sky View",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            0,
+            ""
+        ],
+        "dof_3": [
+            0,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Skylight",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Snapchat",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            2,
+            "can sence environment"
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            1,
+            "add interactive sticker to face including animal face"
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            "track hands postion and rotation"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            1,
+            "change color and size of eyes"
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "Spatial.io",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Spatial.io",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            1,
+            "only one wall)"
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Virtual training programs",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            1,
+            ""
+        ],
+        "hand_tracking": [
+            1,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Vision Picking",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            1,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            0,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            0,
+            ""
+        ]
+    },
+    {
+        "application_name": "WallaMe",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            0,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            0,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            0,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            0,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "Wanna Kicks",
+        "object_recognition": [
+            1,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            2,
+            "foot tracking"
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            0,
+            ""
+        ],
+        "video_streaming": [
+            0,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            1,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            2,
+            "can only occulation part of body"
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            0,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            0,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "WorkLink",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            0,
+            ""
+        ],
+        "cross_platform": [
+            1,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            1,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            1,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            1,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            1,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    },
+    {
+        "application_name": "WSJ Stock Data",
+        "object_recognition": [
+            0,
+            ""
+        ],
+        "dof_6": [
+            1,
+            ""
+        ],
+        "dof_3": [
+            1,
+            ""
+        ],
+        "room_scene_tracking": [
+            0,
+            ""
+        ],
+        "image_tracking": [
+            0,
+            ""
+        ],
+        "facial_recognition": [
+            0,
+            ""
+        ],
+        "location_tracking": [
+            1,
+            ""
+        ],
+        "cross_platform": [
+            0,
+            ""
+        ],
+        "motion_tracking": [
+            0,
+            ""
+        ],
+        "hand_tracking": [
+            0,
+            ""
+        ],
+        "picture_taking": [
+            1,
+            ""
+        ],
+        "video_recording": [
+            1,
+            ""
+        ],
+        "video_streaming": [
+            1,
+            ""
+        ],
+        "audio_calling": [
+            0,
+            ""
+        ],
+        "body_recognition": [
+            0,
+            ""
+        ],
+        "plane_detection": [
+            0,
+            ""
+        ],
+        "people_occlusion": [
+            1,
+            ""
+        ],
+        "multi_object_tracking": [
+            0,
+            ""
+        ],
+        "depth_sensing": [
+            1,
+            ""
+        ],
+        "light_estimation": [
+            0,
+            ""
+        ],
+        "voice_recognition": [
+            0,
+            ""
+        ],
+        "hand_control": [
+            1,
+            ""
+        ],
+        "eye_tracking": [
+            0,
+            ""
+        ],
+        "spatial_anchor": [
+            1,
+            ""
+        ],
+        "show_2d_content": [
+            1,
+            ""
+        ],
+        "show_3d_content": [
+            1,
+            ""
+        ],
+        "extended_tracking": [
+            1,
+            ""
+        ]
+    }
+]
