@@ -166,6 +166,11 @@ const UsecasePageContent = () => {
         headText: {
             fontWeight: 'bold'
         },
+        airtable: {
+            background: "transparent",
+            border: "1px solid #ccc",
+            height: "35vh",
+        }
     }))()
 
     const idFindName = (id, capability_information) => {
@@ -177,32 +182,41 @@ const UsecasePageContent = () => {
     }
 
     return (
-        <Container className={classes.root} maxWidth="xl">
-            <TableContainer>
-                <Table aria-label="collapsible table">
-                    <TableHead>
-                        <TableRow className={classes.rows}>
-                            <StyledTableCell width="1%" />
-                            <StyledTableCell className={classes.headText} width="25%">Capabilities</StyledTableCell>
-                            <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
-                            <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
-                        </TableRow>
-                    </TableHead>
-                    <TableBody>
-                        {usecase.map((cap) => {
-                            const row = {
-                                capability_id: cap.id,
-                                capability_name: idFindName(cap.id, capability_information),
-                                snapchat: cap.Snapchat[0],
-                                pokemongo: cap.Snapchat[0],
-                                content: card_content
-                            }
-                            return <Row key={row.capability_id} row={row} />
-                        })}
-                    </TableBody>
-                </Table>
-            </TableContainer>
-        </Container>
+        <React.Fragment>
+            <Container className={classes.root} maxWidth="xl">
+                <Card>
+                    <CardMedia className={classes.airtable} component="iframe" src="https://airtable.com/embed/shrdmII92wSQs7p1M?backgroundColor=red&viewControls=on" />
+                </Card>
+            </Container>
+
+            <Container className={classes.root} maxWidth="xl">
+                <TableContainer>
+                    <Table aria-label="collapsible table">
+                        <TableHead>
+                            <TableRow className={classes.rows}>
+                                <StyledTableCell width="1%" />
+                                <StyledTableCell className={classes.headText} width="25%">Capabilities</StyledTableCell>
+                                <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
+                                <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                            {usecase.map((cap) => {
+                                const row = {
+                                    capability_id: cap.id,
+                                    capability_name: idFindName(cap.id, capability_information),
+                                    snapchat: cap.Snapchat[0],
+                                    pokemongo: cap.Snapchat[0],
+                                    content: card_content
+                                }
+                                return <Row key={row.capability_id} row={row} />
+                            })}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+            </Container>
+        </React.Fragment>
+
     )
 }
 
