@@ -210,7 +210,7 @@ const UsecasePageContent = () => {
                                     capability_id: cap.id,
                                     capability_name: idFindName(cap.id, capability_information),
                                     snapchat: cap.Snapchat[0],
-                                    pokemongo: cap.Snapchat[0],
+                                    pokemongo: cap.pokmon_go[0], // TODO: fix typo
                                     content: card_content
                                 }
                                 return <Row key={row.capability_id} row={row} />
