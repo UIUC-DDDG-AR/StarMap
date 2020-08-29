@@ -177,6 +177,9 @@ const Row = (props) => {
 
 const UsecasePageContent = () => {
     const classes = makeStyles(theme => ({
+        root: {
+            paddingTop: "1em",
+        },
         rows: {
             '& > *': {
                 borderBottom: 'unset',
@@ -187,23 +190,25 @@ const UsecasePageContent = () => {
         },
     }))()
     return (
-        <TableContainer style={{ width: "100vw", paddingLeft: "6em" }} >
-            <Table style={{ width: 1200 }} aria-label="collapsible table">
-                <TableHead >
-                    <TableRow className={classes.rows}>
-                        <StyledTableCell width="1%" />
-                        <StyledTableCell className={classes.headText} width="25%">Capabilities</StyledTableCell>
-                        <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
-                        <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
-                    </TableRow>
-                </TableHead>
-                <TableBody>
-                    {data.map((row) => (
-                        <Row key={row.capability_id} row={row} />
-                    ))}
-                </TableBody>
-            </Table>
-        </TableContainer>
+        <Container className={classes.root} maxWidth="xl">
+            <TableContainer>
+                <Table aria-label="collapsible table">
+                    <TableHead>
+                        <TableRow className={classes.rows}>
+                            <StyledTableCell width="1%" />
+                            <StyledTableCell className={classes.headText} width="25%">Capabilities</StyledTableCell>
+                            <StyledTableCell className={classes.headText} >SnapChat</StyledTableCell>
+                            <StyledTableCell className={classes.headText} >Pokmon Go</StyledTableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {data.map((row) => (
+                            <Row key={row.capability_id} row={row} />
+                        ))}
+                    </TableBody>
+                </Table>
+            </TableContainer>
+        </Container>
     )
 }
 
