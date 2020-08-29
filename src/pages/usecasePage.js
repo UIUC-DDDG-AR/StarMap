@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React from "react";
 
 import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Box from '@material-ui/core/Box';
@@ -28,33 +28,6 @@ import usecase from "../data/usecase_transpose";
 import capability_information from "../data/capability_information";
 import card_content from "../data/example_page_content.json"
 
-const createData = (capability_id, capability_name, snapchat, pokemongo) => {
-    return {
-        capability_id,
-        capability_name,
-        snapchat,
-        pokemongo,
-        content: card_content
-    };
-}
-
-const idFindName = (id, capability_information) => {
-    return capability_information.map(info => {
-        if (id === info.id) {
-            return info.name;
-        }
-    })
-}
-
-const data = [];
-
-usecase.map((cap) => {
-    data.push(createData(
-        cap.id,
-        idFindName(cap.id, capability_information),
-        cap.Snapchat[0] === 1 ? true : false,
-        cap.pokmon_go[0] === 1 ? true : false))
-});
 
 const StyledTableCell = withStyles((theme) => ({
     head: {
@@ -95,7 +68,7 @@ const Row = (props) => {
     }))()
 
     const { row } = props;
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = React.useState(false);
 
     let snapCard;
     let pokemonCard;
@@ -194,6 +167,15 @@ const UsecasePageContent = () => {
             fontWeight: 'bold'
         },
     }))()
+
+    const idFindName = (id, capability_information) => {
+        return capability_information.map(info => {
+            if (id === info.id) {
+                return info.name;
+            }
+        })
+    }
+
     return (
         <Container className={classes.root} maxWidth="xl">
             <TableContainer>
@@ -207,9 +189,16 @@ const UsecasePageContent = () => {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {data.map((row) => (
-                            <Row key={row.capability_id} row={row} />
-                        ))}
+                        {usecase.map((cap) => {
+                            const row = {
+                                capability_id: cap.id,
+                                capability_name: idFindName(cap.id, capability_information),
+                                snapchat: cap.Snapchat[0],
+                                pokemongo: cap.Snapchat[0],
+                                content: card_content
+                            }
+                            return <Row key={row.capability_id} row={row} />
+                        })}
                     </TableBody>
                 </Table>
             </TableContainer>
