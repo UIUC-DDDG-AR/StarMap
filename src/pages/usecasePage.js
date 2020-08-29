@@ -155,8 +155,12 @@ const Row = (props) => {
 
 const UsecasePageContent = () => {
     const classes = makeStyles(theme => ({
-        root: {
+        airtableContainer: {
             paddingTop: "1em",
+        },
+        tableContainer: {
+            paddingTop: "1em",
+            paddingBottom: "1em",
         },
         rows: {
             '& > *': {
@@ -183,13 +187,13 @@ const UsecasePageContent = () => {
 
     return (
         <React.Fragment>
-            <Container className={classes.root} maxWidth="xl">
+            <Container className={classes.airtableContainer} maxWidth="xl">
                 <Card>
                     <CardMedia className={classes.airtable} component="iframe" src="https://airtable.com/embed/shrdmII92wSQs7p1M?backgroundColor=red&viewControls=on" />
                 </Card>
             </Container>
 
-            <Container className={classes.root} maxWidth="xl">
+            <Container className={classes.tableContainer} maxWidth="xl">
                 <TableContainer>
                     <Table aria-label="collapsible table">
                         <TableHead>
